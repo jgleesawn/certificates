@@ -1,0 +1,218 @@
+{
+   "checksum": "cdf45fa4dedf43be9d2ba1d3650a8a48",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13057721363429149",
+               "id": "5",
+               "name": "SDL: src/render/opengl/SDL_render_gl.c@c4f435c99e16",
+               "type": "url",
+               "url": "https://hg.libsdl.org/SDL/file/c4f435c99e16/src/render/opengl/SDL_render_gl.c"
+            }, {
+               "date_added": "13057721363433339",
+               "id": "6",
+               "name": "convert gl_texture_rectangle to gl_texture_2d - Google Search",
+               "type": "url",
+               "url": "https://www.google.com/search?q=gl_texture_2d+rectangle&oq=gl_texture_2d+rectangle&aqs=chrome.0.57.6226&sugexp=chrome,mod=7&sourceid=chrome&ie=UTF-8#q=convert+gl_texture_rectangle+to+gl_texture_2d"
+            }, {
+               "date_added": "13057721363433728",
+               "id": "7",
+               "name": "Moving to GL_TEXTURE_RECTANGLE",
+               "type": "url",
+               "url": "https://www.opengl.org/discussion_boards/showthread.php/176016-Moving-to-GL_TEXTURE_RECTANGLE"
+            }, {
+               "date_added": "13057721363434048",
+               "id": "8",
+               "name": "GL_TEXTURE_RECTANGLE_ARB vs GL_TEXTURE_2D - openFrameworks",
+               "type": "url",
+               "url": "http://forum.openframeworks.cc/t/gl-texture-rectangle-arb-vs-gl-texture-2d/366/2"
+            }, {
+               "date_added": "13057721363434414",
+               "id": "9",
+               "name": "OpenGL - Textures",
+               "type": "url",
+               "url": "https://open.gl/textures"
+            }, {
+               "date_added": "13057721363435147",
+               "id": "10",
+               "name": "2d - How to use FrameBuffer objects (OpenGL) - Game Development Stack Exchange",
+               "type": "url",
+               "url": "http://gamedev.stackexchange.com/questions/68990/how-to-use-framebuffer-objects-opengl"
+            }, {
+               "date_added": "13057721363435575",
+               "id": "11",
+               "name": "c++ - Draw GL_TEXTURE_RECTANGLE vs. GL_TEXTURE_2D - Stack Overflow",
+               "type": "url",
+               "url": "http://stackoverflow.com/questions/17166808/draw-gl-texture-rectangle-vs-gl-texture-2d"
+            }, {
+               "date_added": "13057721363435960",
+               "id": "12",
+               "name": "glTexImage2D",
+               "type": "url",
+               "url": "https://www.khronos.org/opengles/sdk/docs/man/xhtml/glTexImage2D.xml"
+            }, {
+               "date_added": "13057721363436268",
+               "id": "13",
+               "name": "OpenGL - Textures",
+               "type": "url",
+               "url": "https://open.gl/textures"
+            }, {
+               "date_added": "13057721363436455",
+               "id": "14",
+               "name": "Added uniform floats for looping. \u00B7 69aaaba \u00B7 jgleesawn/fltk_opengl \u00B7 GitHub",
+               "type": "url",
+               "url": "https://github.com/jgleesawn/fltk_opengl/commit/69aaaba8375783865ea2085f7759a363ce891c2a"
+            }, {
+               "date_added": "13057721363436873",
+               "id": "15",
+               "name": "opengl - Changing GLSL shader color based on particle position - Stack Overflow",
+               "type": "url",
+               "url": "http://stackoverflow.com/questions/19944167/changing-glsl-shader-color-based-on-particle-position"
+            }, {
+               "date_added": "13057721363437297",
+               "id": "16",
+               "name": "opengl normalize texture_rectangle - Google Search",
+               "type": "url",
+               "url": "https://www.google.com/search?q=gl_texture_2d+npots&oq=gl_texture_2d+npots&aqs=chrome.0.57.5006&sugexp=chrome,mod=7&sourceid=chrome&ie=UTF-8#q=opengl+normalize+texture_rectangle"
+            }, {
+               "date_added": "13057721363437684",
+               "id": "17",
+               "name": "OpenGL Programming Guide for Mac: Best Practices for Working with Texture Data",
+               "type": "url",
+               "url": "https://developer.apple.com/library/mac/documentation/GraphicsImaging/Conceptual/OpenGL-MacProgGuide/opengl_texturedata/opengl_texturedata.html"
+            }, {
+               "date_added": "13057721363438121",
+               "id": "18",
+               "name": "https://www.opengl.org/registry/specs/ARB/texture_rectangle.txt",
+               "type": "url",
+               "url": "https://www.opengl.org/registry/specs/ARB/texture_rectangle.txt"
+            }, {
+               "date_added": "13057721363438519",
+               "id": "19",
+               "name": "[OpenGL ES] FBO: Render to Texture not working! - OpenGL - GameDev.net",
+               "type": "url",
+               "url": "http://www.gamedev.net/topic/660287-fbo-render-to-texture-not-working/"
+            }, {
+               "date_added": "13057721363438924",
+               "id": "20",
+               "name": "Graphics Size Coding: Quick NPOTs",
+               "type": "url",
+               "url": "http://sizecoding.blogspot.com/2007/10/quick-npots.html"
+            }, {
+               "date_added": "13057721363439269",
+               "id": "21",
+               "name": "gl_texture_2d npots - Google Search",
+               "type": "url",
+               "url": "https://www.google.com/search?q=gl_texture_2d+npots&oq=gl_texture_2d+npots&aqs=chrome.0.57.4354&sugexp=chrome,mod=7&sourceid=chrome&ie=UTF-8#q=gl_texture_2d+npots&start=20"
+            }, {
+               "date_added": "13057721363439609",
+               "id": "22",
+               "name": "OpenGL - Textures",
+               "type": "url",
+               "url": "https://open.gl/textures"
+            }, {
+               "date_added": "13057721363439784",
+               "id": "23",
+               "name": "GLSL : common mistakes - OpenGL.org",
+               "type": "url",
+               "url": "https://www.opengl.org/wiki/GLSL_:_common_mistakes#Enable_Or_Not_To_Enable"
+            }, {
+               "date_added": "13057721363440146",
+               "id": "24",
+               "name": "https://www.opengl.org/registry/specs/ARB/texture_non_power_of_two.txt",
+               "type": "url",
+               "url": "https://www.opengl.org/registry/specs/ARB/texture_non_power_of_two.txt"
+            }, {
+               "date_added": "13057721363440539",
+               "id": "25",
+               "name": "opencl gltexture npots - Google Search",
+               "type": "url",
+               "url": "https://www.google.com/search?q=opencl+createfromgltexture+npots&oq=opencl+createfromgltexture+npots&aqs=chrome.0.57.7059&sugexp=chrome,mod=7&sourceid=chrome&ie=UTF-8#q=opencl+gltexture+npots"
+            }, {
+               "date_added": "13057721363440909",
+               "id": "26",
+               "name": "glTexImage2D",
+               "type": "url",
+               "url": "https://www.khronos.org/opengles/sdk/docs/man/xhtml/glTexImage2D.xml"
+            } ],
+            "date_added": "13057721363426394",
+            "date_modified": "13057721363440909",
+            "id": "4",
+            "name": "opengl texture 2d & rectangles",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13057721394889378",
+               "id": "29",
+               "name": "##OpenGL - freenode Web IRC",
+               "type": "url",
+               "url": "http://webchat.freenode.net/"
+            }, {
+               "date_added": "13057721394891231",
+               "id": "30",
+               "name": "clCreateFromGLTexture2D",
+               "type": "url",
+               "url": "https://www.khronos.org/registry/cl/sdk/1.0/docs/man/xhtml/clCreateFromGLTexture2D.html"
+            }, {
+               "date_added": "13057721394891436",
+               "id": "31",
+               "name": "SDL: src/render/opengl/SDL_render_gl.c@c4f435c99e16",
+               "type": "url",
+               "url": "https://hg.libsdl.org/SDL/file/c4f435c99e16/src/render/opengl/SDL_render_gl.c"
+            }, {
+               "date_added": "13057721394891647",
+               "id": "32",
+               "name": "SDL: src/render/opengl/SDL_render_gl.c@c4f435c99e16",
+               "type": "url",
+               "url": "https://hg.libsdl.org/SDL/file/c4f435c99e16/src/render/opengl/SDL_render_gl.c"
+            }, {
+               "date_added": "13057721394891850",
+               "id": "33",
+               "name": "SDL: Summary",
+               "type": "url",
+               "url": "https://hg.libsdl.org/SDL"
+            }, {
+               "date_added": "13057721394892034",
+               "id": "34",
+               "name": "SDL: src/render/opengl/SDL_render_gl.c@704a0bfecf75",
+               "type": "url",
+               "url": "https://hg.libsdl.org/SDL/file/704a0bfecf75/src/render/opengl/SDL_render_gl.c"
+            }, {
+               "date_added": "13057721394892273",
+               "id": "35",
+               "name": "SDL: src/render/opengl/SDL_render_gl.c@d6a8fa507a45",
+               "type": "url",
+               "url": "https://hg.libsdl.org/SDL/file/d6a8fa507a45/src/render/opengl/SDL_render_gl.c"
+            } ],
+            "date_added": "13057721394888421",
+            "date_modified": "13057721394892273",
+            "id": "28",
+            "name": "sdl createTexture BindTexture",
+            "type": "folder"
+         } ],
+         "date_added": "13057701884716035",
+         "date_modified": "13057721394892619",
+         "id": "1",
+         "name": "Bookmarks Bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13057701884716082",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other Bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13057701884716088",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile Bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
