@@ -1,0 +1,235 @@
+{
+   "checksum": "d2ebcc509eef3f4d0dfe6fdb00fe70d2",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13057927062509480",
+               "id": "5",
+               "name": "opencl - clSetKernelArg arg_value other than memory object - Stack Overflow",
+               "type": "url",
+               "url": "http://stackoverflow.com/questions/9461287/clsetkernelarg-arg-value-other-than-memory-object"
+            }, {
+               "date_added": "13057927062510150",
+               "id": "6",
+               "name": "##OpenGL - freenode Web IRC",
+               "type": "url",
+               "url": "http://webchat.freenode.net/"
+            }, {
+               "date_added": "13057927062510277",
+               "id": "7",
+               "name": "CompoHub - Find game jams",
+               "type": "url",
+               "url": "http://compohub.net/"
+            }, {
+               "date_added": "13057927062510401",
+               "id": "8",
+               "name": "clSetKernelArg",
+               "type": "url",
+               "url": "https://www.khronos.org/registry/cl/sdk/1.1/docs/man/xhtml/clSetKernelArg.html"
+            }, {
+               "date_added": "13057927062510515",
+               "id": "9",
+               "name": "opengl IRC logs [October 15 - 2014]",
+               "type": "url",
+               "url": "http://echelog.com/logs/browse/opengl/1413324000"
+            }, {
+               "date_added": "13057927062510644",
+               "id": "10",
+               "name": "Ryan C. Gordon on Twitter: \"The @Humble Mozilla Bundle uses a new SDL2 Emscripten backend. Going into revision control soon, then you can port your SDL2 games to HTML5!\"",
+               "type": "url",
+               "url": "https://twitter.com/icculus/status/522147697080672256"
+            }, {
+               "date_added": "13057927062510855",
+               "id": "11",
+               "name": "JuliaGPU/OpenCL.jl \u00B7 GitHub",
+               "type": "url",
+               "url": "https://github.com/JuliaGPU/OpenCL.jl"
+            }, {
+               "date_added": "13057927062511010",
+               "id": "12",
+               "name": "designing game engines - Google Search",
+               "type": "url",
+               "url": "https://www.google.com/search?q=designing+game+engines&oq=designing+game+engines&aqs=chrome.0.57.5990&sugexp=chrome,mod=17&sourceid=chrome&ie=UTF-8"
+            }, {
+               "date_added": "13057927062511141",
+               "id": "13",
+               "name": "Making a Game Engine: Core Design Principles - Game Programming - Articles - Articles - GameDev.net",
+               "type": "url",
+               "url": "http://www.gamedev.net/page/resources/_/technical/game-programming/making-a-game-engine-core-design-principles-r3210"
+            }, {
+               "date_added": "13057927062511306",
+               "id": "14",
+               "name": "What is Data-Oriented Game Engine Design? - Tuts+ Game Development Article",
+               "type": "url",
+               "url": "http://gamedevelopment.tutsplus.com/articles/what-is-data-oriented-game-engine-design--cms-21052"
+            }, {
+               "date_added": "13057927062511459",
+               "id": "15",
+               "name": "Fix Your Timestep! - gafferongames.com",
+               "type": "url",
+               "url": "http://gafferongames.com/game-physics/fix-your-timestep/"
+            }, {
+               "date_added": "13057927062511592",
+               "id": "16",
+               "name": "clCreateFromGLTexture3D",
+               "type": "url",
+               "url": "https://www.khronos.org/registry/cl/sdk/1.0/docs/man/xhtml/clCreateFromGLTexture3D.html"
+            }, {
+               "date_added": "13057927062511711",
+               "id": "17",
+               "name": "Introduction to OpenCL3D Game Engine Programming",
+               "type": "url",
+               "url": "http://3dgep.com/introduction-to-opencl/"
+            }, {
+               "date_added": "13057927062511847",
+               "id": "18",
+               "name": "opencl image3d_t - Google Search",
+               "type": "url",
+               "url": "https://www.google.com/search?q=opencl+image3d&oq=opencl+image3d&aqs=chrome.0.57.2415&sugexp=chrome,mod=17&sourceid=chrome&ie=UTF-8#q=opencl+image3d_t"
+            }, {
+               "date_added": "13057927062511975",
+               "id": "19",
+               "name": "read_imagef (3D)",
+               "type": "url",
+               "url": "https://www.khronos.org/registry/cl/sdk/1.2/docs/man/xhtml/read_imagef3d.html"
+            }, {
+               "date_added": "13057927062512098",
+               "id": "20",
+               "name": "Other Built-in Data Types",
+               "type": "url",
+               "url": "https://www.khronos.org/registry/cl/sdk/1.2/docs/man/xhtml/otherDataTypes.html"
+            }, {
+               "date_added": "13057927062512228",
+               "id": "21",
+               "name": "C Enumeration Declarations",
+               "type": "url",
+               "url": "http://msdn.microsoft.com/en-us/library/whbyts4t.aspx"
+            }, {
+               "date_added": "13057927062512353",
+               "id": "22",
+               "name": "How to get the length of enum in C++? - For Beginners - GameDev.net",
+               "type": "url",
+               "url": "http://www.gamedev.net/topic/560461-how-to-get-the-length-of-enum-in-c/"
+            }, {
+               "date_added": "13057927062512511",
+               "id": "23",
+               "name": "how to get evdev working - Google Groups",
+               "type": "url",
+               "url": "https://groups.google.com/forum/#!msg/xboxdrv/PiYpHAlHMV0/K0WisX05J6kJ"
+            }, {
+               "date_added": "13057927062512651",
+               "id": "24",
+               "name": "sdl 3d - Google Search",
+               "type": "url",
+               "url": "https://www.google.com/search?q=sdl+3d&oq=sdl+3d&aqs=chrome.0.57.2072&sugexp=chrome,mod=17&sourceid=chrome&ie=UTF-8#q=sdl+3d&start=20"
+            }, {
+               "date_added": "13057927062512779",
+               "id": "25",
+               "name": "SDL 2 released today",
+               "type": "url",
+               "url": "http://www.gamefromscratch.com/post/2013/08/13/SDL-2-released-today.aspx"
+            }, {
+               "date_added": "13057927062512905",
+               "id": "26",
+               "name": "View topic - C++ OpenGL/SDL 3D Game Programming Series - The Cherno",
+               "type": "url",
+               "url": "http://thecherno.com/forums/viewtopic.php?f=2&t=27"
+            }, {
+               "date_added": "13057927062513062",
+               "id": "27",
+               "name": "voxel physics - Google Search",
+               "type": "url",
+               "url": "https://www.google.com/search?q=voxel+physics&oq=voxel+physics&aqs=chrome.0.57.3050&sugexp=chrome,mod=17&sourceid=chrome&ie=UTF-8"
+            }, {
+               "date_added": "13057927062513192",
+               "id": "28",
+               "name": "16 - Physics - Let's Make a Voxel Engine",
+               "type": "url",
+               "url": "https://sites.google.com/site/letsmakeavoxelengine/home/physics"
+            }, {
+               "date_added": "13057927062513504",
+               "id": "29",
+               "name": "08 - Block Type, Textures and Colours - Let's Make a Voxel Engine",
+               "type": "url",
+               "url": "https://sites.google.com/site/letsmakeavoxelengine/home/block-type-textures-and-colours"
+            }, {
+               "date_added": "13057927062513662",
+               "id": "30",
+               "name": "03 - Chunks - Let's Make a Voxel Engine",
+               "type": "url",
+               "url": "https://sites.google.com/site/letsmakeavoxelengine/home/chunks"
+            }, {
+               "date_added": "13057927062513801",
+               "id": "31",
+               "name": "04 - Display Lists or Vertex Buffers? - Let's Make a Voxel Engine",
+               "type": "url",
+               "url": "https://sites.google.com/site/letsmakeavoxelengine/home/display-lists-or-vertex-buffers"
+            }, {
+               "date_added": "13057927062513958",
+               "id": "32",
+               "name": "clCreateImage3D",
+               "type": "url",
+               "url": "https://www.khronos.org/registry/cl/sdk/1.1/docs/man/xhtml/clCreateImage3D.html"
+            }, {
+               "date_added": "13057927062514078",
+               "id": "33",
+               "name": "Compile error for float4 array",
+               "type": "url",
+               "url": "https://www.khronos.org/message_boards/showthread.php/6987-Compile-error-for-float4-array"
+            }, {
+               "date_added": "13057927062514229",
+               "id": "34",
+               "name": "memory management - How to use arrays in program (global) scope in OpenCL - Stack Overflow",
+               "type": "url",
+               "url": "http://stackoverflow.com/questions/17431941/how-to-use-arrays-in-program-global-scope-in-opencl"
+            }, {
+               "date_added": "13057927062514399",
+               "id": "35",
+               "name": "5.1 OpenCL C - The OpenCL Programming Book - Fixstars, a Software Company Devoted to \"Speed up your Business\"",
+               "type": "url",
+               "url": "http://www.fixstars.com/en/opencl/book/OpenCLProgrammingBook/opencl-c/"
+            }, {
+               "date_added": "13057927062514585",
+               "id": "36",
+               "name": "Vector Data Types | Programming with OpenCL C | InformIT",
+               "type": "url",
+               "url": "http://www.informit.com/articles/article.aspx?p=1732873&seqNum=3"
+            }, {
+               "date_added": "13057927062514733",
+               "id": "37",
+               "name": "vox-game/game/voxel at master \u00B7 jgleesawn/vox-game",
+               "type": "url",
+               "url": "https://github.com/jgleesawn/vox-game/tree/master/game/voxel"
+            } ],
+            "date_added": "13057927062508969",
+            "date_modified": "13057927062514733",
+            "id": "4",
+            "name": "opencl game engines",
+            "type": "folder"
+         } ],
+         "date_added": "13057800544745510",
+         "date_modified": "13057927062514883",
+         "id": "1",
+         "name": "Bookmarks Bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13057800544745536",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other Bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13057800544745542",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile Bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
