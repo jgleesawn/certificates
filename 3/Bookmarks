@@ -1,0 +1,102 @@
+{
+   "checksum": "60482bf4000b7ad9bf21de8320343c99",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13058414505568872",
+            "id": "4",
+            "name": "Man With Severed Spinal Cord Walks Again After Cell Transplant | IFLScience",
+            "type": "url",
+            "url": "http://www.iflscience.com/health-and-medicine/nasal-leads-paralyzed-man-walk"
+         }, {
+            "date_added": "13058435375014912",
+            "id": "5",
+            "name": "05 - Chunk Management - Let's Make a Voxel Engine",
+            "type": "url",
+            "url": "https://sites.google.com/site/letsmakeavoxelengine/home/chunk-management"
+         }, {
+            "date_added": "13058437928359192",
+            "id": "6",
+            "name": "GPU Gems - Chapter 39. Volume Rendering Techniques",
+            "type": "url",
+            "url": "http://http.developer.nvidia.com/GPUGems/gpugems_ch39.html"
+         }, {
+            "date_added": "13058577609122650",
+            "id": "7",
+            "name": "Sprite Packing Algorithm",
+            "type": "url",
+            "url": "http://www.sitioweb.fr/blog/3-technical/3-sprite-packing-algorithm"
+         }, {
+            "date_added": "13058577616384353",
+            "id": "8",
+            "name": "Drawing lots of tiles with OpenGL, the modern way - Game Development Stack Exchange",
+            "type": "url",
+            "url": "http://gamedev.stackexchange.com/questions/30362/drawing-lots-of-tiles-with-opengl-the-modern-way"
+         }, {
+            "date_added": "13058577619329330",
+            "id": "9",
+            "name": "Nobel Prize 2014 News, Research and Analysis - The Conversation",
+            "type": "url",
+            "url": "https://theconversation.com/us/topics/nobel-prize-2014"
+         }, {
+            "date_added": "13058577622283872",
+            "id": "10",
+            "name": "A New Provable Factoring Algorithm | G\u00F6del's Lost Letter and P=NP",
+            "type": "url",
+            "url": "http://rjlipton.wordpress.com/2014/10/18/a-new-provable-factoring-algorithm/"
+         }, {
+            "date_added": "13058577628878001",
+            "id": "11",
+            "name": "Say Good Bye to the Last Vacuum Tube Product | Communiqu\u00E9",
+            "type": "url",
+            "url": "http://electronicdesign.com/blog/say-good-bye-last-vacuum-tube-product"
+         }, {
+            "date_added": "13058577631637881",
+            "id": "12",
+            "name": "DinoMage Games",
+            "type": "url",
+            "url": "http://www.dinomage.com/2013/01/howto-sdl-on-android/"
+         }, {
+            "date_added": "13058577633048001",
+            "id": "13",
+            "name": "ASGP's Android Port Part IV: building the APK - Stuffomatic",
+            "type": "url",
+            "url": "http://blog.stuff-o-matic.com/post/2013/10/20/ASGP-s-Android-Port-Part-IV%3A-building-the-APK"
+         }, {
+            "date_added": "13058577642561562",
+            "id": "14",
+            "name": "Cargo, Rust's Package Manager",
+            "type": "url",
+            "url": "http://doc.crates.io/"
+         }, {
+            "date_added": "13058577663194641",
+            "id": "15",
+            "name": "name-my-indie-game-please-master.zip - Google Drive",
+            "type": "url",
+            "url": "https://drive.google.com/file/d/0ByPMFDsca_OQQUJmN1paZ0RLcUE/view?pli=1"
+         } ],
+         "date_added": "13058388585614284",
+         "date_modified": "13058577663194641",
+         "id": "1",
+         "name": "Bookmarks Bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13058388585614309",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other Bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13058388585614315",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile Bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
