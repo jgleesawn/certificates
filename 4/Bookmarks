@@ -1,0 +1,446 @@
+{
+   "checksum": "d8a949df3742622193f1f2739a65aefc",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13059989363380561",
+            "id": "4",
+            "name": "Pratt Parsers: Expression Parsing Made Easy \u2013 journal.stuffwithstuff.com",
+            "type": "url",
+            "url": "http://journal.stuffwithstuff.com/2011/03/19/pratt-parsers-expression-parsing-made-easy/"
+         }, {
+            "date_added": "13060011181430371",
+            "id": "5",
+            "name": "CMake Useful Variables - KitwarePublic",
+            "type": "url",
+            "url": "http://www.cmake.org/Wiki/CMake_Useful_Variables"
+         }, {
+            "date_added": "13060013113003559",
+            "id": "6",
+            "name": "vendu/zero",
+            "type": "url",
+            "url": "http://vendu.twodots.nl/zero.html"
+         }, {
+            "date_added": "13060013116419705",
+            "id": "7",
+            "name": "vendu's projects",
+            "type": "url",
+            "url": "http://vendu.twodots.nl/projects.html"
+         }, {
+            "date_added": "13060013119196987",
+            "id": "8",
+            "name": "Write your own OS",
+            "type": "url",
+            "url": "http://geezer.osdevbrasil.net/osd/"
+         }, {
+            "date_added": "13060014478527472",
+            "id": "9",
+            "name": "The impact of C++ templates on library ABI | Micha\u0142 G\u00F3rny",
+            "type": "url",
+            "url": "https://blogs.gentoo.org/mgorny/2012/08/20/the-impact-of-cxx-templates-on-library-abi/"
+         }, {
+            "date_added": "13060014586093749",
+            "id": "10",
+            "name": "Template Instantiation - Using the GNU Compiler Collection (GCC)",
+            "type": "url",
+            "url": "https://gcc.gnu.org/onlinedocs/gcc/Template-Instantiation.html"
+         }, {
+            "date_added": "13060108848425140",
+            "id": "11",
+            "name": "Point Cloud Library (PCL) Users mailing list - Passing point/color data to opengl",
+            "type": "url",
+            "url": "http://www.pcl-users.org/Passing-point-color-data-to-opengl-td3047230.html#a4024790"
+         }, {
+            "date_added": "13060133700317226",
+            "id": "12",
+            "name": "Alinos R2.1 - Pastebin.com",
+            "type": "url",
+            "url": "http://pastebin.com/sbBNW1FN"
+         }, {
+            "date_added": "13060134497557242",
+            "id": "13",
+            "name": "Introduction to Octrees - Game Programming - Articles - Articles - GameDev.net",
+            "type": "url",
+            "url": "http://www.gamedev.net/page/resources/_/technical/game-programming/introduction-to-octrees-r3529"
+         }, {
+            "children": [ {
+               "date_added": "13060134512408858",
+               "id": "15",
+               "name": "pcl/point_cloud.h at master \u00B7 PointCloudLibrary/pcl",
+               "type": "url",
+               "url": "https://github.com/PointCloudLibrary/pcl/blob/master/common/include/pcl/point_cloud.h"
+            }, {
+               "date_added": "13060134512409274",
+               "id": "16",
+               "name": "Search Results",
+               "type": "url",
+               "url": "https://github.com/PointCloudLibrary/pcl/search?utf8=%E2%9C%93&q=indices_&type=Code"
+            }, {
+               "date_added": "13060134512409494",
+               "id": "17",
+               "name": "pcl/octree_pointcloud.h at master \u00B7 PointCloudLibrary/pcl",
+               "type": "url",
+               "url": "https://github.com/PointCloudLibrary/pcl/blob/master/octree/include/pcl/octree/octree_pointcloud.h"
+            }, {
+               "date_added": "13060134512409770",
+               "id": "18",
+               "name": "pcl/octree_search.h at master \u00B7 PointCloudLibrary/pcl",
+               "type": "url",
+               "url": "https://github.com/PointCloudLibrary/pcl/blob/master/octree/include/pcl/octree/octree_search.h"
+            }, {
+               "date_added": "13060134512410078",
+               "id": "19",
+               "name": "pcl/octree_search.hpp at master \u00B7 PointCloudLibrary/pcl",
+               "type": "url",
+               "url": "https://github.com/PointCloudLibrary/pcl/blob/master/octree/include/pcl/octree/impl/octree_search.hpp"
+            }, {
+               "date_added": "13060134512410353",
+               "id": "20",
+               "name": "Search Results",
+               "type": "url",
+               "url": "https://github.com/PointCloudLibrary/pcl/search?p=2&q=setinputcloud+octree&type=Code&utf8=%E2%9C%93"
+            }, {
+               "date_added": "13060134512410565",
+               "id": "21",
+               "name": "pcl/octree_change_detection.cpp at 647de7bed7df7cd383e5948ff42b116e5aae0e79 \u00B7 PointCloudLibrary/pcl",
+               "type": "url",
+               "url": "https://github.com/PointCloudLibrary/pcl/blob/647de7bed7df7cd383e5948ff42b116e5aae0e79/doc/tutorials/content/sources/octree_change_detection/octree_change_detection.cpp"
+            }, {
+               "date_added": "13060134512410872",
+               "id": "22",
+               "name": "pcl/octree_pointcloud.h at master \u00B7 PointCloudLibrary/pcl",
+               "type": "url",
+               "url": "https://github.com/PointCloudLibrary/pcl/blob/master/octree/include/pcl/octree/octree_pointcloud.h"
+            }, {
+               "date_added": "13060134512411086",
+               "id": "23",
+               "name": "pcl/octree_pointcloud.hpp at master \u00B7 PointCloudLibrary/pcl",
+               "type": "url",
+               "url": "https://github.com/PointCloudLibrary/pcl/blob/master/octree/include/pcl/octree/impl/octree_pointcloud.hpp"
+            }, {
+               "date_added": "13060134512411365",
+               "id": "24",
+               "name": "pcl/octree_node_pool.h at 647de7bed7df7cd383e5948ff42b116e5aae0e79 \u00B7 PointCloudLibrary/pcl",
+               "type": "url",
+               "url": "https://github.com/PointCloudLibrary/pcl/blob/647de7bed7df7cd383e5948ff42b116e5aae0e79/octree/include/pcl/octree/octree_node_pool.h"
+            }, {
+               "date_added": "13060134512411665",
+               "id": "25",
+               "name": "pcl/octree2buf_base.hpp at 647de7bed7df7cd383e5948ff42b116e5aae0e79 \u00B7 PointCloudLibrary/pcl",
+               "type": "url",
+               "url": "https://github.com/PointCloudLibrary/pcl/blob/647de7bed7df7cd383e5948ff42b116e5aae0e79/octree/include/pcl/octree/impl/octree2buf_base.hpp"
+            }, {
+               "date_added": "13060134512411963",
+               "id": "26",
+               "name": "pcl/octree/include/pcl/octree at 647de7bed7df7cd383e5948ff42b116e5aae0e79 \u00B7 PointCloudLibrary/pcl",
+               "type": "url",
+               "url": "https://github.com/PointCloudLibrary/pcl/tree/647de7bed7df7cd383e5948ff42b116e5aae0e79/octree/include/pcl/octree"
+            } ],
+            "date_added": "13060134512407428",
+            "date_modified": "13060134512411963",
+            "id": "14",
+            "name": "pcl",
+            "type": "folder"
+         }, {
+            "date_added": "13060137875186770",
+            "id": "27",
+            "name": "Kali Linux | Rebirth of BackTrack, the Penetration Testing Distribution.",
+            "type": "url",
+            "url": "http://www.kali.org/"
+         }, {
+            "date_added": "13060300783746462",
+            "id": "28",
+            "name": "KVM VGA-Passthrough using the new vfio-vga support in kernel =\u003E3.9 (Page 1) / Community Contributions / Arch Linux Forums",
+            "type": "url",
+            "url": "https://bbs.archlinux.org/viewtopic.php?id=162768"
+         }, {
+            "date_added": "13060461002450768",
+            "id": "29",
+            "name": "The 12 Best Mods For PC Games",
+            "type": "url",
+            "url": "http://kotaku.com/5979860/the-12-best-mods-for-pc-games"
+         }, {
+            "date_added": "13060461004061373",
+            "id": "30",
+            "name": "Mod Hall Of Fame",
+            "type": "url",
+            "url": "http://www.modhof.com/"
+         }, {
+            "date_added": "13060461008450046",
+            "id": "31",
+            "name": "Data Locality \u00B7 Optimization Patterns \u00B7 Game Programming Patterns",
+            "type": "url",
+            "url": "http://gameprogrammingpatterns.com/data-locality.html"
+         }, {
+            "date_added": "13060535343229433",
+            "id": "32",
+            "name": "Cube Engine Games",
+            "type": "url",
+            "url": "http://cubeengine.com/forum.php4?action=display_thread&thread_id=394"
+         }, {
+            "date_added": "13060535346198770",
+            "id": "33",
+            "name": "ds.data structures - Why would one ever use an Octree over a KD-tree? - Theoretical Computer Science Stack Exchange",
+            "type": "url",
+            "url": "http://cstheory.stackexchange.com/questions/8470/why-would-one-ever-use-an-octree-over-a-kd-tree"
+         }, {
+            "date_added": "13060535347875492",
+            "id": "34",
+            "name": "Space Partitioning: Octree vs. BVH | Thomas Diewald",
+            "type": "url",
+            "url": "http://thomasdiewald.com/blog/?p=1488"
+         }, {
+            "date_added": "13060535349022033",
+            "id": "35",
+            "name": "octree - What's the state of the art in Space Partitioning for games? - Game Development Stack Exchange",
+            "type": "url",
+            "url": "http://gamedev.stackexchange.com/questions/5493/whats-the-state-of-the-art-in-space-partitioning-for-games"
+         }, {
+            "date_added": "13060535351353836",
+            "id": "36",
+            "name": "dynamic - Best algorithm for efficient collision detection between objects - Stack Overflow",
+            "type": "url",
+            "url": "http://stackoverflow.com/questions/7107231/best-algorithm-for-efficient-collision-detection-between-objects"
+         }, {
+            "date_added": "13060535352952171",
+            "id": "37",
+            "name": "aabb tree vs octree - Google Search",
+            "type": "url",
+            "url": "https://www.google.com/search?q=aabb+tree+vs+octree&oq=aabb+tree+vs+octree&aqs=chrome.0.57.3743&sugexp=chrome,mod=4&sourceid=chrome&ie=UTF-8"
+         }, {
+            "date_added": "13060535356771182",
+            "id": "38",
+            "name": "Real-Time Physics Simulation",
+            "type": "url",
+            "url": "http://bulletphysics.org/wordpress/?paged=2"
+         }, {
+            "date_added": "13060573063363153",
+            "id": "39",
+            "name": "Particles / Instancing | opengl-tutorial.org",
+            "type": "url",
+            "url": "http://www.opengl-tutorial.org/intermediate-tutorials/billboards-particles/particles-instancing/"
+         }, {
+            "date_added": "13060661146440900",
+            "id": "40",
+            "name": "Shadertoy BETA",
+            "type": "url",
+            "url": "https://www.shadertoy.com/view/XdjGzR"
+         }, {
+            "date_added": "13060661169992062",
+            "id": "41",
+            "name": "Shadertoy BETA",
+            "type": "url",
+            "url": "https://www.shadertoy.com/view/4sfGDj"
+         }, {
+            "date_added": "13060797867584306",
+            "id": "42",
+            "name": "Geisswerks - Generating Complex Terrains Using the GPU (GPU Gems 3)",
+            "type": "url",
+            "url": "http://www.geisswerks.com/about_terrain.html"
+         }, {
+            "date_added": "13060889099527010",
+            "id": "43",
+            "name": "Today's Fairy Tales Started Out (Even More) Dark And Harrowing : NPR",
+            "type": "url",
+            "url": "http://www.npr.org/2014/11/16/364089661/todays-fairy-tales-started-out-even-more-dark-and-harrowing?utm_source=facebook.com&utm_medium=social&utm_campaign=npr&utm_term=nprnews&utm_content=2041"
+         }, {
+            "date_added": "13060889101810344",
+            "id": "44",
+            "name": "Detroit Public Schools EM shifts funds | Local News | Detroit Metro Times",
+            "type": "url",
+            "url": "http://www.metrotimes.com/detroit/detroit-public-schools-em-shifts-funds/Content?oid=2202829"
+         }, {
+            "date_added": "13060906155203333",
+            "id": "45",
+            "name": "Legal Music For Videos - Creative Commons",
+            "type": "url",
+            "url": "http://creativecommons.org/legalmusicforvideos"
+         }, {
+            "date_added": "13060906892154151",
+            "id": "46",
+            "name": "Beginning of a Journey : Yumi Kurosawa",
+            "type": "url",
+            "url": "http://magnatune.com/artists/albums/yumi-beginning?song=2"
+         }, {
+            "date_added": "13060982374946921",
+            "id": "47",
+            "name": "Doc:2.4/Tutorials/Animation/Armatures/BSoD - BlenderWiki",
+            "type": "url",
+            "url": "http://wiki.blender.org/index.php/Doc:2.4/Tutorials/Animation/Armatures/BSoD"
+         }, {
+            "date_added": "13060982377762746",
+            "id": "48",
+            "name": "Doc:2.4/Tutorials/Animation/BSoD/Character Animation/Upper body armature - BlenderWiki",
+            "type": "url",
+            "url": "http://wiki.blender.org/index.php/Doc:2.4/Tutorials/Animation/BSoD/Character_Animation/Upper_body_armature"
+         }, {
+            "date_added": "13060982380556077",
+            "id": "49",
+            "name": "Musculo-Skeletal System in Blender?",
+            "type": "url",
+            "url": "http://blenderartists.org/forum/showthread.php?42395-Musculo-Skeletal-System-in-Blender"
+         }, {
+            "children": [ {
+               "date_added": "13061034878512387",
+               "id": "51",
+               "name": "apitrace/apitrace \u00B7 GitHub",
+               "type": "url",
+               "url": "https://github.com/apitrace/apitrace"
+            }, {
+               "date_added": "13061034878512603",
+               "id": "52",
+               "name": "apitrace/INSTALL.markdown at master \u00B7 apitrace/apitrace \u00B7 GitHub",
+               "type": "url",
+               "url": "https://github.com/apitrace/apitrace/blob/master/INSTALL.markdown"
+            }, {
+               "date_added": "13061034878512748",
+               "id": "53",
+               "name": "apitrace",
+               "type": "url",
+               "url": "http://apitrace.github.io/"
+            }, {
+               "date_added": "13061034878512853",
+               "id": "54",
+               "name": "https://www.opengl.org/registry/specs/ARB/gpu_shader5.txt",
+               "type": "url",
+               "url": "https://www.opengl.org/registry/specs/ARB/gpu_shader5.txt"
+            }, {
+               "date_added": "13061034878512998",
+               "id": "55",
+               "name": "Particles / Instancing | opengl-tutorial.org",
+               "type": "url",
+               "url": "http://www.opengl-tutorial.org/intermediate-tutorials/billboards-particles/particles-instancing/"
+            }, {
+               "date_added": "13061034878513075",
+               "id": "56",
+               "name": "Bounding volume - Wikipedia, the free encyclopedia",
+               "type": "url",
+               "url": "http://en.wikipedia.org/wiki/Bounding_volume"
+            }, {
+               "date_added": "13061034878513250",
+               "id": "57",
+               "name": "Space Partitioning: Octree vs. BVH | Thomas Diewald",
+               "type": "url",
+               "url": "http://thomasdiewald.com/blog/?p=1488"
+            }, {
+               "date_added": "13061034878513335",
+               "id": "58",
+               "name": "Point Cloud Library (PCL): pcl::recognition::BVH\u003C UserData \u003E Class Template Reference",
+               "type": "url",
+               "url": "http://docs.pointclouds.org/trunk/classpcl_1_1recognition_1_1_b_v_h.html"
+            }, {
+               "date_added": "13061034878513485",
+               "id": "59",
+               "name": "ompf2.com \u2022 View topic - KD-tree vs BVH",
+               "type": "url",
+               "url": "http://ompf2.com/viewtopic.php?f=3&t=1747"
+            }, {
+               "date_added": "13061034878513617",
+               "id": "60",
+               "name": "Exploiting Local Orientation Similarity for Efficient Ray Traversal of Hair and Fur",
+               "type": "url",
+               "url": "http://webcache.googleusercontent.com/search?q=cache:V9pb2IjgWJ8J:embree.github.io/papers/2014-HPG-hair.pdf+&cd=2&hl=en&ct=clnk&gl=us"
+            }, {
+               "date_added": "13061034878513768",
+               "id": "61",
+               "name": "OpenGL 4.0 Planet Rendering using Tessellation | hiredk's blog",
+               "type": "url",
+               "url": "http://hiredk.com/2014/11/15/planet-rendering/"
+            }, {
+               "date_added": "13061034878513904",
+               "id": "62",
+               "name": "IEEE Xplore Abstract - Rendering of large-scale 3D terrain point cloud based on out-of-core",
+               "type": "url",
+               "url": "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6376712"
+            }, {
+               "date_added": "13061034878514067",
+               "id": "63",
+               "name": "X3DOM Documentation: Tutorials",
+               "type": "url",
+               "url": "http://doc.x3dom.org/tutorials/largeModels/BVHRefiner/index.html"
+            }, {
+               "date_added": "13061034878514182",
+               "id": "64",
+               "name": "GPU Gems 3 - Chapter 2. Animated Crowd Rendering",
+               "type": "url",
+               "url": "http://http.developer.nvidia.com/GPUGems3/gpugems3_ch02.html"
+            }, {
+               "date_added": "13061034878514314",
+               "id": "65",
+               "name": "Geisswerks - Generating Complex Terrains Using the GPU (GPU Gems 3)",
+               "type": "url",
+               "url": "http://www.geisswerks.com/about_terrain.html"
+            }, {
+               "date_added": "13061034878514405",
+               "id": "66",
+               "name": "block_engines - gamedev",
+               "type": "url",
+               "url": "http://www.reddit.com/r/gamedev/wiki/block_engines"
+            }, {
+               "date_added": "13061034878514516",
+               "id": "67",
+               "name": "How do I deform a procedurally generated terrain? - Game Development Stack Exchange",
+               "type": "url",
+               "url": "http://gamedev.stackexchange.com/questions/75612/how-do-i-deform-a-procedurally-generated-terrain"
+            }, {
+               "date_added": "13061034878514666",
+               "id": "68",
+               "name": "Polygonising a scalar field (Marching Cubes)",
+               "type": "url",
+               "url": "http://webcache.googleusercontent.com/search?q=cache:yVJUeK2lW8sJ:paulbourke.net/geometry/polygonise/+&cd=1&hl=en&ct=clnk&gl=us"
+            }, {
+               "date_added": "13061034878514792",
+               "id": "69",
+               "name": "webcache.googleusercontent.com/search?q=cache:O4JswAVuygEJ:paulbourke.net/geometry/polygonise/marchingsource.cpp+&cd=1&hl=en&ct=clnk&gl=us",
+               "type": "url",
+               "url": "http://webcache.googleusercontent.com/search?q=cache:O4JswAVuygEJ:paulbourke.net/geometry/polygonise/marchingsource.cpp+&cd=1&hl=en&ct=clnk&gl=us"
+            }, {
+               "date_added": "13061034878514981",
+               "id": "70",
+               "name": "This is What it Sounds Like When You Put Tree Rings on a Record Player | The Mind Unleashed",
+               "type": "url",
+               "url": "http://themindunleashed.org/2014/05/sounds-like-put-tree-rings-record-player.html"
+            }, {
+               "date_added": "13061034878515153",
+               "id": "71",
+               "name": "Detroit Public Schools EM shifts funds | Local News | Detroit Metro Times",
+               "type": "url",
+               "url": "http://www.metrotimes.com/detroit/detroit-public-schools-em-shifts-funds/Content?oid=2202829"
+            }, {
+               "date_added": "13061034878515249",
+               "id": "72",
+               "name": "Tutorial 16 : Shadow mapping | opengl-tutorial.org",
+               "type": "url",
+               "url": "http://www.opengl-tutorial.org/intermediate-tutorials/tutorial-16-shadow-mapping/"
+            } ],
+            "date_added": "13061034878511925",
+            "date_modified": "13061034878515249",
+            "id": "50",
+            "name": "Current",
+            "type": "folder"
+         } ],
+         "date_added": "13059949739904229",
+         "date_modified": "13061034878515378",
+         "id": "1",
+         "name": "Bookmarks Bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13059949739904250",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other Bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13059949739904255",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile Bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
