@@ -1,0 +1,350 @@
+{
+   "checksum": "066e3fada67058e27defa418aa12e70b",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13061082095936850",
+            "id": "4",
+            "name": "libnoise - GameDev.net",
+            "type": "url",
+            "url": "http://www.gamedev.net/blog/33/entry-579738-libnoise/"
+         }, {
+            "date_added": "13061082098279450",
+            "id": "5",
+            "name": "Curvalicious - GameDev.net",
+            "type": "url",
+            "url": "http://www.gamedev.net/blog/33/entry-1406380-curvalicious/"
+         }, {
+            "date_added": "13061082099356638",
+            "id": "6",
+            "name": "Terrain Generation: Creating an Island - Graphics Programming and Theory - GameDev.net",
+            "type": "url",
+            "url": "http://www.gamedev.net/topic/438390-terrain-generation-creating-an-island/?whichpage=1%25EE%258B%2599%25EF%25BF%25BD"
+         }, {
+            "date_added": "13061098681728064",
+            "id": "7",
+            "name": "Coliru Viewer",
+            "type": "url",
+            "url": "http://coliru.stacked-crooked.com/a/fffeb4e5a35e9212"
+         }, {
+            "date_added": "13061098683084910",
+            "id": "8",
+            "name": "Coliru Viewer",
+            "type": "url",
+            "url": "http://coliru.stacked-crooked.com/a/1907bbf12bf05df1"
+         }, {
+            "date_added": "13061098685174621",
+            "id": "9",
+            "name": "Ideone.com - g8xNX2 - Online C++0x Compiler & Debugging Tool",
+            "type": "url",
+            "url": "http://ideone.com/g8xNX2"
+         }, {
+            "date_added": "13061338797677310",
+            "id": "10",
+            "name": "Real-Time Physics Simulation Forum \u2022 View topic - Bullet 2.77 is released! OpenCL & DX11 cloth, 3ds Max plugin",
+            "type": "url",
+            "url": "http://bulletphysics.org/Bullet/phpBB3/viewtopic.php?t=5681"
+         }, {
+            "date_added": "13061338802887803",
+            "id": "11",
+            "name": "libnoise example: Complex planetary surface",
+            "type": "url",
+            "url": "http://libnoise.sourceforge.net/examples/complexplanet/index.html"
+         }, {
+            "date_added": "13061390840767532",
+            "id": "12",
+            "name": "Full Disclosure: on Linux, 'less' can probably get you owned",
+            "type": "url",
+            "url": "http://seclists.org/fulldisclosure/2014/Nov/74"
+         }, {
+            "date_added": "13061426977717231",
+            "id": "13",
+            "name": "Home",
+            "type": "url",
+            "url": "http://www.interactive-graphics.de/"
+         }, {
+            "date_added": "13061426980718813",
+            "id": "14",
+            "name": "Real-Time Rendering",
+            "type": "url",
+            "url": "http://www.interactive-graphics.de/index.php/research/real-time-rendering"
+         }, {
+            "date_added": "13061426984866174",
+            "id": "15",
+            "name": "OpenTissue Wiki",
+            "type": "url",
+            "url": "http://www.opentissue.org/mediawiki/index.php/Main_Page"
+         }, {
+            "date_added": "13061426989159943",
+            "id": "16",
+            "name": "DIKU:Image Group",
+            "type": "url",
+            "url": "http://image.diku.dk/projects/graphics.php"
+         }, {
+            "date_added": "13061427000963004",
+            "id": "17",
+            "name": "What every programmer needs to know about game networking - gafferongames.com",
+            "type": "url",
+            "url": "http://web.archive.org/web/20141118054424/http://gafferongames.com/networking-for-game-programmers/what-every-programmer-needs-to-know-about-game-networking/"
+         }, {
+            "date_added": "13061427002145523",
+            "id": "18",
+            "name": "Gamasutra - 1500 Archers on a 28.8: Network Programming in Age of Empires and Beyond",
+            "type": "url",
+            "url": "http://web.archive.org/web/20141027043310/http://www.gamasutra.com/view/feature/3094/1500_archers_on_a_288_network_.php/"
+         }, {
+            "date_added": "13061427003398352",
+            "id": "19",
+            "name": "Networked Physics - gafferongames.com",
+            "type": "url",
+            "url": "http://web.archive.org/web/20140907050207/http://gafferongames.com/game-physics/networked-physics/"
+         }, {
+            "date_added": "13061835546330091",
+            "id": "21",
+            "name": "List of programming languages by type - Wikipedia, the free encyclopedia",
+            "type": "url",
+            "url": "http://en.wikipedia.org/wiki/List_of_programming_languages_by_type#Imperative_languages"
+         }, {
+            "date_added": "13062214731093232",
+            "id": "22",
+            "name": "Bullet Collision Detection & Physics Library: btIDebugDraw Class Reference",
+            "type": "url",
+            "url": "http://bulletphysics.org/Bullet/BulletFull/classbtIDebugDraw.html"
+         }, {
+            "date_added": "13062214832897988",
+            "id": "23",
+            "name": "Bullet Physics Collision Margins and Shapes - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=BGAwRKPlpCw&hd=1"
+         }, {
+            "date_added": "13062214940833566",
+            "id": "24",
+            "name": "Shadow of the Colossus Making of (PS2 / PS3) ... Playstation 2 / Playstation 3",
+            "type": "url",
+            "url": "http://selmiak.bplaced.net/games/ps2/index.php?lang=eng&game=sotc&page=makingof"
+         }, {
+            "date_added": "13062273083574187",
+            "id": "25",
+            "name": "GDC Vault - Practical Creativity",
+            "type": "url",
+            "url": "http://www.gdcvault.com/play/1021472/Practical"
+         }, {
+            "date_added": "13062273625858736",
+            "id": "26",
+            "name": "Brendon Chung (@BlendoGames) | Twitter",
+            "type": "url",
+            "url": "https://twitter.com/blendogames"
+         }, {
+            "children": [ {
+               "date_added": "13062273636655595",
+               "id": "28",
+               "name": "Bullet Collision Detection & Physics Library: btCollisionShape Class Reference",
+               "type": "url",
+               "url": "http://bulletphysics.org/Bullet/BulletFull/classbtCollisionShape.html"
+            }, {
+               "date_added": "13062273636656226",
+               "id": "29",
+               "name": "bullet physics collision check scaled btghostobject - Google Search",
+               "type": "url",
+               "url": "https://www.google.com/search?q=bullet+physics+collision+check+scaled+btghostobject&oq=bullet+physics+collision+check+scaled+btghostobject&aqs=chrome.0.57.11237&sugexp=chrome,mod=13&sourceid=chrome&ie=UTF-8"
+            }, {
+               "date_added": "13062273636656659",
+               "id": "30",
+               "name": "Bullet Collision Detection & Physics Library: btGhostObject Class Reference",
+               "type": "url",
+               "url": "http://bulletphysics.org/Bullet/BulletFull/classbtGhostObject.html"
+            }, {
+               "date_added": "13062273636657090",
+               "id": "31",
+               "name": "bullet remove collision flag - Google Search",
+               "type": "url",
+               "url": "https://www.google.com/search?q=bullet+remove+collision&oq=bullet+remove+collision&aqs=chrome.0.57.59732&sugexp=chrome,mod=13&sourceid=chrome&ie=UTF-8#q=bullet+remove+collision+flag"
+            }, {
+               "date_added": "13062273636657467",
+               "id": "32",
+               "name": "Bullet Collision Detection & Physics Library: btCollisionObject Class Reference",
+               "type": "url",
+               "url": "http://bulletphysics.org/Bullet/BulletFull/classbtCollisionObject.html"
+            }, {
+               "date_added": "13062273636657898",
+               "id": "33",
+               "name": "bullet physics ghost object colliding - Google Search",
+               "type": "url",
+               "url": "https://www.google.com/search?q=bullet+physics+ghost+object+colliding&oq=bullet+physics+ghost+object+colliding&aqs=chrome.0.57.6163&sugexp=chrome,mod=13&sourceid=chrome&ie=UTF-8"
+            }, {
+               "date_added": "13062273636658321",
+               "id": "34",
+               "name": "bullet - Ghost objects - bulletphysics - Stack Overflow",
+               "type": "url",
+               "url": "http://stackoverflow.com/questions/5202594/ghost-objects-bulletphysics"
+            }, {
+               "date_added": "13062273636658717",
+               "id": "35",
+               "name": "Bullet Collision Detection & Physics Library: btPolyhedralConvexShape Class Reference",
+               "type": "url",
+               "url": "http://bulletphysics.org/Bullet/BulletFull/classbtPolyhedralConvexShape.html"
+            }, {
+               "date_added": "13062273636659140",
+               "id": "36",
+               "name": "Collision Callbacks and Triggers - Physics Simulation Wiki",
+               "type": "url",
+               "url": "http://bulletphysics.org/mediawiki-1.5.8/index.php/Collision_Callbacks_and_Triggers"
+            }, {
+               "date_added": "13062273636659552",
+               "id": "37",
+               "name": "btconvexhullshape - Google Search",
+               "type": "url",
+               "url": "https://www.google.com/search?q=btconvexhullshape&oq=btconvexhullshape&aqs=chrome.0.57.2985&sugexp=chrome,mod=13&sourceid=chrome&ie=UTF-8"
+            }, {
+               "date_added": "13062273636659905",
+               "id": "38",
+               "name": "Real-Time Physics Simulation Forum \u2022 View topic - Defining a convex hull",
+               "type": "url",
+               "url": "http://bulletphysics.org/Bullet/phpBB3/viewtopic.php?t=4513"
+            } ],
+            "date_added": "13062273636653384",
+            "date_modified": "13062273636659905",
+            "id": "27",
+            "name": "bphysics",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13062273644260083",
+               "id": "40",
+               "name": "SDL: include/SDL_mouse.h@704a0bfecf75",
+               "type": "url",
+               "url": "http://hg.libsdl.org/SDL/file/704a0bfecf75/include/SDL_mouse.h"
+            }, {
+               "date_added": "13062273644260552",
+               "id": "41",
+               "name": "Arrays - C++ Tutorials",
+               "type": "url",
+               "url": "http://www.cplusplus.com/doc/tutorial/arrays/"
+            }, {
+               "date_added": "13062273644260837",
+               "id": "42",
+               "name": "game engine pushdown automata fsm - Google Search",
+               "type": "url",
+               "url": "https://www.google.com/search?q=game+engine+pushdown+automata+fsm&oq=game+engine+pushdown+automata+fsm&aqs=chrome.0.57.22642&sugexp=chrome,mod=13&sourceid=chrome&ie=UTF-8"
+            }, {
+               "date_added": "13062273644261167",
+               "id": "43",
+               "name": "State \u00B7 Design Patterns Revisited \u00B7 Game Programming Patterns",
+               "type": "url",
+               "url": "http://gameprogrammingpatterns.com/state.html"
+            }, {
+               "date_added": "13062273644261504",
+               "id": "44",
+               "name": "btghostobject - Google Search",
+               "type": "url",
+               "url": "https://www.google.com/search?q=btghostobject&oq=btghostobject&aqs=chrome.0.57.5132&sugexp=chrome,mod=13&sourceid=chrome&ie=UTF-8"
+            }, {
+               "date_added": "13062273644261812",
+               "id": "45",
+               "name": "Bullet Collision Detection & Physics Library: btGhostObject Class Reference",
+               "type": "url",
+               "url": "http://bulletphysics.org/Bullet/BulletFull/classbtGhostObject.html"
+            }, {
+               "date_added": "13062273644262082",
+               "id": "46",
+               "name": "Bullet Collision Detection & Physics Library: btCollisionObject Class Reference",
+               "type": "url",
+               "url": "http://bulletphysics.org/Bullet/BulletFull/classbtCollisionObject.html"
+            }, {
+               "date_added": "13062273644262340",
+               "id": "47",
+               "name": "Bullet Collision Detection & Physics Library: btCollisionShape Class Reference",
+               "type": "url",
+               "url": "http://bulletphysics.org/Bullet/BulletFull/classbtCollisionShape.html"
+            }, {
+               "date_added": "13062273644262598",
+               "id": "48",
+               "name": "Bullet Collision Detection & Physics Library: btBoxShape Class Reference",
+               "type": "url",
+               "url": "http://bulletphysics.org/Bullet/BulletFull/classbtBoxShape.html"
+            }, {
+               "date_added": "13062273644262943",
+               "id": "49",
+               "name": "Bullet Collision Detection & Physics Library: btBoxShape.h Source File",
+               "type": "url",
+               "url": "http://bulletphysics.org/Bullet/BulletFull/btBoxShape_8h_source.html"
+            }, {
+               "date_added": "13062273644263304",
+               "id": "50",
+               "name": "Bullet Collision Detection & Physics Library: btConvexInternalShape.h Source File",
+               "type": "url",
+               "url": "http://bulletphysics.org/Bullet/BulletFull/btConvexInternalShape_8h_source.html"
+            }, {
+               "date_added": "13062273644263665",
+               "id": "51",
+               "name": "Bullet Collision Detection & Physics Library: btBoxShape.h Source File",
+               "type": "url",
+               "url": "http://bulletphysics.org/Bullet/BulletFull/btBoxShape_8h_source.html"
+            }, {
+               "date_added": "13062273644263931",
+               "id": "52",
+               "name": "Bullet Collision Detection & Physics Library: btBoxShape Class Reference",
+               "type": "url",
+               "url": "http://bulletphysics.org/Bullet/BulletFull/classbtBoxShape.html"
+            }, {
+               "date_added": "13062273644264190",
+               "id": "53",
+               "name": "Bullet Collision Detection & Physics Library: btBoxShape Class Reference",
+               "type": "url",
+               "url": "http://bulletphysics.org/Bullet/BulletFull/classbtBoxShape.html#a98249bd24c52c4db51d91e6fde79f137"
+            }, {
+               "date_added": "13062273644264536",
+               "id": "54",
+               "name": "Bullet Collision Detection & Physics Library: btBoxShape.h Source File",
+               "type": "url",
+               "url": "http://bulletphysics.org/Bullet/BulletFull/btBoxShape_8h_source.html"
+            }, {
+               "date_added": "13062273644264801",
+               "id": "55",
+               "name": "Bullet Collision Detection & Physics Library: btScalar.h File Reference",
+               "type": "url",
+               "url": "http://bulletphysics.org/Bullet/BulletFull/btScalar_8h.html#a1e5824cfc8adbf5a77f2622132d16018"
+            }, {
+               "date_added": "13062273644265179",
+               "id": "56",
+               "name": "Insider | AiGameDev.com",
+               "type": "url",
+               "url": "http://aigamedev.com/page/insider/"
+            }, {
+               "date_added": "13062273644265554",
+               "id": "57",
+               "name": "Real-Time Physics Simulation Forum \u2022 View topic - Bullet Physics Collision Margins and Shapes",
+               "type": "url",
+               "url": "http://bulletphysics.org/Bullet/phpBB3/viewtopic.php?t=8995"
+            } ],
+            "date_added": "13062273644258951",
+            "date_modified": "13062273644265554",
+            "id": "39",
+            "name": "bphysics2",
+            "type": "folder"
+         } ],
+         "date_added": "13061059728265262",
+         "date_modified": "13062273644265960",
+         "id": "1",
+         "name": "Bookmarks Bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13061059728265286",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other Bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13061059728265290",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile Bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
