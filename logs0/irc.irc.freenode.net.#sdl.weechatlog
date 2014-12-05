@@ -1,0 +1,86 @@
+2014-12-02 04:05:04	-->	newguise1234 (~tc@unaffiliated/newguise1234) has joined #SDL
+2014-12-02 04:05:04	--	Topic for #SDL is "Official SDL Channel http://www.libsdl.org/ | SDL 2.0.3 has been released! Rejoice! | Migration Guide: http://wiki.libsdl.org/moin.fcg/MigrationGuide"
+2014-12-02 04:05:04	--	Topic set by Briareos (~michael@pdpc/supporter/professional/briareos) on Sun, 16 Mar 2014 11:19:46
+2014-12-02 04:05:04	--	Nicks #SDL: [@akawaka acidfrost Adr1 adrian_broher akaWolf Alam_Squeeze alekzanther Amadiro aranasaurus balrog Bigpet_ bj_990 Bombo BoomerBile caedes__ CapsAdmin Cerise Cheery curfont dca decv Defaultti demonicmaniac demonicmaniac3 demonimin_ devnewton diginet Djstey Domx dryatu dv_ elias Elmoe emlow Ensiform Ericthebeast ewitz ExpiredPopsicle fhd_______ flan3002 fogbank frostsnow geidi giegiel_ graphitemaster gustav__1 hagabaka Harekiet Harteex howitdo icedev ivan`` Jacker jdolan JeZxLee jhenke jorgenpt jtpalmer justinzane Kaijo kline krnlyng Kvisle Lemml Lightkey LiraNuna LordAro LordHavoc Lucretia ludkille- mat^2 meklu Mercury_ Miklas mmozeiko mofino MrJones mtj mtj_ mtsr neoman netman87 newguise1234 ngladitz Nickeeh_ nido_ o11c ocharles Orphis ovf page Parnic pcdummy phao plash profan q66[lap] QKO qua-non radr RCL_ regerger rude ruler501 RushPL salamanderrake Schrostfutz shakesoda Slereah slime snoukkis sparetire sparetire_ Sponji SugarCube sugoi tesmako TuTizz vukcrni wheybags wRayden X-Scale xythobuz YarnFive8 ZTM zu_ {41444d494e}]
+2014-12-02 04:05:04	--	Channel #SDL: 127 nicks (1 op, 0 halfops, 0 voices, 126 normals)
+2014-12-02 04:05:06	--	Mode #SDL [+nt]
+2014-12-02 04:05:07	--	Channel created on Sun, 26 Nov 2006 06:42:43
+2014-12-02 04:05:08	--	URL for #SDL: http://www.libsdl.org/
+2014-12-02 04:07:08	<--	phao (~phao@189-12-243-54.user.veloxzone.com.br) has quit (Ping timeout: 252 seconds)
+2014-12-02 04:07:47	-->	ImQ009 (~ImQ009@unaffiliated/imq009) has joined #SDL
+2014-12-02 04:11:29	<--	dryatu (~dryatu@82-181-246-135.bb.dnainternet.fi) has quit (Ping timeout: 255 seconds)
+2014-12-02 04:13:06	-->	dryatu (~dryatu@82-181-246-135.bb.dnainternet.fi) has joined #SDL
+2014-12-02 04:23:49	<--	sparetire_ (~sparetire@unaffiliated/sparetire) has quit (Quit: sparetire_)
+2014-12-02 04:24:20	<--	dryatu (~dryatu@82-181-246-135.bb.dnainternet.fi) has quit (Ping timeout: 245 seconds)
+2014-12-02 04:25:14	<--	emlow (~emlow@unaffiliated/emlow) has quit (Quit: WeeChat 0.3.8)
+2014-12-02 04:26:26	-->	dryatu (~dryatu@82-181-246-135.bb.dnainternet.fi) has joined #SDL
+2014-12-02 04:39:30	<--	wRayden (~wRayden@186.205.248.11) has quit (Ping timeout: 244 seconds)
+2014-12-02 04:50:49	-->	bjz (~bjz@125.253.99.68) has joined #SDL
+2014-12-02 04:53:56	<--	ImQ009 (~ImQ009@unaffiliated/imq009) has quit (Ping timeout: 250 seconds)
+2014-12-02 05:17:38	-->	m3xican (~m3xican@cpc3-walt13-2-0-cust354.13-2.cable.virginm.net) has joined #SDL
+2014-12-02 05:19:23	-->	ImQ009 (~ImQ009@unaffiliated/imq009) has joined #SDL
+2014-12-02 05:25:52	-->	tristanseifert (~tristanse@cpe-70-116-54-132.austin.res.rr.com) has joined #SDL
+2014-12-02 05:30:51	<--	tristanseifert (~tristanse@cpe-70-116-54-132.austin.res.rr.com) has quit (Ping timeout: 264 seconds)
+2014-12-02 05:40:03	-->	{41444d494e}| (~kvirc@46.56.66.244) has joined #SDL
+2014-12-02 05:42:54	<--	{41444d494e} (~kvirc@46.56.64.165) has quit (Ping timeout: 244 seconds)
+2014-12-02 05:44:21	--	{41444d494e}| is now known as {41444d494e}
+2014-12-02 05:45:21	<--	ImQ009 (~ImQ009@unaffiliated/imq009) has quit (Quit: Leaving)
+2014-12-02 05:46:11	-->	ImQ009 (~ImQ009@unaffiliated/imq009) has joined #SDL
+2014-12-02 06:04:21	-->	{41444d494e}| (~kvirc@46.56.66.212) has joined #SDL
+2014-12-02 06:07:06	<--	{41444d494e} (~kvirc@46.56.66.244) has quit (Ping timeout: 252 seconds)
+2014-12-02 06:10:14	--	{41444d494e}| is now known as {41444d494e}
+2014-12-02 06:12:45	<--	QKO (~reaVer@a83-162-252-233.adsl.xs4all.nl) has quit (Ping timeout: 240 seconds)
+2014-12-02 06:29:53	-->	QKO (~reaVer@a83-162-252-233.adsl.xs4all.nl) has joined #SDL
+2014-12-02 06:30:39	<--	Lucretia (~laguest@pdpc/supporter/active/lucretia) has quit (Remote host closed the connection)
+2014-12-02 06:35:54	-->	Lucretia (~laguest@94.1.127.48) has joined #SDL
+2014-12-02 06:52:46	<--	jdolan (~jdolan@c-50-188-243-111.hsd1.fl.comcast.net) has quit (Remote host closed the connection)
+2014-12-02 06:54:47	-->	jdolan (~jdolan@c-50-188-243-111.hsd1.fl.comcast.net) has joined #SDL
+2014-12-02 07:00:57	-->	D353R7F0X (~l337m4573@pool-96-230-12-234.bstnma.fios.verizon.net) has joined #SDL
+2014-12-02 07:14:32	-->	tristanseifert (~tristanse@cpe-70-116-54-132.austin.res.rr.com) has joined #SDL
+2014-12-02 07:19:17	<--	tristanseifert (~tristanse@cpe-70-116-54-132.austin.res.rr.com) has quit (Ping timeout: 244 seconds)
+2014-12-02 07:34:28	<--	D353R7F0X (~l337m4573@pool-96-230-12-234.bstnma.fios.verizon.net) has quit (Ping timeout: 264 seconds)
+2014-12-02 07:38:25	-->	mxttie (~mattie@94-225-166-248.access.telenet.be) has joined #SDL
+2014-12-02 07:38:51	<--	jdolan (~jdolan@c-50-188-243-111.hsd1.fl.comcast.net) has quit (Remote host closed the connection)
+2014-12-02 08:01:03	-->	tristanseifert (~tristanse@cpe-70-116-54-132.austin.res.rr.com) has joined #SDL
+2014-12-02 08:01:24	-->	Roots (~olsent@user-0vvddia.cable.mindspring.com) has joined #SDL
+2014-12-02 08:03:39	<--	ludkille- (lud@gateway/shell/elitebnc/x-fjuyddcxibkyretg) has quit (Excess Flood)
+2014-12-02 08:03:50	-->	ludkiller (lud@gateway/shell/elitebnc/x-vxqvffkwueoogadm) has joined #SDL
+2014-12-02 08:05:27	-->	Zifre (~Zifre@unaffiliated/zifre) has joined #SDL
+2014-12-02 08:10:50	-->	bitcraft (~bitcraft@66.254.199.125) has joined #SDL
+2014-12-02 08:13:57	-->	Xeek (~xeek@c-75-65-34-29.hsd1.ms.comcast.net) has joined #SDL
+2014-12-02 08:14:10	Xeek	Good Morning!
+2014-12-02 08:16:09	<--	JeZxLee (~JeZxLee@ool-18bcc0af.dyn.optonline.net) has quit (Quit: Leaving)
+2014-12-02 08:18:52	-->	JeZxLee (~JeZxLee@ool-18bcc0af.dyn.optonline.net) has joined #SDL
+2014-12-02 08:26:32	<--	mxttie (~mattie@94-225-166-248.access.telenet.be) has quit (Quit: Doodiedoodiedoodiedoooo)
+2014-12-02 08:28:13	-->	jdolan (~jdolan@208.83.72.113) has joined #SDL
+2014-12-02 08:28:21	<--	tristanseifert (~tristanse@cpe-70-116-54-132.austin.res.rr.com) has quit (Ping timeout: 250 seconds)
+2014-12-02 08:34:33	-->	Elmoe__ (~Elmoe@c-76-121-48-42.hsd1.wa.comcast.net) has joined #SDL
+2014-12-02 08:38:48	<--	Elmoe (~Elmoe@c-76-121-48-42.hsd1.wa.comcast.net) has quit (Ping timeout: 264 seconds)
+2014-12-02 08:39:43	<--	Elmoe__ (~Elmoe@c-76-121-48-42.hsd1.wa.comcast.net) has quit (Ping timeout: 264 seconds)
+2014-12-02 08:39:48	-->	Elmoe (~Elmoe@c-76-121-48-42.hsd1.wa.comcast.net) has joined #SDL
+2014-12-02 08:44:17	<--	Alam_Squeeze (alam@pool-96-233-105-241.bstnma.fios.verizon.net) has quit (Remote host closed the connection)
+2014-12-02 08:45:12	-->	DanielHolth (~dholth@ip98-180-40-196.ga.at.cox.net) has joined #SDL
+2014-12-02 08:50:12	<--	curfont (~gt@zapawa.haxdev.org) has quit (Quit: No Ping reply in 180 seconds.)
+2014-12-02 08:51:35	-->	curfont (~gt@zapawa.haxdev.org) has joined #SDL
+2014-12-02 09:06:36	<--	bitcraft (~bitcraft@66.254.199.125) has quit (Quit: Computer has gone to sleep.)
+2014-12-02 09:14:21	<--	Elmoe (~Elmoe@c-76-121-48-42.hsd1.wa.comcast.net) has quit (Read error: Connection reset by peer)
+2014-12-02 09:14:37	-->	Elmoe (~Elmoe@c-76-121-48-42.hsd1.wa.comcast.net) has joined #SDL
+2014-12-02 09:19:07	-->	graspee (~graspee@90.214.46.250) has joined #SDL
+2014-12-02 09:23:42	<--	Elmoe (~Elmoe@c-76-121-48-42.hsd1.wa.comcast.net) has quit (Ping timeout: 272 seconds)
+2014-12-02 09:24:17	-->	Elmoe (~Elmoe@c-76-121-48-42.hsd1.wa.comcast.net) has joined #SDL
+2014-12-02 09:30:55	-->	Johng (~Johng___@106-68-27-213.dyn.iinet.net.au) has joined #SDL
+2014-12-02 09:37:23	-->	Alam_Squeeze (quasselcor@pool-96-233-105-241.bstnma.fios.verizon.net) has joined #SDL
+2014-12-02 09:54:27	<--	Elmoe (~Elmoe@c-76-121-48-42.hsd1.wa.comcast.net) has quit (Ping timeout: 240 seconds)
+2014-12-02 09:55:09	-->	Elmoe (~Elmoe@c-76-121-48-42.hsd1.wa.comcast.net) has joined #SDL
+2014-12-02 10:01:03	-->	Wezthal (~Wezthal@line-14248.dyn.kponet.fi) has joined #SDL
+2014-12-02 10:10:20	<--	Elmoe (~Elmoe@c-76-121-48-42.hsd1.wa.comcast.net) has quit (Ping timeout: 256 seconds)
+2014-12-02 10:13:42	-->	phao (~phao@200-97-164-214.user.veloxzone.com.br) has joined #SDL
+2014-12-02 10:18:35	-->	Elmoe (~Elmoe@c-76-121-48-42.hsd1.wa.comcast.net) has joined #SDL
+2014-12-02 10:24:28	-->	Elmoe__ (~Elmoe@c-76-121-48-42.hsd1.wa.comcast.net) has joined #SDL
+2014-12-02 10:26:24	<--	Elmoe (~Elmoe@c-76-121-48-42.hsd1.wa.comcast.net) has quit (Ping timeout: 244 seconds)
+2014-12-02 10:31:00	<--	ludkiller (lud@gateway/shell/elitebnc/x-vxqvffkwueoogadm) has quit (Excess Flood)
+2014-12-02 10:33:59	-->	ludkiller (lud@gateway/shell/elitebnc/x-zlxljziqdluzjeyt) has joined #SDL
+2014-12-02 10:37:56	-->	Raziel (~Raziel@cpc16-broo8-2-0-cust158.14-2.cable.virginm.net) has joined #SDL
+2014-12-02 10:56:27	<--	mtsr (~mtsr@bjfw-hades.knmi.nl) has quit (Ping timeout: 258 seconds)
+2014-12-02 10:57:47	newguise1234	I could /part
+2014-12-02 10:57:51	<--	newguise1234 (~tc@unaffiliated/newguise1234) has left #SDL ("WeeChat 0.4.1")

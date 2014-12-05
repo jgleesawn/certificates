@@ -1,0 +1,676 @@
+2014-12-01 19:47:22	-->	newguise1234 (~tc@unaffiliated/newguise1234) has joined #gameai
+2014-12-01 19:47:22	--	Topic for #gameai is "AiGameDev.com - Game AI for Developers"
+2014-12-01 19:47:22	--	Topic set by AJC (~AJC@chello213047059068.25.11.vie.surfer.at) on Sun, 03 Apr 2011 10:59:37
+2014-12-01 19:47:22	--	Nicks #gameai: [@ChanServ aerique_ amitp Apocx CS01___ cyphase dmiles_afk errnoh_ eshock hamstah iFire jeffhorton leinir Lemtzas madmatt martyj-o mceier mikolalysenko_ Mox[NL] MrBig newguise1234 ninzine niska NomadJim pasky referencebot rlomax serp_ SilentWarrior smiley1983 sukaeto tsatse unreal Urvieh Zebranky_]
+2014-12-01 19:47:22	--	Channel #gameai: 35 nicks (1 op, 0 halfops, 0 voices, 34 normals)
+2014-12-01 19:47:24	--	Mode #gameai [+cnt]
+2014-12-01 19:47:25	--	Channel created on Mon, 20 Apr 2009 16:25:32
+2014-12-01 19:50:55	<--	MrBig (~MrBig@118.156.114.89.rev.vodafone.pt) has quit (Remote host closed the connection)
+2014-12-01 20:00:02	<--	smiley1983 (~smiley@115-64-6-216.static.tpgi.com.au) has quit (Ping timeout: 272 seconds)
+2014-12-01 20:23:03	-->	SleekoNiko (~nick@cpe-70-117-105-180.austin.res.rr.com) has joined #gameai
+2014-12-01 20:34:37	<--	martyj-o (~martyj-o@gateway/tor-sasl/martyj-o) has quit (Remote host closed the connection)
+2014-12-01 20:38:22	<--	Urvieh (~MD@chello062178128036.5.13.vie.surfer.at) has quit (Ping timeout: 240 seconds)
+2014-12-01 20:52:16	-->	Cervator (~Thunderbi@c-98-192-133-39.hsd1.fl.comcast.net) has joined #gameai
+2014-12-01 21:25:44	-->	SkaveRat (~SkaveRat@ip-176-198-191-194.hsi05.unitymediagroup.de) has joined #gameai
+2014-12-01 21:31:24	<--	SkaveRat (~SkaveRat@ip-176-198-191-194.hsi05.unitymediagroup.de) has quit (Quit: SkaveRat)
+2014-12-01 21:52:30	<--	SilentWarrior (~SilentWar@172.245.17.222) has quit (Ping timeout: 272 seconds)
+2014-12-01 21:53:27	-->	SilentWarrior (~SilentWar@172.245.17.222) has joined #gameai
+2014-12-01 23:31:32	<--	Cervator (~Thunderbi@c-98-192-133-39.hsd1.fl.comcast.net) has quit (Quit: Cervator)
+2014-12-01 23:41:13	<--	SleekoNiko (~nick@cpe-70-117-105-180.austin.res.rr.com) has quit (Remote host closed the connection)
+2014-12-01 23:52:49	<--	NomadJim (~NomadJim@pdpc/supporter/active/nomadjim) has quit (Read error: Connection reset by peer)
+2014-12-01 23:53:30	-->	NomadJim (~NomadJim@pdpc/supporter/active/nomadjim) has joined #gameai
+2014-12-01 23:55:52	-->	CS01_______ (~CS01@p5B06C336.dip0.t-ipconnect.de) has joined #gameai
+2014-12-01 23:59:00	-->	CS01_________ (~CS01@p5B345196.dip0.t-ipconnect.de) has joined #gameai
+2014-12-01 23:59:29	<--	CS01___ (~CS01@p5B06CC7C.dip0.t-ipconnect.de) has quit (Ping timeout: 272 seconds)
+2014-12-02 00:00:26	<--	CS01_______ (~CS01@p5B06C336.dip0.t-ipconnect.de) has quit (Ping timeout: 264 seconds)
+2014-12-02 00:05:22	-->	DR0ID_ (~DR0ID_@239-76.5-85.cust.bluewin.ch) has joined #gameai
+2014-12-02 00:05:34	-->	SleekoNiko (~nick@2605:6000:ecc8:6d00:2ad2:44ff:fe3a:6519) has joined #gameai
+2014-12-02 00:06:35	<--	SleekoNiko (~nick@2605:6000:ecc8:6d00:2ad2:44ff:fe3a:6519) has quit (Remote host closed the connection)
+2014-12-02 00:07:01	-->	SleekoNiko (~nick@2605:6000:ecc8:6d00:2ad2:44ff:fe3a:6519) has joined #gameai
+2014-12-02 00:23:57	<--	DR0ID_ (~DR0ID_@239-76.5-85.cust.bluewin.ch) has quit (Quit: gone.)
+2014-12-02 00:25:04	<--	amitp (~amitp@c-24-23-138-160.hsd1.ca.comcast.net) has quit (Quit: Leaving.)
+2014-12-02 00:45:38	<--	NomadJim (~NomadJim@pdpc/supporter/active/nomadjim) has quit (Read error: Connection reset by peer)
+2014-12-02 00:46:47	-->	NomadJim (~NomadJim@pdpc/supporter/active/nomadjim) has joined #gameai
+2014-12-02 01:05:32	<--	SleekoNiko (~nick@2605:6000:ecc8:6d00:2ad2:44ff:fe3a:6519) has quit (Remote host closed the connection)
+2014-12-02 02:20:56	-->	vimus (~vimus@ext18.gsp.se) has joined #gameai
+2014-12-02 02:26:59	-->	AJC (~Adium@83-64-41-3.fuenfhaus.xdsl-line.inode.at) has joined #gameai
+2014-12-02 02:38:02	-->	smiley1983 (~smiley@115-64-6-216.static.tpgi.com.au) has joined #gameai
+2014-12-02 04:38:18	-->	GwiGwi (~g.taze@LMontsouris-656-1-1-170.w80-12.abo.wanadoo.fr) has joined #gameai
+2014-12-02 04:59:16	-->	MrBig (~MrBig@118.156.114.89.rev.vodafone.pt) has joined #gameai
+2014-12-02 05:00:51	-->	Jellysnake (~jellysnak@bru1516703.lnk.telstra.net) has joined #gameai
+2014-12-02 05:13:03	<--	Jellysnake (~jellysnak@bru1516703.lnk.telstra.net) has quit (Ping timeout: 258 seconds)
+2014-12-02 05:14:04	-->	Jellysnake (~jellysnak@bru1516703.lnk.telstra.net) has joined #gameai
+2014-12-02 05:19:12	<--	Jellysnake (~jellysnak@bru1516703.lnk.telstra.net) has quit (Ping timeout: 264 seconds)
+2014-12-02 05:25:46	-->	HateDread (0ec81f9e@gateway/web/freenode/ip.14.200.31.158) has joined #gameai
+2014-12-02 05:27:21	HateDread	Hey, does anyone remember the article on Starcraft AI that used some signal processing / analysis to calculate base location / extents?
+2014-12-02 05:48:19	-->	martyj-o (~martyj-o@gateway/tor-sasl/martyj-o) has joined #gameai
+2014-12-02 05:57:41	<--	SilentWarrior (~SilentWar@172.245.17.222) has quit (Quit: Bye!)
+2014-12-02 06:17:48	-->	Jellysnake (~jellysnak@pa49-184-15-27.pa.vic.optusnet.com.au) has joined #gameai
+2014-12-02 06:30:20	<--	Jellysnake (~jellysnak@pa49-184-15-27.pa.vic.optusnet.com.au) has quit (Ping timeout: 244 seconds)
+2014-12-02 06:30:59	-->	Mental_Disorder (~MD@chello062178128036.5.13.vie.surfer.at) has joined #gameai
+2014-12-02 06:54:02	<--	smiley1983 (~smiley@115-64-6-216.static.tpgi.com.au) has quit (Ping timeout: 244 seconds)
+2014-12-02 07:02:27	<--	AJC (~Adium@83-64-41-3.fuenfhaus.xdsl-line.inode.at) has quit (Quit: Leaving.)
+2014-12-02 07:05:28	-->	Cervator (~Thunderbi@c-98-192-133-39.hsd1.fl.comcast.net) has joined #gameai
+2014-12-02 07:16:15	<--	Cervator (~Thunderbi@c-98-192-133-39.hsd1.fl.comcast.net) has quit (Quit: Cervator)
+2014-12-02 07:31:21	<--	HateDread (0ec81f9e@gateway/web/freenode/ip.14.200.31.158) has quit (Quit: Page closed)
+2014-12-02 07:35:08	-->	smiley1983 (~smiley@115-64-6-216.static.tpgi.com.au) has joined #gameai
+2014-12-02 07:40:29	-->	AJC (~Adium@83-64-41-3.fuenfhaus.xdsl-line.inode.at) has joined #gameai
+2014-12-02 08:25:55	AJC	Hi.
+2014-12-02 08:28:08	-->	ravenwing1234 (a2c4886d@gateway/web/freenode/ip.162.196.136.109) has joined #gameai
+2014-12-02 08:28:13	ravenwing1234	who is hosting the session later today?
+2014-12-02 08:32:25	<--	ravenwing1234 (a2c4886d@gateway/web/freenode/ip.162.196.136.109) has quit (Ping timeout: 246 seconds)
+2014-12-02 09:19:57	-->	SkaveRat (~SkaveRat@ip-176-198-191-194.hsi05.unitymediagroup.de) has joined #gameai
+2014-12-02 09:20:58	eshock	morning/afternoon alex
+2014-12-02 09:25:01	-->	denete (~denete@216.143.242.112) has joined #gameai
+2014-12-02 09:30:29	-->	ravenwing1234 (614f8cf2@gateway/web/freenode/ip.97.79.140.242) has joined #gameai
+2014-12-02 09:51:28	<--	MrBig (~MrBig@118.156.114.89.rev.vodafone.pt) has quit (Remote host closed the connection)
+2014-12-02 10:19:22	<--	smiley1983 (~smiley@115-64-6-216.static.tpgi.com.au) has quit (Ping timeout: 258 seconds)
+2014-12-02 10:32:42	<--	NomadJim (~NomadJim@pdpc/supporter/active/nomadjim) has quit (Read error: Connection reset by peer)
+2014-12-02 10:46:24	<--	SkaveRat (~SkaveRat@ip-176-198-191-194.hsi05.unitymediagroup.de) has quit (Quit: SkaveRat)
+2014-12-02 10:47:34	<--	AJC (~Adium@83-64-41-3.fuenfhaus.xdsl-line.inode.at) has quit (Quit: Leaving.)
+2014-12-02 10:48:41	-->	AJC (~Adium@83-64-41-3.fuenfhaus.xdsl-line.inode.at) has joined #gameai
+2014-12-02 10:49:02	<--	AJC (~Adium@83-64-41-3.fuenfhaus.xdsl-line.inode.at) has quit (Client Quit)
+2014-12-02 10:54:38	-->	DR0ID_ (~DR0ID_@221-6.106-92.cust.bluewin.ch) has joined #gameai
+2014-12-02 11:05:14	<--	vimus (~vimus@ext18.gsp.se) has quit
+2014-12-02 11:07:39	-->	amitp (~amitp@c-24-23-138-160.hsd1.ca.comcast.net) has joined #gameai
+2014-12-02 12:29:10	-->	denete_ (~denete@24.131.62.143) has joined #gameai
+2014-12-02 12:30:33	<--	denete_ (~denete@24.131.62.143) has quit (Remote host closed the connection)
+2014-12-02 12:31:15	-->	denete_ (~denete@216.143.242.112) has joined #gameai
+2014-12-02 12:31:41	<--	denete (~denete@216.143.242.112) has quit (Ping timeout: 258 seconds)
+2014-12-02 12:41:34	martyj-o	What session?
+2014-12-02 12:50:51	Apocx	I assume he means this: http://aigamedev.com/broadcasts/session-star-citizen/
+2014-12-02 12:55:28	-->	AJC (~Adium@83-64-41-3.fuenfhaus.xdsl-line.inode.at) has joined #gameai
+2014-12-02 13:00:27	AJC	ravenwing1234: I am.
+2014-12-02 13:00:36	AJC	ravenwing1234: do you have questions in advance?
+2014-12-02 13:04:26	amitp	Question: who got sick, and is it transmissible over irc?
+2014-12-02 13:05:14	AJC	amitp: I did. It was projectile, but not long distance.
+2014-12-02 13:05:19	AJC	(I think.)
+2014-12-02 13:05:21	-->	Codexus (~Codexus@178-83-216-138.dynamic.hispeed.ch) has joined #gameai
+2014-12-02 13:09:30	-->	kmote (c6e8d382@gateway/web/freenode/ip.198.232.211.130) has joined #gameai
+2014-12-02 14:10:46	-->	AzraelDomonov (d181a1fb@gateway/web/freenode/ip.209.129.161.251) has joined #gameai
+2014-12-02 14:12:51	-->	mindgames (d568f9f4@gateway/web/freenode/ip.213.104.249.244) has joined #gameai
+2014-12-02 14:15:48	-->	phildunstan (53f90588@gateway/web/freenode/ip.83.249.5.136) has joined #gameai
+2014-12-02 14:16:20	AzraelDomonov	http://new.livestream.com/accounts/1422055/events/3630854 is starting soon
+2014-12-02 14:17:22	AJC	http://aigamedev.com/live
+2014-12-02 14:17:29	AJC	any questions are welcom, you can post here or there
+2014-12-02 14:19:24	<--	DR0ID_ (~DR0ID_@221-6.106-92.cust.bluewin.ch) has quit (Quit: gone.)
+2014-12-02 14:20:19	-->	neoshaman (53cbeca5@gateway/web/freenode/ip.83.203.236.165) has joined #gameai
+2014-12-02 14:21:55	-->	KytheraMike (3e1f3472@gateway/web/freenode/ip.62.31.52.114) has joined #gameai
+2014-12-02 14:22:02	-->	HUGGIESroxFace (62d39788@gateway/web/freenode/ip.98.211.151.136) has joined #gameai
+2014-12-02 14:22:40	neoshaman	hello
+2014-12-02 14:23:00	HUGGIESroxFace	:)
+2014-12-02 14:23:08	AzraelDomonov	hi
+2014-12-02 14:24:15	-->	graham (32fcf9b5@gateway/web/freenode/ip.50.252.249.181) has joined #gameai
+2014-12-02 14:24:28	--	graham is now known as grahamboree
+2014-12-02 14:24:42	AzraelDomonov	@Moon Collider With regards to Star Citizen, any plans for tools to help modders change and manage AI behavior?
+2014-12-02 14:25:12	-->	BrewMagoo (626dd103@gateway/web/freenode/ip.98.109.209.3) has joined #gameai
+2014-12-02 14:26:40	KytheraMike	@Azrael That's definitely something Cloud Imperium want down the line, but for now we're focussing on the functionality for the module releases
+2014-12-02 14:28:52	AzraelDomonov	Interesting, thanks for the response!
+2014-12-02 14:28:54	-->	Miki (41cf4f04@gateway/web/freenode/ip.65.207.79.4) has joined #gameai
+2014-12-02 14:29:22	-->	totallytroy (46a9f762@gateway/web/freenode/ip.70.169.247.98) has joined #gameai
+2014-12-02 14:29:26	totallytroy	hi hi
+2014-12-02 14:31:21	<--	BrewMagoo (626dd103@gateway/web/freenode/ip.98.109.209.3) has quit (Ping timeout: 246 seconds)
+2014-12-02 14:32:27	Miki	That's something I didn't think about, how the simulations on the pilot and how they're affected by the player would affect the AI.
+2014-12-02 14:32:49	-->	BrewMagoo (626dd103@gateway/web/freenode/ip.98.109.209.3) has joined #gameai
+2014-12-02 14:34:17	KytheraMike	Yeah, when you see an AI fly off through the level boundary or hit an asteroid, it may well be because its thrusters are damaged so it doesn't have much control any more
+2014-12-02 14:36:11	Miki	Or the AI caused the pilot to black out.
+2014-12-02 14:36:48	AzraelDomonov	When Matt says the splines for advanced AI are dynamically generated, does he mean that they are dynamically chosen from a list of known manuvers by the AI pilot, or are new splines generated on the fly?
+2014-12-02 14:38:18	KytheraMike	Splines are selected from known maneuvers and then copied in front of the ship to fly from where it currently is
+2014-12-02 14:39:10	-->	test78 (4d382528@gateway/web/freenode/ip.77.56.37.40) has joined #gameai
+2014-12-02 14:39:40	-->	g9icy (~g9icy@2.127.12.198) has joined #gameai
+2014-12-02 14:41:12	-->	martin_cerny_ai (6def4e37@gateway/web/freenode/ip.109.239.78.55) has joined #gameai
+2014-12-02 14:41:26	martin_cerny_ai	Is there like PID controllers or any other control theory stuff behind?
+2014-12-02 14:41:44	HUGGIESroxFace	Will all NPCs choose from the same pool of splines, or are there different pools for different pilot skill levels (E.g: Elite NPCs will know/use more maneuvers than a civilian pilot)?
+2014-12-02 14:42:33	AzraelDomonov	Cool. Seems like a way that devs can add personality to a certain AI character by having it selected from a restricted group of splines. Certain pilots (or aliens) might prefer a type of manuver over others. The splines seem to be a really cool way to impliment that.
+2014-12-02 14:43:59	KytheraMike	Yep, different NPCs select from different sets of splines to help give them personality, and for difficulty
+2014-12-02 14:45:18	<--	ravenwing1234 (614f8cf2@gateway/web/freenode/ip.97.79.140.242) has quit (Quit: Page closed)
+2014-12-02 14:46:18	Miki	I would imagine though that it wouldn't scale very well. If you have hundreds of instances and hundreds more agents all tracking that many obstacles, the server would probably want to go on strike.
+2014-12-02 14:47:39	Miki	Assuming all of the AI is simulated serverside.
+2014-12-02 14:50:07	phildunstan	KytheraMike: Is the AI all server-side? Is there a single player version of the game running on a users PC or is it all massively multiplayer online?
+2014-12-02 14:50:49	<--	cyphase (~cyphase@unaffiliated/cyphase) has quit (Ping timeout: 244 seconds)
+2014-12-02 14:50:56	KytheraMike	In the single player mode that's out now, the AI runs on the client, but generally the AI runs on the server
+2014-12-02 14:51:20	KytheraMike	And the coop mode does run the AI on the server
+2014-12-02 14:52:11	phildunstan	Thanks. Are you guys handling writing AI running on the server differently from the client?
+2014-12-02 14:52:21	-->	hgjgjh (4c5a844f@gateway/web/freenode/ip.76.90.132.79) has joined #gameai
+2014-12-02 14:52:35	hgjgjh	test
+2014-12-02 14:53:02	<--	GwiGwi (~g.taze@LMontsouris-656-1-1-170.w80-12.abo.wanadoo.fr) has quit (Read error: Connection reset by peer)
+2014-12-02 14:53:30	KytheraMike	No - it's exactly the same whether it's running on client or server
+2014-12-02 14:53:34	AzraelDomonov	hello hgjgjh
+2014-12-02 14:53:42	Miki	KytheraMike: Is it safe to assume that you are one of the SC devs?
+2014-12-02 14:54:06	KytheraMike	Yep - I work at Moon Collider
+2014-12-02 14:58:26	HUGGIESroxFace	When I play Vanduul Swarm, I tend to get up and close with my target. Because of this, I commonly get sprayed by in the rear by the "friendly" AI. Is there a plan to implement some discretion for AI wingmen so they don't engage when another player/npc is within their field of fire?
+2014-12-02 15:00:32	KytheraMike	Interesting, we do have a check against friendly fire, but maybe we should suppress fire over a wider volume around the friendly
+2014-12-02 15:00:46	totallytroy	sounds like a plan ... :)
+2014-12-02 15:02:29	totallytroy	I agree completely
+2014-12-02 15:02:40	totallytroy	text does totally fine to represent tree structures
+2014-12-02 15:03:30	hgjgjh	Hello Azrael
+2014-12-02 15:03:50	Miki	Indeed. This is very easy to follow for those that know what they're doing.
+2014-12-02 15:05:08	Miki	So those Leaf() calls are referring to other predefined behaviors I am guessing?
+2014-12-02 15:08:04	KytheraMike	Yeah, those Leaf calls are mostly BT nodes that perform an action (such as rolling)
+2014-12-02 15:08:54	-->	shafranov (52b500d6@gateway/web/freenode/ip.82.181.0.214) has joined #gameai
+2014-12-02 15:10:04	Miki	Interesting...
+2014-12-02 15:10:16	Miki	How does the RCC++ usage affect performance though?
+2014-12-02 15:14:30	KytheraMike	It doesn't make any significant difference to performance, because the modified functions are linked in replacing the original implementation.  The areas of the code that use RCC++ were structured to use it from the beginning which helps
+2014-12-02 15:16:34	Miki	Does it compile into native code?
+2014-12-02 15:17:02	KytheraMike	Yes
+2014-12-02 15:17:16	totallytroy	Miki you can check out a open source version at http://runtimecompiledcplusplus.blogspot.com/
+2014-12-02 15:20:14	<--	hgjgjh (4c5a844f@gateway/web/freenode/ip.76.90.132.79) has quit (Ping timeout: 246 seconds)
+2014-12-02 15:20:18	-->	Speedrun (3cea15e2@gateway/web/freenode/ip.60.234.21.226) has joined #gameai
+2014-12-02 15:21:05	<--	AzraelDomonov (d181a1fb@gateway/web/freenode/ip.209.129.161.251) has quit (Quit: Page closed)
+2014-12-02 15:24:56	totallytroy	lunch time, I'm out. Stuff looks cool Matthew and team!
+2014-12-02 15:25:06	<--	Codexus (~Codexus@178-83-216-138.dynamic.hispeed.ch) has quit (Quit: Everything has Fresnel!)
+2014-12-02 15:27:01	 *	Miki listens intensely.
+2014-12-02 15:27:39	phildunstan	catch you later totallytroy
+2014-12-02 15:31:43	-->	Dimestore (081c9646@gateway/web/freenode/ip.8.28.150.70) has joined #gameai
+2014-12-02 15:34:02	Miki	Oh god... what would the blue shell look like in an SC Mario Kart?
+2014-12-02 15:36:18	AJC	more questions?
+2014-12-02 15:37:44	Miki	Makes sense.
+2014-12-02 15:38:12	Miki	Oh yes. It does have its fair share of difficulties.
+2014-12-02 15:39:32	Apocx	I'm curious as to how the AI acts in zero-g.
+2014-12-02 15:39:35	-->	Space (189b4c94@gateway/web/freenode/ip.24.155.76.148) has joined #gameai
+2014-12-02 15:41:26	martin_cerny_ai	So the C++ code just generates a memory structure? Or can I debug/step through the C++ code as shown at runtime?
+2014-12-02 15:41:40	AJC	see the RTC++ website
+2014-12-02 15:41:55	Apocx	Is their AI in the FPS gamemode? Can they take cover and reliably move around in a zero-G environment? Since obviously the navmesh wouldn't me quite as useful
+2014-12-02 15:42:07	test78	Persistent Universe relevant: how deep is the AI simulation going to be for enemy ships like the Vanduul on capships, are you just simulatinug the turrets or also the crew manning the turrets, i.e. in view of possible impact from hull breach etc.
+2014-12-02 15:43:14	<--	mceier (~mceier@89-69-201-93.dynamic.chello.pl) has quit (Ping timeout: 252 seconds)
+2014-12-02 15:43:20	-->	darrin (~darrin@12.216.224.110) has joined #gameai
+2014-12-02 15:43:23	Miki	Oh, here's one. How much overlap is there between the zero-G FPS combat and the space combat? Could navigation concievably be handled similarly?
+2014-12-02 15:43:50	Miki	overlap in relation to the AI I mean.
+2014-12-02 15:43:55	-->	boomtnt46 (580f7ba6@gateway/web/freenode/ip.88.15.123.166) has joined #gameai
+2014-12-02 15:44:01	Apocx	Yeah I was thinking of that as well
+2014-12-02 15:44:17	<--	Dimestore (081c9646@gateway/web/freenode/ip.8.28.150.70) has quit (Quit: Page closed)
+2014-12-02 15:44:31	martin_cerny_ai	I was asking about the behavior tree debugging - if the nodes enter a selector node, is it executing the code we saw or is it executing a code in some Selector.cpp where the instance data came from the behavior tree file?
+2014-12-02 15:45:03	-->	mceier (~mceier@89-69-201-93.dynamic.chello.pl) has joined #gameai
+2014-12-02 15:45:19	Miki	Heh, natch.
+2014-12-02 15:45:39	<--	darrin (~darrin@12.216.224.110) has quit (Client Quit)
+2014-12-02 15:45:59	<--	boomtnt46 (580f7ba6@gateway/web/freenode/ip.88.15.123.166) has quit (Client Quit)
+2014-12-02 15:46:30	-->	muffin (43a59946@gateway/web/freenode/ip.67.165.153.70) has joined #gameai
+2014-12-02 15:47:07	-->	dougbinks (5c9bdc1d@gateway/web/freenode/ip.92.155.220.29) has joined #gameai
+2014-12-02 15:47:33	Miki	Prey comes to mind.
+2014-12-02 15:48:06	dougbinks	Runtime Compiled C++ link may have been put up earlier but if not it's here: http://runtimecompiledcplusplus.blogspot.com/
+2014-12-02 15:48:11	Miki	When I think of the mag-boots.
+2014-12-02 15:49:06	martin_cerny_ai	Thx for the answer!
+2014-12-02 15:49:15	Miki	Yeah, ditto.
+2014-12-02 15:49:24	martyj-o	My game barely runs smoothly with absolutely no logic at all...
+2014-12-02 15:49:28	Apocx	Yeah thanks :)
+2014-12-02 15:49:32	martyj-o	I wonder what will be the case when all the AI is running...
+2014-12-02 15:50:28	Miki	I keey seeing the word "key" and kept thinking like a key on a keyboard for some reason.
+2014-12-02 15:50:37	Miki	I kept*
+2014-12-02 15:50:42	Apocx	yeah true. Heavy use of distributed servers I'd imagine
+2014-12-02 15:51:31	grahamboree	Thanks, guys! :)
+2014-12-02 15:51:38	<--	test78 (4d382528@gateway/web/freenode/ip.77.56.37.40) has quit (Quit: Page closed)
+2014-12-02 15:51:38	phildunstan	Thanks Matthew and Alex
+2014-12-02 15:51:39	Miki	Great interview!
+2014-12-02 15:51:42	Apocx	Hope there is another one when they implement the zero-G stuff, that'd be really interesting :)
+2014-12-02 15:51:48	Apocx	Loved the interview
+2014-12-02 15:51:55	<--	grahamboree (32fcf9b5@gateway/web/freenode/ip.50.252.249.181) has quit (Quit: Page closed)
+2014-12-02 15:52:02	Miki	As do I, thoiugh I would imagine they would post about it.
+2014-12-02 15:52:10	martyj-o	"This technique allows you to change your C++ code while it's running.
+2014-12-02 15:52:10	martyj-o	Available as liberally licensed open source code, it uses no scripting, no VM"
+2014-12-02 15:52:18	martyj-o	No scripting and no VM?
+2014-12-02 15:52:23	martyj-o	Then it's impossible.
+2014-12-02 15:52:29	<--	phildunstan (53f90588@gateway/web/freenode/ip.83.249.5.136) has quit
+2014-12-02 15:52:41	Miki	According to KytheraMike, it compiles down to native code.
+2014-12-02 15:52:49	martyj-o	?
+2014-12-02 15:52:56	Miki	Like a JIT compiler I'd assume.
+2014-12-02 15:52:59	martyj-o	How can it possibly allow you to change it in real time?
+2014-12-02 15:53:08	martyj-o	Also, why would you *want* to?
+2014-12-02 15:53:29	AJC	martyj-o: it recompiles and loads a new DLL.
+2014-12-02 15:53:39	martyj-o	It seems very strange to me.
+2014-12-02 15:53:40	AJC	because it's faster than script and you can apply it to existing code
+2014-12-02 15:53:45	dougbinks	Yes, it's a compiler. For more see the presentation Matthew and I did on the site.
+2014-12-02 15:53:50	Miki	Also because native code.
+2014-12-02 15:53:56	AJC	martyj-o: let it sit in your brain for a bit before judging :-)
+2014-12-02 15:53:57	dougbinks	See http://runtimecompiledcplusplus.blogspot.fr/2014/02/video-rcc-at-2012-develop-conference.html
+2014-12-02 15:54:07	AJC	took me 12 months to really see the need for it, hehe
+2014-12-02 15:54:09	dougbinks	Somewhat old talk by Matthew and I.
+2014-12-02 15:54:24	dougbinks	AJC... :)
+2014-12-02 15:54:26	Miki	I'll just say this, this game is sexy as all hell.
+2014-12-02 15:54:35	<--	denete_ (~denete@216.143.242.112) has quit
+2014-12-02 15:54:37	Apocx	It is. I've already sunk way too much money into it :P
+2014-12-02 15:54:40	martyj-o	What game?
+2014-12-02 15:54:45	Apocx	Star Citizen
+2014-12-02 15:54:51	AJC	http://aigamedev.com/liv
+2014-12-02 15:54:51	Miki	Star Citizen. Derp.
+2014-12-02 15:54:53	AJC	live
+2014-12-02 15:54:58	AJC	http://aigamedev.com/live
+2014-12-02 15:55:19	martyj-o	Is "Derp" part of the title?
+2014-12-02 15:55:43	<--	mindgames (d568f9f4@gateway/web/freenode/ip.213.104.249.244) has quit (Quit: Page closed)
+2014-12-02 15:55:47	 *	Miki facepalms
+2014-12-02 15:56:07	Apocx	Good interview AJC :)
+2014-12-02 15:56:25	dougbinks	Indeed, thanks!
+2014-12-02 15:56:31	Miki	Yeah, it really was. I learned quite a bit from it.
+2014-12-02 15:56:31	AJC	thanks Apocx
+2014-12-02 15:56:56	martyj-o	Isn't it a presentation?
+2014-12-02 15:57:07	Miki	Presentation/interview.
+2014-12-02 15:57:17	Apocx	I'd consider a presentation more one-sided.
+2014-12-02 15:57:18	<--	shafranov (52b500d6@gateway/web/freenode/ip.82.181.0.214) has quit (Quit: Page closed)
+2014-12-02 15:57:49	Miki	Dat worst case doe.... wow...
+2014-12-02 15:57:55	-->	denete (~denete@24.131.62.143) has joined #gameai
+2014-12-02 15:58:04	martyj-o	Oddly enough, I rarely if ever see any typical "nerds" presenting their tech product. Every single video like this I've seen is by some well-spoken and apparently socially fit person. Not some mumbling introvert guy.
+2014-12-02 15:58:18	martyj-o	I guess the reason is probably that the latter never attempt such presentations.
+2014-12-02 15:58:50	<--	denete (~denete@24.131.62.143) has quit (Read error: Connection reset by peer)
+2014-12-02 15:59:29	-->	denete (~denete@216.143.242.112) has joined #gameai
+2014-12-02 15:59:37	Miki	Isn't Matthew one of the developers?
+2014-12-02 16:00:04	Miki	Oh... I see what martyj-o was commenting on... gotcha.
+2014-12-02 16:00:09	<--	KytheraMike (3e1f3472@gateway/web/freenode/ip.62.31.52.114) has quit (Quit: Page closed)
+2014-12-02 16:00:40	Apocx	I really want a recording tool like they had..
+2014-12-02 16:00:44	<--	dougbinks (5c9bdc1d@gateway/web/freenode/ip.92.155.220.29) has quit (Ping timeout: 246 seconds)
+2014-12-02 16:00:47	AJC	see ReView
+2014-12-02 16:00:49	AJC	open source
+2014-12-02 16:00:50	Apocx	That was pretty nifty
+2014-12-02 16:00:54	Apocx	Will do, thanks
+2014-12-02 16:02:05	--	Mode #gameai [+o AJC] by ChanServ
+2014-12-02 16:02:06	<--	muffin (43a59946@gateway/web/freenode/ip.67.165.153.70) has left #gameai
+2014-12-02 16:02:08	<--	Speedrun (3cea15e2@gateway/web/freenode/ip.60.234.21.226) has quit (Ping timeout: 246 seconds)
+2014-12-02 16:02:13	Apocx	Do you have a website link? Since googling "review" or anything similar isn't helping much
+2014-12-02 16:02:15	<--	AJC has kicked martyj-o (Be nice.)
+2014-12-02 16:02:48	@AJC	https://bitbucket.org/mika_vehkala
+2014-12-02 16:02:58	@AJC	https://bitbucket.org/mika_vehkala/review/wiki/Home
+2014-12-02 16:03:02	Apocx	Thanks :)
+2014-12-02 16:03:30	--	Mode #gameai [-o AJC] by ChanServ
+2014-12-02 16:06:43	-->	breadborn (0543adaa@gateway/web/freenode/ip.5.67.173.170) has joined #gameai
+2014-12-02 16:07:17	AJC	ok, I'm off.
+2014-12-02 16:07:18	AJC	bye
+2014-12-02 16:07:20	amitp	bye
+2014-12-02 16:07:31	AJC	possibly back later once I'm home.
+2014-12-02 16:07:36	AJC	need to watch for troublemakers here :-)
+2014-12-02 16:07:47	Apocx	Take it easy
+2014-12-02 16:07:49	amitp	watch out for alexjc, he's a troublemaker
+2014-12-02 16:07:55	AJC	so I heard
+2014-12-02 16:08:02	AJC	bbl
+2014-12-02 16:08:04	<--	AJC (~Adium@83-64-41-3.fuenfhaus.xdsl-line.inode.at) has quit (Quit: Leaving.)
+2014-12-02 16:08:06	amitp	I loved to see all the conversation here
+2014-12-02 16:08:33	Apocx	I know. I've never seen this much activity in this channel since I've been here :P
+2014-12-02 16:10:32	amitp	:)
+2014-12-02 16:11:28	-->	jams_ (534eefaa@gateway/web/freenode/ip.83.78.239.170) has joined #gameai
+2014-12-02 16:12:03	<--	jams_ (534eefaa@gateway/web/freenode/ip.83.78.239.170) has quit (Client Quit)
+2014-12-02 16:21:41	<--	BrewMagoo (626dd103@gateway/web/freenode/ip.98.109.209.3) has quit (Ping timeout: 246 seconds)
+2014-12-02 16:22:24	-->	denete_ (~denete@24.131.62.143) has joined #gameai
+2014-12-02 16:22:39	-->	cyphase (~cyphase@unaffiliated/cyphase) has joined #gameai
+2014-12-02 16:23:04	-->	Bacon_ (60f11f5a@gateway/web/freenode/ip.96.241.31.90) has joined #gameai
+2014-12-02 16:23:33	<--	Bacon_ (60f11f5a@gateway/web/freenode/ip.96.241.31.90) has quit (Client Quit)
+2014-12-02 16:25:00	<--	denete (~denete@216.143.242.112) has quit (Read error: Connection reset by peer)
+2014-12-02 16:29:10	-->	AJC (~Adium@chello213047061201.2.14.vie.surfer.at) has joined #gameai
+2014-12-02 16:32:27	<--	denete_ (~denete@24.131.62.143) has quit (Remote host closed the connection)
+2014-12-02 16:35:22	-->	Jellysnake (~jellysnak@pa49-184-14-144.pa.vic.optusnet.com.au) has joined #gameai
+2014-12-02 16:43:17	<--	Jellysnake (~jellysnak@pa49-184-14-144.pa.vic.optusnet.com.au) has quit (Read error: No route to host)
+2014-12-02 16:49:58	<--	martin_cerny_ai (6def4e37@gateway/web/freenode/ip.109.239.78.55) has quit (Ping timeout: 246 seconds)
+2014-12-02 16:51:01	<--	totallytroy (46a9f762@gateway/web/freenode/ip.70.169.247.98) has quit (Ping timeout: 246 seconds)
+2014-12-02 17:07:26	<--	breadborn (0543adaa@gateway/web/freenode/ip.5.67.173.170) has quit (Ping timeout: 246 seconds)
+2014-12-02 17:11:52	<--	Space (189b4c94@gateway/web/freenode/ip.24.155.76.148) has quit (Quit: Page closed)
+2014-12-02 17:16:44	-->	darrin (~darrin@12.216.224.110) has joined #gameai
+2014-12-02 17:20:37	<--	darrin (~darrin@12.216.224.110) has quit (Client Quit)
+2014-12-02 17:20:41	-->	yobot (5ead79dd@gateway/web/freenode/ip.94.173.121.221) has joined #gameai
+2014-12-02 17:23:09	<--	kmote (c6e8d382@gateway/web/freenode/ip.198.232.211.130) has quit (Quit: Page closed)
+2014-12-02 17:33:02	-->	martyj-o (~martyj-o@gateway/tor-sasl/martyj-o) has joined #gameai
+2014-12-02 17:33:36	<--	g9icy (~g9icy@2.127.12.198) has quit (Quit: g9icy)
+2014-12-02 17:36:01	-->	amitp1 (~amitp@c-24-23-138-160.hsd1.ca.comcast.net) has joined #gameai
+2014-12-02 17:36:21	<--	martyj-o (~martyj-o@gateway/tor-sasl/martyj-o) has left #gameai
+2014-12-02 17:38:57	<--	amitp (~amitp@c-24-23-138-160.hsd1.ca.comcast.net) has quit (Ping timeout: 252 seconds)
+2014-12-02 17:55:49	-->	Grimm_ (4b938709@gateway/web/freenode/ip.75.147.135.9) has joined #gameai
+2014-12-02 17:57:46	-->	Yey (d5154926@gateway/web/freenode/ip.213.21.73.38) has joined #gameai
+2014-12-02 18:00:09	<--	Grimm_ (4b938709@gateway/web/freenode/ip.75.147.135.9) has quit (Ping timeout: 246 seconds)
+2014-12-02 18:00:31	-->	darrin (~darrin@12.216.224.110) has joined #gameai
+2014-12-02 18:00:40	<--	darrin (~darrin@12.216.224.110) has quit (Client Quit)
+2014-12-02 18:01:54	<--	Yey (d5154926@gateway/web/freenode/ip.213.21.73.38) has quit (Ping timeout: 246 seconds)
+2014-12-02 18:26:21	<--	AJC (~Adium@chello213047061201.2.14.vie.surfer.at) has quit (Quit: Leaving.)
+2014-12-02 18:32:11	-->	smiley1983 (~smiley@115-64-6-216.static.tpgi.com.au) has joined #gameai
+2014-12-02 18:36:54	-->	Cervator (~Thunderbi@c-98-192-133-39.hsd1.fl.comcast.net) has joined #gameai
+2014-12-02 18:42:56	<--	neoshaman (53cbeca5@gateway/web/freenode/ip.83.203.236.165) has quit (Quit: Page closed)
+2014-12-02 18:45:01	--	amitp1 is now known as amitp
+2014-12-02 18:51:15	-->	testosTeron (588635b9@gateway/web/freenode/ip.88.134.53.185) has joined #gameai
+2014-12-02 18:54:36	testosTeron	Hey guys, is this still going?
+2014-12-02 18:57:24	<--	cyphase (~cyphase@unaffiliated/cyphase) has quit (Ping timeout: 272 seconds)
+2014-12-02 19:07:52	amitp	The room is always here :)
+2014-12-02 19:07:56	amitp	But we are often quiet :(
+2014-12-02 19:13:59	-->	cyphase (~cyphase@unaffiliated/cyphase) has joined #gameai
+2014-12-02 19:39:19	<--	yobot (5ead79dd@gateway/web/freenode/ip.94.173.121.221) has quit (Ping timeout: 246 seconds)
+2014-12-02 19:42:29	-->	SleekoNiko (~nick@2605:6000:ecc8:6d00:2ad2:44ff:fe3a:6519) has joined #gameai
+2014-12-02 20:08:48	<--	amitp (~amitp@c-24-23-138-160.hsd1.ca.comcast.net) has quit (Read error: Connection reset by peer)
+2014-12-02 20:09:03	-->	amitp (~amitp@c-24-23-138-160.hsd1.ca.comcast.net) has joined #gameai
+2014-12-02 20:09:38	<--	amitp (~amitp@c-24-23-138-160.hsd1.ca.comcast.net) has quit (Client Quit)
+2014-12-02 20:12:46	<--	testosTeron (588635b9@gateway/web/freenode/ip.88.134.53.185) has quit (Quit: Page closed)
+2014-12-02 20:21:06	-->	amitp (~amitp@c-24-23-138-160.hsd1.ca.comcast.net) has joined #gameai
+2014-12-02 20:28:20	<--	amitp (~amitp@c-24-23-138-160.hsd1.ca.comcast.net) has quit (Quit: Leaving.)
+2014-12-02 20:38:11	-->	amitp (~amitp@c-24-23-138-160.hsd1.ca.comcast.net) has joined #gameai
+2014-12-02 20:48:33	<--	smiley1983 (~smiley@115-64-6-216.static.tpgi.com.au) has quit (Ping timeout: 255 seconds)
+2014-12-02 20:51:46	<--	SleekoNiko (~nick@2605:6000:ecc8:6d00:2ad2:44ff:fe3a:6519) has quit (Read error: Connection reset by peer)
+2014-12-02 20:52:16	-->	SleekoNiko (~nick@2605:6000:ecc8:6d00:2ad2:44ff:fe3a:6519) has joined #gameai
+2014-12-02 21:50:33	-->	Tracer (cb2dceb5@gateway/web/freenode/ip.203.45.206.181) has joined #gameai
+2014-12-02 21:50:50	Tracer	help
+2014-12-02 21:55:04	amitp	hello
+2014-12-02 21:55:08	<--	Tracer (cb2dceb5@gateway/web/freenode/ip.203.45.206.181) has quit (Ping timeout: 246 seconds)
+2014-12-02 21:59:17	-->	HateDread (cbad2562@gateway/web/freenode/ip.203.173.37.98) has joined #gameai
+2014-12-02 22:08:42	<--	eshock (~eshock@ip72-192-222-9.dc.dc.cox.net) has quit (Ping timeout: 240 seconds)
+2014-12-02 22:29:00	<--	HUGGIESroxFace (62d39788@gateway/web/freenode/ip.98.211.151.136) has quit (Ping timeout: 246 seconds)
+2014-12-02 22:52:27	<--	Mental_Disorder (~MD@chello062178128036.5.13.vie.surfer.at) has quit (Ping timeout: 255 seconds)
+2014-12-02 23:09:58	-->	DR0ID_ (~DR0ID_@10-26.104-92.cust.bluewin.ch) has joined #gameai
+2014-12-02 23:22:58	-->	The (18372e45@gateway/web/freenode/ip.24.55.46.69) has joined #gameai
+2014-12-02 23:23:13	<--	The (18372e45@gateway/web/freenode/ip.24.55.46.69) has quit (Client Quit)
+2014-12-02 23:23:37	-->	The_Regurgitator (18372e45@gateway/web/freenode/ip.24.55.46.69) has joined #gameai
+2014-12-02 23:23:55	<--	DR0ID_ (~DR0ID_@10-26.104-92.cust.bluewin.ch) has quit (Quit: gone.)
+2014-12-02 23:25:10	The_Regurgitator	AiGameDev "This broadcast was rescheduled from Sunday due to sickness. It was better this way, sorry for the inconvenience!" about 18 hours ago
+2014-12-02 23:26:22	The_Regurgitator	Wait nvm that isn't relavent, seems like the stream went today.
+2014-12-02 23:26:33	amitp	Yep they streamed today and there was a lot of discussion on irc
+2014-12-02 23:41:43	<--	The_Regurgitator (18372e45@gateway/web/freenode/ip.24.55.46.69) has quit (Quit: Page closed)
+2014-12-02 23:46:39	<--	SleekoNiko (~nick@2605:6000:ecc8:6d00:2ad2:44ff:fe3a:6519) has quit (Remote host closed the connection)
+2014-12-02 23:52:00	-->	CS01__________ (~CS01@p5B34448D.dip0.t-ipconnect.de) has joined #gameai
+2014-12-02 23:55:12	<--	CS01_________ (~CS01@p5B345196.dip0.t-ipconnect.de) has quit (Ping timeout: 250 seconds)
+2014-12-03 00:06:58	-->	Jellysnake (~jellysnak@bru1516703.lnk.telstra.net) has joined #gameai
+2014-12-03 00:13:45	-->	SleekoNiko (~nick@2605:6000:ecc8:6d00:2ad2:44ff:fe3a:6519) has joined #gameai
+2014-12-03 00:21:15	<--	HateDread (cbad2562@gateway/web/freenode/ip.203.173.37.98) has quit (Quit: Page closed)
+2014-12-03 00:22:38	<--	Cervator (~Thunderbi@c-98-192-133-39.hsd1.fl.comcast.net) has quit (Quit: Cervator)
+2014-12-03 00:28:02	-->	smiley1983 (~smiley@115-64-6-216.static.tpgi.com.au) has joined #gameai
+2014-12-03 00:50:00	<--	smiley1983 (~smiley@115-64-6-216.static.tpgi.com.au) has quit (Ping timeout: 264 seconds)
+2014-12-03 00:54:55	<--	SleekoNiko (~nick@2605:6000:ecc8:6d00:2ad2:44ff:fe3a:6519) has quit (Remote host closed the connection)
+2014-12-03 00:58:19	-->	SleekoNiko (~nick@2605:6000:ecc8:6d00:2ad2:44ff:fe3a:6519) has joined #gameai
+2014-12-03 01:01:32	<--	amitp (~amitp@c-24-23-138-160.hsd1.ca.comcast.net) has quit (Quit: Leaving.)
+2014-12-03 01:03:03	<--	SleekoNiko (~nick@2605:6000:ecc8:6d00:2ad2:44ff:fe3a:6519) has quit (Remote host closed the connection)
+2014-12-03 02:20:23	-->	smiley1983 (~smiley@115-64-6-216.static.tpgi.com.au) has joined #gameai
+2014-12-03 02:31:01	-->	vimus (~vimus@ext18.gsp.se) has joined #gameai
+2014-12-03 02:52:44	-->	AJC (~Adium@83-64-41-3.fuenfhaus.xdsl-line.inode.at) has joined #gameai
+2014-12-03 03:03:57	AJC	morning
+2014-12-03 03:20:14	<--	Jellysnake (~jellysnak@bru1516703.lnk.telstra.net) has quit (Ping timeout: 264 seconds)
+2014-12-03 03:21:32	-->	Jellysnake (~jellysnak@bru1516703.lnk.telstra.net) has joined #gameai
+2014-12-03 03:35:40	Apocx	morning. I have to wake up and go to work in 4 hours so I guess I better get some sleep. night :)
+2014-12-03 04:13:21	-->	GwiGwi (~g.taze@LMontsouris-656-1-1-170.w80-12.abo.wanadoo.fr) has joined #gameai
+2014-12-03 04:19:52	-->	DR0ID_ (~DR0ID_@130-107.77-83.cust.bluewin.ch) has joined #gameai
+2014-12-03 04:25:02	AJC	:-)
+2014-12-03 05:14:18	-->	MrBig (~MrBig@118.156.114.89.rev.vodafone.pt) has joined #gameai
+2014-12-03 05:59:52	-->	Mental_Disorder (~MD@chello062178128036.5.13.vie.surfer.at) has joined #gameai
+2014-12-03 06:00:15	<--	MrBig (~MrBig@118.156.114.89.rev.vodafone.pt) has quit (Remote host closed the connection)
+2014-12-03 06:03:12	<--	Jellysnake (~jellysnak@bru1516703.lnk.telstra.net) has quit (Ping timeout: 252 seconds)
+2014-12-03 06:35:36	<--	AJC (~Adium@83-64-41-3.fuenfhaus.xdsl-line.inode.at) has quit (Quit: Leaving.)
+2014-12-03 07:28:32	-->	AJC (~Adium@83-64-41-3.fuenfhaus.xdsl-line.inode.at) has joined #gameai
+2014-12-03 07:43:38	-->	amitp (~amitp@c-24-23-138-160.hsd1.ca.comcast.net) has joined #gameai
+2014-12-03 08:00:08	-->	eshock (~eshock@ip72-192-222-9.dc.dc.cox.net) has joined #gameai
+2014-12-03 08:43:57	<--	smiley1983 (~smiley@115-64-6-216.static.tpgi.com.au) has quit (Ping timeout: 244 seconds)
+2014-12-03 08:55:17	-->	denete (~denete@24.131.62.143) has joined #gameai
+2014-12-03 08:58:51	-->	Cervator (~Thunderbi@c-98-192-133-39.hsd1.fl.comcast.net) has joined #gameai
+2014-12-03 09:03:11	<--	AJC (~Adium@83-64-41-3.fuenfhaus.xdsl-line.inode.at) has left #gameai
+2014-12-03 09:15:12	<--	Cervator (~Thunderbi@c-98-192-133-39.hsd1.fl.comcast.net) has quit (Quit: Cervator)
+2014-12-03 10:24:11	<--	vimus (~vimus@ext18.gsp.se) has quit
+2014-12-03 11:46:52	-->	AJC (~Adium@chello213047061201.2.14.vie.surfer.at) has joined #gameai
+2014-12-03 12:08:33	<--	AJC (~Adium@chello213047061201.2.14.vie.surfer.at) has quit (Quit: Leaving.)
+2014-12-03 12:11:59	-->	g9icy (~g9icy@2.127.12.198) has joined #gameai
+2014-12-03 12:37:44	-->	AJC (~Adium@chello213047061201.2.14.vie.surfer.at) has joined #gameai
+2014-12-03 12:59:04	<--	DR0ID_ (~DR0ID_@130-107.77-83.cust.bluewin.ch) has quit (Quit: gone.)
+2014-12-03 13:05:47	-->	Nako (~Nako@75.151.167.113) has joined #gameai
+2014-12-03 13:10:44	<--	cyphase (~cyphase@unaffiliated/cyphase) has quit (Ping timeout: 264 seconds)
+2014-12-03 13:16:29	-->	Guest47002 (~cyphase@c-50-161-89-63.hsd1.ca.comcast.net) has joined #gameai
+2014-12-03 13:33:00	<--	Miki (41cf4f04@gateway/web/freenode/ip.65.207.79.4) has quit (Ping timeout: 246 seconds)
+2014-12-03 13:35:30	<--	g9icy (~g9icy@2.127.12.198) has quit (Quit: g9icy)
+2014-12-03 13:36:26	-->	DR0ID_ (~DR0ID_@130-107.77-83.cust.bluewin.ch) has joined #gameai
+2014-12-03 13:37:26	<--	DR0ID_ (~DR0ID_@130-107.77-83.cust.bluewin.ch) has quit (Client Quit)
+2014-12-03 13:38:01	-->	DR0ID_ (~DR0ID_@130-107.77-83.cust.bluewin.ch) has joined #gameai
+2014-12-03 13:40:59	<--	amitp (~amitp@c-24-23-138-160.hsd1.ca.comcast.net) has quit (Quit: Leaving.)
+2014-12-03 13:41:18	-->	amitp (~amitp@c-24-23-138-160.hsd1.ca.comcast.net) has joined #gameai
+2014-12-03 13:45:44	<--	amitp (~amitp@c-24-23-138-160.hsd1.ca.comcast.net) has quit (Ping timeout: 264 seconds)
+2014-12-03 13:48:01	-->	amitp (~amitp@c-24-23-138-160.hsd1.ca.comcast.net) has joined #gameai
+2014-12-03 14:06:21	<--	Nako (~Nako@75.151.167.113) has quit (Read error: Connection reset by peer)
+2014-12-03 14:06:33	<--	amitp (~amitp@c-24-23-138-160.hsd1.ca.comcast.net) has quit (Quit: Leaving.)
+2014-12-03 14:32:51	<--	DR0ID_ (~DR0ID_@130-107.77-83.cust.bluewin.ch) has quit (Quit: battery low! Going to recharge ... .. .)
+2014-12-03 14:37:58	-->	DR0ID_ (~DR0ID_@130-107.77-83.cust.bluewin.ch) has joined #gameai
+2014-12-03 14:42:16	-->	darrin (~darrin@12.216.224.110) has joined #gameai
+2014-12-03 14:58:52	<--	DR0ID_ (~DR0ID_@130-107.77-83.cust.bluewin.ch) has quit (Quit: gone.)
+2014-12-03 15:27:46	-->	g9icy (~g9icy@2.127.12.198) has joined #gameai
+2014-12-03 15:40:12	<--	mceier (~mceier@89-69-201-93.dynamic.chello.pl) has quit (Ping timeout: 272 seconds)
+2014-12-03 15:41:49	-->	mceier (~mceier@89-69-201-93.dynamic.chello.pl) has joined #gameai
+2014-12-03 15:50:50	<--	darrin (~darrin@12.216.224.110) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz?)
+2014-12-03 15:55:08	-->	amitp (~amitp@c-24-23-138-160.hsd1.ca.comcast.net) has joined #gameai
+2014-12-03 16:24:42	-->	MrBig (~MrBig@118.156.114.89.rev.vodafone.pt) has joined #gameai
+2014-12-03 16:31:27	<--	denete (~denete@24.131.62.143) has quit (Remote host closed the connection)
+2014-12-03 16:37:51	<--	MrBig (~MrBig@118.156.114.89.rev.vodafone.pt) has quit (Remote host closed the connection)
+2014-12-03 16:41:00	-->	Urvieh (~MD@chello062178128036.5.13.vie.surfer.at) has joined #gameai
+2014-12-03 16:44:39	<--	Mental_Disorder (~MD@chello062178128036.5.13.vie.surfer.at) has quit (Ping timeout: 258 seconds)
+2014-12-03 16:59:12	<--	GwiGwi (~g.taze@LMontsouris-656-1-1-170.w80-12.abo.wanadoo.fr) has quit (Read error: Connection reset by peer)
+2014-12-03 17:37:18	<--	g9icy (~g9icy@2.127.12.198) has quit (Quit: g9icy)
+2014-12-03 18:00:29	<--	Urvieh (~MD@chello062178128036.5.13.vie.surfer.at) has quit (Read error: Connection reset by peer)
+2014-12-03 18:01:00	-->	martyj-o (~martyj-o@gateway/tor-sasl/martyj-o) has joined #gameai
+2014-12-03 18:14:38	-->	darrin (~darrin@12.216.224.110) has joined #gameai
+2014-12-03 18:14:47	-->	leinir_ (~leinir@2a00:14f0:e000:80bf:b907:530a:d0e8:9725) has joined #gameai
+2014-12-03 18:14:49	<--	leinir (~leinir@amarok/usability/leinir) has quit
+2014-12-03 18:14:54	<--	leinir_ (~leinir@2a00:14f0:e000:80bf:b907:530a:d0e8:9725) has quit (Changing host)
+2014-12-03 18:14:54	-->	leinir_ (~leinir@amarok/usability/leinir) has joined #gameai
+2014-12-03 18:31:43	<--	darrin (~darrin@12.216.224.110) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz?)
+2014-12-03 18:32:12	-->	Mental_Disorder (~MD@chello062178128036.5.13.vie.surfer.at) has joined #gameai
+2014-12-03 18:34:59	-->	Cervator (~Thunderbi@c-98-192-133-39.hsd1.fl.comcast.net) has joined #gameai
+2014-12-03 18:35:50	-->	smiley1983 (~smiley@115-64-6-216.static.tpgi.com.au) has joined #gameai
+2014-12-03 18:39:58	-->	HateDread (cbad2562@gateway/web/freenode/ip.203.173.37.98) has joined #gameai
+2014-12-03 18:44:19	AJC	amitp: what happened in September? :-)
+2014-12-03 18:45:27	amitp	I met Bret Victor, Ken Perlin, Vi Hart, and a few other smart people. I learned a lot about teaching and explanations. I started seeing things that I was missing .. things I wasn't even thinking about when writing my tutorials.
+2014-12-03 18:47:15	amitp	So now everything I write, I'm flooded with my brain telling me all the things I need to check, the things I'm missing, etc.
+2014-12-03 18:48:01	amitp	I've been trying to "level up" my explanation skills, and I got to meet people who've beat hard mode. So now I'm trying and failing :-) but it just means I need to try harder!
+2014-12-03 18:48:45	amitp	I decided I'll try some simpler topics. Right now, linear interpolation. Super simple topic. I'll practice my writing and interactive diagrams with this, and work my way back up.
+2014-12-03 18:49:42	AJC	Bret held a workshop, was it that?
+2014-12-03 18:49:47	amitp	Yeah
+2014-12-03 18:50:09	AJC	I don't know Vi.
+2014-12-03 18:51:30	amitp	One thing Vi told me was that in my tutorials, I have the reader set up the inputs (such as the graph, or the start/end points for pathfinding), but then I run the algorithm. What if the reader ran the algorithm? Wouldn't you learn the algorithm better by stepping through it yourself instead of the tutorial just giving you the answer? That made me go HMMMMMM
+2014-12-03 18:52:31	AJC	wha struck me earlier this week, is how much time it takes to make a great tutorial
+2014-12-03 18:52:45	AJC	and from a purely busines perspective it's impossible to justify over the quality of a text or video
+2014-12-03 18:52:46	amitp	It takes me 2-4 months typically for one page
+2014-12-03 18:52:53	AJC	hehe
+2014-12-03 18:53:03	amitp	Yeah, I can't justify this at all from a business perspective, and don't even try.
+2014-12-03 18:53:10	AJC	our MCTS tutorial was similar but with a few people at the same time rather than spread out
+2014-12-03 18:53:14	AJC	i do try :-)
+2014-12-03 18:53:50	amitp	Yep :-)
+2014-12-03 18:54:03	martyj-o	AJC: You banned me the other day for no reason. However, by so rudely doing so, you made me want to GIVE a reason. So... you are a retarded faggot nigger slut who eats donkey farts for breakfast.
+2014-12-03 18:54:05	amitp	On the other hand, as a reader, I much prefer text over video, so that's what I end up producing
+2014-12-03 18:54:09	<--	martyj-o (~martyj-o@gateway/tor-sasl/martyj-o) has left #gameai
+2014-12-03 18:54:39	AJC	amitp: i've decided to do more creation and have the educational experienced as a side effect
+2014-12-03 18:55:31	amitp	The ai sandbox tutorial looked like a huge amount of work
+2014-12-03 18:55:40	amitp	What kind of creation?
+2014-12-03 18:55:54	--	Mode #gameai [+o AJC] by ChanServ
+2014-12-03 18:56:05	--	Mode #gameai [+b martyj-o!*@*] by AJC
+2014-12-03 18:56:22	@AJC	amitp: demos, cool things.
+2014-12-03 18:56:44	@AJC	i'm more interested in pushing boundaries these days, i've done a lot of "documentation" work ? maybe too much
+2014-12-03 18:56:49	amitp	AI Sandbox seemed like such a great setup. You have a tutorial showing the concepts, and how that connects to code. And then you let the reader try it out and build their own thing, starting from something simple that works. I really liked that structure
+2014-12-03 18:57:07	amitp	Cool
+2014-12-03 18:57:11	@AJC	it's also one that's hard to justify business wise, but it's going somewhere.
+2014-12-03 18:57:19	@AJC	we're working on opening up the code more
+2014-12-03 18:59:07	--	Mode #gameai [-o AJC] by AJC
+2014-12-03 18:59:54	amitp	I'm impressed that you've gotten aigamedev to work, because I've been fairly pessimistic about business opportuntities around tutorials/teaching. But I guess a few others made it work too. Gamedevtuts seems successful. Gamedev.net is one of the earliest sites and is still around. Ray Wenderlich has lots of stuff.
+2014-12-03 19:00:05	amitp	I'm pessimistic about most things though ;)
+2014-12-03 19:00:23	AJC	gamedev.net has traffic, that makes it easier to monetize
+2014-12-03 19:00:27	AJC	from forums, etc.
+2014-12-03 19:00:57	AJC	gamedevtuts from Envato?
+2014-12-03 19:01:14	AJC	if so, those guys are insane
+2014-12-03 19:02:43	amitp	I assume you're insane too ;)
+2014-12-03 19:03:07	amitp	They were willing to pay me $150 per article but since it takes me at least a month to write one, it wasn't something that'd work for me
+2014-12-03 19:03:30	AJC	that's slavery
+2014-12-03 19:03:49	AJC	I wrote technical articles for Intel at 1,000 EUR each, and wouldn't consider less for unique content
+2014-12-03 19:03:58	AJC	for blog post spam maybe
+2014-12-03 19:04:01	amitp	Yeah
+2014-12-03 19:04:14	AJC	you could push them up easily, that's just their default offer.
+2014-12-03 19:11:12	amitp	I look at how much I'd make if I just got a job and think writing will never make that much ;)
+2014-12-03 19:12:29	amitp	Distributing the articles for free gets a lot of people to read them, and that leads to lots of job offers.
+2014-12-03 19:17:10	AJC	true
+2014-12-03 19:17:22	AJC	you were at Google right?
+2014-12-03 19:30:58	<--	AJC (~Adium@chello213047061201.2.14.vie.surfer.at) has quit (Quit: Leaving.)
+2014-12-03 20:10:32	<--	smiley1983 (~smiley@115-64-6-216.static.tpgi.com.au) has quit (Ping timeout: 255 seconds)
+2014-12-03 20:24:42	<--	CS01__________ (~CS01@p5B34448D.dip0.t-ipconnect.de) has quit (Ping timeout: 256 seconds)
+2014-12-03 20:47:27	<--	Mental_Disorder (~MD@chello062178128036.5.13.vie.surfer.at) has quit (Ping timeout: 264 seconds)
+2014-12-03 21:00:00	<--	leinir_ (~leinir@amarok/usability/leinir) has quit (Remote host closed the connection)
+2014-12-03 21:00:19	-->	leinir_ (~leinir@amarok/usability/leinir) has joined #gameai
+2014-12-03 21:07:27	Apocx	Amit, how are your matrix skills? ;)
+2014-12-03 21:07:42	Apocx	I recall you being pretty proficient at it
+2014-12-03 21:13:45	-->	SleekoNiko (~nick@cpe-70-117-105-180.austin.res.rr.com) has joined #gameai
+2014-12-03 21:21:00	<--	SleekoNiko (~nick@cpe-70-117-105-180.austin.res.rr.com) has quit (Read error: Connection reset by peer)
+2014-12-03 21:21:01	-->	SleekoNikoClone (~nick@cpe-70-117-105-180.austin.res.rr.com) has joined #gameai
+2014-12-03 21:41:04	amitp	I have some matrix skills but I'm mostly a 2d kinda guy
+2014-12-03 21:42:13	Apocx	No worries
+2014-12-03 21:42:28	Apocx	I'm trying to wrap my head around using a matrix to shear some vertices in a mesh and it's kicking my ass :P
+2014-12-03 21:42:39	Apocx	My matrix skills have always been pretty weak
+2014-12-03 21:44:14	amitp	I started writing something up in the "Oblique projection" of http://www.redblobgames.com/articles/coordinate-transforms/ but I haven't finished that page
+2014-12-03 21:44:27	amitp	but that's all 2d only
+2014-12-03 21:46:57	Apocx	Cool I'll take a look thanks
+2014-12-03 21:49:43	-->	CS01___ (~CS01@p5B06CBFB.dip0.t-ipconnect.de) has joined #gameai
+2014-12-03 21:49:45	Apocx	I've actually already gotten it working by just rotating the vertices with a matrix, but it doesn't preserve the width of the line segment that way.
+2014-12-03 21:49:52	Apocx	http://i.imgur.com/LIGczxi.png
+2014-12-03 21:50:13	Apocx	So maybe I should just stick with that a figure out how much I need to scale it by to get the width correct
+2014-12-03 22:14:04	Apocx	Holy crap that worked :D
+2014-12-03 22:14:15	Apocx	It's so damn convoluted but hey, it works
+2014-12-03 22:15:24	Apocx	I transformed a vector with a length equal to the line width by the rotation matrix I setup, and then Dotted that against the line's width vector. then 1f/dot = scale. and I added the scale to the matrix and transformed the points. now it preserves width. :P
+2014-12-03 22:47:17	Apocx	http://imgur.com/mfoncNt
+2014-12-03 22:47:19	Apocx	Progress :)
+2014-12-03 23:41:55	<--	Cervator (~Thunderbi@c-98-192-133-39.hsd1.fl.comcast.net) has quit (Quit: Cervator)
+2014-12-03 23:45:34	<--	HateDread (cbad2562@gateway/web/freenode/ip.203.173.37.98) has quit (Quit: Page closed)
+2014-12-03 23:50:13	-->	CS01____ (~CS01@p5B06C193.dip0.t-ipconnect.de) has joined #gameai
+2014-12-03 23:51:48	<--	amitp (~amitp@c-24-23-138-160.hsd1.ca.comcast.net) has quit (Quit: Leaving.)
+2014-12-03 23:52:03	<--	eshock (~eshock@ip72-192-222-9.dc.dc.cox.net) has quit (Ping timeout: 252 seconds)
+2014-12-03 23:53:17	<--	CS01___ (~CS01@p5B06CBFB.dip0.t-ipconnect.de) has quit (Ping timeout: 264 seconds)
+2014-12-04 00:02:58	-->	DR0ID_ (~DR0ID_@81-106.77-83.cust.bluewin.ch) has joined #gameai
+2014-12-04 00:18:37	<--	DR0ID_ (~DR0ID_@81-106.77-83.cust.bluewin.ch) has quit (Quit: gone.)
+2014-12-04 00:24:37	<--	Guest47002 (~cyphase@c-50-161-89-63.hsd1.ca.comcast.net) has quit (Quit: cyphase.com)
+2014-12-04 00:24:56	-->	cyphase (~cyphase@c-50-161-89-63.hsd1.ca.comcast.net) has joined #gameai
+2014-12-04 00:24:56	<--	cyphase (~cyphase@c-50-161-89-63.hsd1.ca.comcast.net) has quit (Changing host)
+2014-12-04 00:24:56	-->	cyphase (~cyphase@unaffiliated/cyphase) has joined #gameai
+2014-12-04 00:38:04	<--	SleekoNikoClone (~nick@cpe-70-117-105-180.austin.res.rr.com) has quit (Remote host closed the connection)
+2014-12-04 00:52:39	-->	SleekoNiko (~nick@2605:6000:ecc8:6d00:2ad2:44ff:fe3a:6519) has joined #gameai
+2014-12-04 02:21:28	--	Apocx is now known as Apocx|Sleeping
+2014-12-04 02:27:14	-->	AJC (~Adium@83-64-41-3.fuenfhaus.xdsl-line.inode.at) has joined #gameai
+2014-12-04 02:27:30	-->	vimus (~vimus@ext18.gsp.se) has joined #gameai
+2014-12-04 02:43:28	-->	smiley1983 (~smiley@115-64-6-216.static.tpgi.com.au) has joined #gameai
+2014-12-04 02:46:48	--	leinir_ is now known as leinir
+2014-12-04 03:24:14	-->	Jellysnake (~jellysnak@bru1516703.lnk.telstra.net) has joined #gameai
+2014-12-04 04:27:29	-->	GwiGwi (~g.taze@LMontsouris-656-1-1-170.w80-12.abo.wanadoo.fr) has joined #gameai
+2014-12-04 05:11:52	<--	AJC (~Adium@83-64-41-3.fuenfhaus.xdsl-line.inode.at) has quit (Quit: Leaving.)
+2014-12-04 05:53:20	<--	smiley1983 (~smiley@115-64-6-216.static.tpgi.com.au) has quit (Ping timeout: 264 seconds)
+2014-12-04 06:07:43	<--	Jellysnake (~jellysnak@bru1516703.lnk.telstra.net) has quit (Ping timeout: 252 seconds)
+2014-12-04 07:01:53	-->	MrBig (~MrBig@118.156.114.89.rev.vodafone.pt) has joined #gameai
+2014-12-04 07:09:43	-->	Mental_Disorder (~MD@chello062178128036.5.13.vie.surfer.at) has joined #gameai
+2014-12-04 07:57:57	-->	AJC (~Adium@83-64-41-3.fuenfhaus.xdsl-line.inode.at) has joined #gameai
+2014-12-04 07:58:21	AJC	afternoon
+2014-12-04 08:08:05	-->	denete (~denete@24.131.62.143) has joined #gameai
+2014-12-04 08:25:18	Apocx|Sleeping	morning :)
+2014-12-04 08:26:23	--	Apocx|Sleeping is now known as Apocx
+2014-12-04 08:27:47	-->	eshock (~eshock@ip72-192-222-9.dc.dc.cox.net) has joined #gameai
+2014-12-04 08:33:27	-->	Cervator (~Thunderbi@c-98-192-133-39.hsd1.fl.comcast.net) has joined #gameai
+2014-12-04 08:41:24	-->	smiley1983 (~smiley@115-64-6-216.static.tpgi.com.au) has joined #gameai
+2014-12-04 09:08:47	<--	Cervator (~Thunderbi@c-98-192-133-39.hsd1.fl.comcast.net) has quit (Quit: Cervator)
+2014-12-04 09:36:15	<--	SleekoNiko (~nick@2605:6000:ecc8:6d00:2ad2:44ff:fe3a:6519) has quit (Remote host closed the connection)
+2014-12-04 10:20:16	<--	denete (~denete@24.131.62.143) has quit (Remote host closed the connection)
+2014-12-04 10:25:03	-->	DR0ID_ (~DR0ID_@85-86.104-92.cust.bluewin.ch) has joined #gameai
+2014-12-04 10:32:12	-->	serp__ (~serp@109-124-181-3.customer.t3.se) has joined #gameai
+2014-12-04 10:34:51	<--	serp_ (~serp@109-124-181-3.customer.t3.se) has quit (Ping timeout: 265 seconds)
+2014-12-04 10:52:53	<--	AJC (~Adium@83-64-41-3.fuenfhaus.xdsl-line.inode.at) has quit (Quit: Leaving.)
+2014-12-04 10:58:34	<--	vimus (~vimus@ext18.gsp.se) has quit
+2014-12-04 11:03:42	-->	[1]eshock (~eshock@ip72-192-222-9.dc.dc.cox.net) has joined #gameai
+2014-12-04 11:06:50	<--	eshock (~eshock@ip72-192-222-9.dc.dc.cox.net) has quit (Ping timeout: 244 seconds)
+2014-12-04 11:06:51	--	[1]eshock is now known as eshock
+2014-12-04 11:30:15	-->	darrin (~darrin@107.16.189.183) has joined #gameai
+2014-12-04 11:34:12	<--	smiley1983 (~smiley@115-64-6-216.static.tpgi.com.au) has quit (Ping timeout: 264 seconds)
+2014-12-04 12:16:32	<--	darrin (~darrin@107.16.189.183) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz?)
+2014-12-04 12:22:49	-->	darrin (~darrin@ip-64-134-140-30.public.wayport.net) has joined #gameai
+2014-12-04 12:23:56	-->	Codexus (~Codexus@178-83-216-138.dynamic.hispeed.ch) has joined #gameai
+2014-12-04 12:44:13	<--	DR0ID_ (~DR0ID_@85-86.104-92.cust.bluewin.ch) has quit (Quit: gone.)
+2014-12-04 12:55:04	<--	darrin (~darrin@ip-64-134-140-30.public.wayport.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz?)
+2014-12-04 13:05:06	-->	g9icy (~g9icy@2.127.12.198) has joined #gameai
+2014-12-04 13:12:27	-->	denete (~denete@24.131.62.143) has joined #gameai
+2014-12-04 13:16:47	<--	denete (~denete@24.131.62.143) has quit (Remote host closed the connection)
+2014-12-04 13:30:37	-->	DR0ID_ (~DR0ID_@85-86.104-92.cust.bluewin.ch) has joined #gameai
+2014-12-04 13:41:15	-->	AJC (~Adium@chello213047061201.2.14.vie.surfer.at) has joined #gameai
+2014-12-04 14:03:28	<--	AJC (~Adium@chello213047061201.2.14.vie.surfer.at) has quit (Read error: Connection reset by peer)
+2014-12-04 14:03:49	-->	AJC (~Adium@chello213047061201.2.14.vie.surfer.at) has joined #gameai
+2014-12-04 14:13:42	<--	AJC (~Adium@chello213047061201.2.14.vie.surfer.at) has quit (Quit: Leaving.)
+2014-12-04 14:14:36	-->	AJC (~Adium@chello213047061201.2.14.vie.surfer.at) has joined #gameai
+2014-12-04 14:39:37	<--	GwiGwi (~g.taze@LMontsouris-656-1-1-170.w80-12.abo.wanadoo.fr) has quit (Read error: Connection reset by peer)
+2014-12-04 14:42:10	-->	darrin (~darrin@12.216.224.110) has joined #gameai
+2014-12-04 14:59:45	AJC	evening
+2014-12-04 15:05:47	<--	cyphase (~cyphase@unaffiliated/cyphase) has quit (Ping timeout: 258 seconds)
+2014-12-04 15:07:54	<--	darrin (~darrin@12.216.224.110) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz?)
+2014-12-04 15:08:05	-->	cyphase (~cyphase@unaffiliated/cyphase) has joined #gameai
+2014-12-04 15:23:48	<--	DR0ID_ (~DR0ID_@85-86.104-92.cust.bluewin.ch) has quit (Quit: battery low! Going to recharge ... .. .)
+2014-12-04 15:28:40	-->	DR0ID_ (~DR0ID_@85-86.104-92.cust.bluewin.ch) has joined #gameai
+2014-12-04 15:33:34	<--	DR0ID_ (~DR0ID_@85-86.104-92.cust.bluewin.ch) has quit (Quit: gone.)
+2014-12-04 15:36:57	<--	mceier (~mceier@89-69-201-93.dynamic.chello.pl) has quit (Ping timeout: 264 seconds)
+2014-12-04 15:38:37	-->	mceier (~mceier@89-69-201-93.dynamic.chello.pl) has joined #gameai
+2014-12-04 15:39:14	-->	denete (~denete@24.131.62.143) has joined #gameai
+2014-12-04 15:41:01	<--	denete (~denete@24.131.62.143) has quit (Remote host closed the connection)
+2014-12-04 17:20:37	<--	Codexus (~Codexus@178-83-216-138.dynamic.hispeed.ch) has quit (Quit: Everything has Fresnel!)
+2014-12-04 17:31:11	<--	g9icy (~g9icy@2.127.12.198) has quit (Quit: g9icy)
+2014-12-04 17:59:38	-->	amitp (~amitp@c-24-23-138-160.hsd1.ca.comcast.net) has joined #gameai
+2014-12-04 18:06:46	Apocx	Not really AI related, but you guys know any good articles for managing complicated IK interactions, like two people fighting/grappling with one another?
+2014-12-04 18:09:51	-->	Cervator (~Thunderbi@c-98-192-133-39.hsd1.fl.comcast.net) has joined #gameai
+2014-12-04 18:35:39	<--	AJC (~Adium@chello213047061201.2.14.vie.surfer.at) has quit (Quit: Leaving.)
+2014-12-04 18:57:07	--	Cervator is now known as Cerv_afk
+2014-12-04 19:53:05	<--	MrBig (~MrBig@118.156.114.89.rev.vodafone.pt) has quit (Remote host closed the connection)
+2014-12-04 20:01:30	-->	smiley1983 (~smiley@115-64-6-216.static.tpgi.com.au) has joined #gameai
+2014-12-04 20:44:40	-->	SleekoNiko (~nick@2605:6000:ecc8:6d00:2ad2:44ff:fe3a:6519) has joined #gameai
+2014-12-04 22:09:30	<--	eshock (~eshock@ip72-192-222-9.dc.dc.cox.net) has quit (Ping timeout: 258 seconds)
+2014-12-04 22:33:00	<--	Cerv_afk (~Thunderbi@c-98-192-133-39.hsd1.fl.comcast.net) has quit (Quit: Cerv_afk)
+2014-12-04 23:33:25	-->	DR0ID_ (~DR0ID_@77-78.193-178.cust.bluewin.ch) has joined #gameai
+2014-12-04 23:43:26	<--	Mental_Disorder (~MD@chello062178128036.5.13.vie.surfer.at) has quit (Ping timeout: 245 seconds)
+2014-12-04 23:45:04	-->	CS01___ (~CS01@p5B3448FE.dip0.t-ipconnect.de) has joined #gameai
+2014-12-04 23:48:14	<--	CS01____ (~CS01@p5B06C193.dip0.t-ipconnect.de) has quit (Ping timeout: 240 seconds)
+2014-12-04 23:51:39	<--	DR0ID_ (~DR0ID_@77-78.193-178.cust.bluewin.ch) has quit (Quit: gone.)
+2014-12-05 00:11:17	<--	smiley1983 (~smiley@115-64-6-216.static.tpgi.com.au) has quit (Ping timeout: 245 seconds)
+2014-12-05 00:18:01	<--	amitp (~amitp@c-24-23-138-160.hsd1.ca.comcast.net) has quit (Quit: Leaving.)
+2014-12-05 01:06:09	<--	SleekoNiko (~nick@2605:6000:ecc8:6d00:2ad2:44ff:fe3a:6519) has quit (Remote host closed the connection)
+2014-12-05 02:03:19	-->	vimus (~vimus@ext18.gsp.se) has joined #gameai
+2014-12-05 02:05:49	<--	vimus (~vimus@ext18.gsp.se) has quit (Client Quit)
+2014-12-05 02:27:46	-->	AJC (~Adium@83-64-41-3.fuenfhaus.xdsl-line.inode.at) has joined #gameai
+2014-12-05 02:34:12	-->	Codexus (~Codexus@178-83-216-138.dynamic.hispeed.ch) has joined #gameai
+2014-12-05 02:48:45	-->	smiley1983 (~smiley@115-64-6-216.static.tpgi.com.au) has joined #gameai
+2014-12-05 03:04:36	<--	AJC (~Adium@83-64-41-3.fuenfhaus.xdsl-line.inode.at) has quit (Quit: Leaving.)
+2014-12-05 03:50:39	-->	Jellysnake (~jellysnak@bru1516703.lnk.telstra.net) has joined #gameai
+2014-12-05 04:07:01	-->	AJC (~Adium@83-64-41-3.fuenfhaus.xdsl-line.inode.at) has joined #gameai
+2014-12-05 04:26:51	-->	GwiGwi (~g.taze@LMontsouris-656-1-1-170.w80-12.abo.wanadoo.fr) has joined #gameai
+2014-12-05 04:39:54	<--	Jellysnake (~jellysnak@bru1516703.lnk.telstra.net) has quit (Ping timeout: 265 seconds)
+2014-12-05 04:41:13	-->	Jellysnake (~jellysnak@bru1516703.lnk.telstra.net) has joined #gameai
+2014-12-05 04:44:41	-->	MrBig (~MrBig@118.156.114.89.rev.vodafone.pt) has joined #gameai
+2014-12-05 05:09:54	<--	mceier (~mceier@89-69-201-93.dynamic.chello.pl) has quit (Quit: leaving)
+2014-12-05 05:24:15	-->	mceier (~mceier@89-69-201-93.dynamic.chello.pl) has joined #gameai
+2014-12-05 05:29:28	-->	Mental_Disorder (~MD@chello062178128036.5.13.vie.surfer.at) has joined #gameai
+2014-12-05 06:14:03	<--	smiley1983 (~smiley@115-64-6-216.static.tpgi.com.au) has quit (Ping timeout: 255 seconds)
+2014-12-05 06:47:45	<--	AJC (~Adium@83-64-41-3.fuenfhaus.xdsl-line.inode.at) has quit (Quit: Leaving.)
+2014-12-05 06:47:47	<--	Codexus (~Codexus@178-83-216-138.dynamic.hispeed.ch) has quit (Ping timeout: 245 seconds)
+2014-12-05 07:05:49	-->	Codexus (~Codexus@178-83-216-138.dynamic.hispeed.ch) has joined #gameai
+2014-12-05 07:29:18	-->	AJC (~Adium@83-64-41-3.fuenfhaus.xdsl-line.inode.at) has joined #gameai
+2014-12-05 07:46:46	<--	AJC (~Adium@83-64-41-3.fuenfhaus.xdsl-line.inode.at) has quit (Quit: Leaving.)
+2014-12-05 07:50:40	-->	AJC (~Adium@83-64-41-3.fuenfhaus.xdsl-line.inode.at) has joined #gameai
+2014-12-05 08:04:29	<--	Codexus (~Codexus@178-83-216-138.dynamic.hispeed.ch) has quit (Quit: Everything has Fresnel!)
+2014-12-05 08:13:50	<--	Jellysnake (~jellysnak@bru1516703.lnk.telstra.net) has quit (Ping timeout: 264 seconds)
+2014-12-05 08:32:01	-->	denete (~denete@216.143.242.112) has joined #gameai
+2014-12-05 08:38:00	AJC	hi all
+2014-12-05 08:58:26	-->	Codexus (~Codexus@178-83-216-138.dynamic.hispeed.ch) has joined #gameai
+2014-12-05 10:40:50	-->	smiley1983 (~smiley@115-64-6-216.static.tpgi.com.au) has joined #gameai
+2014-12-05 10:47:13	-->	Cervator (~Thunderbi@c-98-192-133-39.hsd1.fl.comcast.net) has joined #gameai
+2014-12-05 10:53:08	<--	smiley1983 (~smiley@115-64-6-216.static.tpgi.com.au) has quit (Ping timeout: 250 seconds)
+2014-12-05 11:03:30	-->	amitp (~amitp@c-24-23-138-160.hsd1.ca.comcast.net) has joined #gameai
+2014-12-05 11:38:52	<--	AJC (~Adium@83-64-41-3.fuenfhaus.xdsl-line.inode.at) has quit (Quit: Leaving.)
+2014-12-05 12:13:28	-->	eshock (~eshock@ip72-192-222-9.dc.dc.cox.net) has joined #gameai
+2014-12-05 12:34:40	-->	AJC (~Adium@chello213047061201.2.14.vie.surfer.at) has joined #gameai
+2014-12-05 12:38:53	<--	GwiGwi (~g.taze@LMontsouris-656-1-1-170.w80-12.abo.wanadoo.fr) has quit (Read error: Connection reset by peer)
+2014-12-05 13:08:09	-->	darrin (~darrin@12.216.224.110) has joined #gameai
+2014-12-05 14:01:43	--	Cervator is now known as Cerv_afk
+2014-12-05 14:06:47	<--	darrin (~darrin@12.216.224.110) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz?)
+2014-12-05 15:21:51	-->	denete_ (~denete@216.143.242.112) has joined #gameai
+2014-12-05 15:25:25	<--	denete (~denete@216.143.242.112) has quit (Ping timeout: 264 seconds)
+2014-12-05 15:26:37	<--	denete_ (~denete@216.143.242.112) has quit (Ping timeout: 258 seconds)
+2014-12-05 15:36:35	-->	darrin (~darrin@12.216.224.110) has joined #gameai
+2014-12-05 15:49:56	<--	unreal (~unreal@unaffiliated/unreal) has quit (Ping timeout: 240 seconds)
+2014-12-05 15:50:33	<--	dmiles_afk (~dmiles@c-73-37-100-94.hsd1.wa.comcast.net) has quit (Ping timeout: 240 seconds)
+2014-12-05 15:50:35	-->	unreal (~unreal@unaffiliated/unreal) has joined #gameai
+2014-12-05 16:19:22	<--	AJC (~Adium@chello213047061201.2.14.vie.surfer.at) has quit (Quit: Leaving.)
+2014-12-05 16:19:58	-->	darrin_ (~darrin@12.216.224.110) has joined #gameai
+2014-12-05 16:20:15	<--	darrin (~darrin@12.216.224.110) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz?)
+2014-12-05 16:34:30	-->	Urvieh (~MD@chello062178128036.5.13.vie.surfer.at) has joined #gameai
+2014-12-05 16:38:08	<--	Mental_Disorder (~MD@chello062178128036.5.13.vie.surfer.at) has quit (Ping timeout: 258 seconds)
+2014-12-05 16:53:04	--	Cerv_afk is now known as Cervator
+2014-12-05 16:56:24	<--	Codexus (~Codexus@178-83-216-138.dynamic.hispeed.ch) has quit (Quit: Everything has Fresnel!)
+2014-12-05 17:44:38	<--	darrin_ (~darrin@12.216.224.110) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2014-12-05 17:45:12	-->	darrin (~darrin@12.216.224.110) has joined #gameai
+2014-12-05 17:53:50	<--	darrin (~darrin@12.216.224.110) has quit (Remote host closed the connection)
+2014-12-05 17:54:09	-->	darrin (~darrin@12.216.224.110) has joined #gameai
+2014-12-05 17:55:19	<--	darrin (~darrin@12.216.224.110) has quit (Client Quit)
+2014-12-05 17:57:00	--	Cervator is now known as Cerv_afk
+2014-12-05 17:58:32	-->	darrin (~darrin@12.216.224.110) has joined #gameai
+2014-12-05 18:03:51	<--	darrin (~darrin@12.216.224.110) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2014-12-05 19:09:31	--	Cerv_afk is now known as Cervator
+2014-12-05 19:10:36	<--	MrBig (~MrBig@118.156.114.89.rev.vodafone.pt) has quit (Remote host closed the connection)
+2014-12-05 19:20:33	<--	cyphase (~cyphase@unaffiliated/cyphase) has quit (Ping timeout: 272 seconds)
+2014-12-05 19:20:34	-->	smiley1983 (~smiley@115-64-6-216.static.tpgi.com.au) has joined #gameai
+2014-12-05 19:22:39	-->	Guest84558 (~cyphase@c-50-161-89-63.hsd1.ca.comcast.net) has joined #gameai
+2014-12-05 19:24:32	-->	SleekoNiko (~nick@2605:6000:ecc8:6d00:2ad2:44ff:fe3a:6519) has joined #gameai

@@ -1,0 +1,515 @@
+2014-11-24 14:50:28	-->	newguise1234 (~tc@unaffiliated/newguise1234) has joined #bulletphysics
+2014-11-24 14:50:28	--	Topic for #bulletphysics is "Bullet Physics 2.81 is released, see http://bulletphysics.org"
+2014-11-24 14:50:28	--	Topic set by erwin_bullet on Sun, 14 Oct 2012 17:16:02
+2014-11-24 14:50:28	--	Nicks #bulletphysics: [bobke_ dobson Gohla jezek2 kloplop321 Maketwo newguise1234 rosseaux Skwint Spark Sponji Tapani tzaeru xissburg]
+2014-11-24 14:50:28	--	Channel #bulletphysics: 14 nicks (0 ops, 0 halfops, 0 voices, 14 normals)
+2014-11-24 14:50:28	--	Notice(sinisalo.freenode.net): [freenode-info] if you're at a conference and other people are having trouble connecting, please mention it to staff: http://freenode.net/faq.shtml#gettinghelp
+2014-11-24 14:50:28	--	URL for #bulletphysics: http://bulletphysics.com
+2014-11-24 14:50:31	--	Mode #bulletphysics [+cnt]
+2014-11-24 14:50:31	--	Channel created on Tue, 27 Jan 2009 05:29:07
+2014-11-24 14:51:32	newguise1234	ya'll might get asked this a lot, but what does bullet3 have that bullet2 doesn't? is it difficult to upgrade to bullet3 from bullet2?
+2014-11-24 14:52:05	newguise1234	I'm asking because my laptop does not have opencl support.  My desktop does, but I'm having some problems getting the bullet3 demos to work.
+2014-11-24 14:52:37	newguise1234	I would like to use bullet3 with its opencl support in the future, but for the time being I was hoping to get something working that would run on my laptop
+2014-11-24 16:07:28	--	irc: disconnected from server
+2014-11-24 16:07:45	-->	tc1 (~tc@c-68-61-153-16.hsd1.mi.comcast.net) has joined #bulletphysics
+2014-11-24 16:07:45	--	Topic for #bulletphysics is "Bullet Physics 2.81 is released, see http://bulletphysics.org"
+2014-11-24 16:07:45	--	Topic set by erwin_bullet on Sun, 14 Oct 2012 17:16:02
+2014-11-24 16:07:45	--	Nicks #bulletphysics: [bobke_ dobson Gohla jezek2 kloplop321 Maketwo rosseaux Skwint Spark Sponji Tapani tc1 tzaeru xissburg]
+2014-11-24 16:07:45	--	Channel #bulletphysics: 14 nicks (0 ops, 0 halfops, 0 voices, 14 normals)
+2014-11-24 16:07:45	--	URL for #bulletphysics: http://bulletphysics.com
+2014-11-24 16:07:53	--	Mode #bulletphysics [+cnt]
+2014-11-24 16:07:53	--	Channel created on Tue, 27 Jan 2009 05:29:07
+2014-11-24 16:08:05	--	You are now known as newguise1234
+2014-11-24 16:08:47	newguise1234	I'm still here, my internet had gone out for a while, sorry about that.
+2014-11-24 17:37:40	<--	newguise1234 (~tc@unaffiliated/newguise1234) has quit (Ping timeout: 272 seconds)
+2014-11-24 17:37:40	--	irc: disconnected from server
+2014-11-24 17:38:06	-->	newguise1234 (~tc@c-68-61-153-16.hsd1.mi.comcast.net) has joined #bulletphysics
+2014-11-24 17:38:06	--	Topic for #bulletphysics is "Bullet Physics 2.81 is released, see http://bulletphysics.org"
+2014-11-24 17:38:06	--	Topic set by erwin_bullet on Sun, 14 Oct 2012 17:16:02
+2014-11-24 17:38:06	--	Nicks #bulletphysics: [bobke_ dobson Gohla jezek2 kloplop321 Maketwo newguise1234 rosseaux Skwint Spark Sponji Tapani tzaeru xissburg]
+2014-11-24 17:38:06	--	Channel #bulletphysics: 14 nicks (0 ops, 0 halfops, 0 voices, 14 normals)
+2014-11-24 17:38:06	--	URL for #bulletphysics: http://bulletphysics.com
+2014-11-24 17:38:12	--	Mode #bulletphysics [+cnt]
+2014-11-24 17:38:12	--	Channel created on Tue, 27 Jan 2009 05:29:07
+2014-11-24 17:46:32	newguise1234	I'm still disconnecting and reconnecting :/ Hopefully I didn't miss a response.  I'm sorry for being so dodgy in this matter right now.
+2014-11-24 17:52:11	--	irc: disconnected from server
+2014-11-24 17:58:09	-->	newguise1234 (~tc@c-68-61-153-16.hsd1.mi.comcast.net) has joined #bulletphysics
+2014-11-24 17:58:09	--	Topic for #bulletphysics is "Bullet Physics 2.81 is released, see http://bulletphysics.org"
+2014-11-24 17:58:09	--	Topic set by erwin_bullet on Sun, 14 Oct 2012 17:16:02
+2014-11-24 17:58:09	--	Nicks #bulletphysics: [bobke_ dobson Gohla jezek2 kloplop321 Maketwo newguise1234 rosseaux Skwint Spark Sponji Tapani tzaeru xissburg]
+2014-11-24 17:58:09	--	Channel #bulletphysics: 14 nicks (0 ops, 0 halfops, 0 voices, 14 normals)
+2014-11-24 17:58:09	--	URL for #bulletphysics: http://bulletphysics.com
+2014-11-24 17:58:15	--	Mode #bulletphysics [+cnt]
+2014-11-24 17:58:15	--	Channel created on Tue, 27 Jan 2009 05:29:07
+2014-11-24 17:58:22	newguise1234	I'm still disconnecting and reconnecting :/ Hopefully I didn't miss a response.  I'm sorry for being so dodgy in this matter right now.
+2014-11-24 18:07:53	<--	newguise1234 (~tc@unaffiliated/newguise1234) has quit (Ping timeout: 265 seconds)
+2014-11-24 18:07:54	--	irc: disconnected from server
+2014-11-24 18:18:15	--	irc: disconnected from server
+2014-11-24 18:22:50	--	irc: disconnected from server
+2014-11-24 18:26:15	-->	tc1 (~tc@c-68-61-153-16.hsd1.mi.comcast.net) has joined #bulletphysics
+2014-11-24 18:26:15	--	Topic for #bulletphysics is "Bullet Physics 2.81 is released, see http://bulletphysics.org"
+2014-11-24 18:26:15	--	Topic set by erwin_bullet on Sun, 14 Oct 2012 17:16:02
+2014-11-24 18:26:15	--	Nicks #bulletphysics: [bobke_ dobson Gohla jezek2 kloplop321 Maketwo rosseaux Skwint Spark Sponji Tapani tc1 tzaeru xissburg]
+2014-11-24 18:26:15	--	Channel #bulletphysics: 14 nicks (0 ops, 0 halfops, 0 voices, 14 normals)
+2014-11-24 18:26:15	--	URL for #bulletphysics: http://bulletphysics.com
+2014-11-24 18:26:23	--	Mode #bulletphysics [+cnt]
+2014-11-24 18:26:23	--	Channel created on Tue, 27 Jan 2009 05:29:07
+2014-11-24 18:32:07	--	You are now known as newguise1234
+2014-11-24 18:32:38	<--	newguise1234 (~tc@unaffiliated/newguise1234) has left #bulletphysics ("WeeChat 0.4.1")
+2014-11-24 18:32:43	-->	newguise1234 (~tc@unaffiliated/newguise1234) has joined #bulletphysics
+2014-11-24 18:32:43	--	Topic for #bulletphysics is "Bullet Physics 2.81 is released, see http://bulletphysics.org"
+2014-11-24 18:32:43	--	Topic set by erwin_bullet on Sun, 14 Oct 2012 17:16:02
+2014-11-24 18:32:43	--	Nicks #bulletphysics: [bobke_ dobson Gohla jezek2 kloplop321 Maketwo newguise1234 rosseaux Skwint Spark Sponji Tapani tzaeru xissburg]
+2014-11-24 18:32:43	--	Channel #bulletphysics: 14 nicks (0 ops, 0 halfops, 0 voices, 14 normals)
+2014-11-24 18:32:43	--	URL for #bulletphysics: http://bulletphysics.com
+2014-11-24 18:32:46	--	Mode #bulletphysics [+cnt]
+2014-11-24 18:32:46	--	Channel created on Tue, 27 Jan 2009 05:29:07
+2014-11-24 18:33:28	<--	Skwint (~Skwint@82-69-66-224.dsl.in-addr.zen.co.uk) has quit (Read error: Connection reset by peer)
+2014-11-24 19:04:21	<--	newguise1234 (~tc@unaffiliated/newguise1234) has quit (Ping timeout: 250 seconds)
+2014-11-24 19:04:21	--	irc: disconnected from server
+2014-11-24 19:05:05	-->	newguise1234 (~tc@c-68-61-153-16.hsd1.mi.comcast.net) has joined #bulletphysics
+2014-11-24 19:05:05	--	Topic for #bulletphysics is "Bullet Physics 2.81 is released, see http://bulletphysics.org"
+2014-11-24 19:05:05	--	Topic set by erwin_bullet on Sun, 14 Oct 2012 17:16:02
+2014-11-24 19:05:05	--	Nicks #bulletphysics: [bobke_ dobson Gohla jezek2 kloplop321 Maketwo newguise1234 rosseaux Spark Sponji Tapani tzaeru xissburg]
+2014-11-24 19:05:05	--	Channel #bulletphysics: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2014-11-24 19:06:31	--	URL for #bulletphysics: http://bulletphysics.com
+2014-11-24 19:10:15	--	Mode #bulletphysics [+cnt]
+2014-11-24 19:10:15	--	Channel created on Tue, 27 Jan 2009 05:29:07
+2014-11-24 20:39:39	--	irc: disconnected from server
+2014-11-24 20:40:02	-->	newguise1234 (~tc@c-68-61-153-16.hsd1.mi.comcast.net) has joined #bulletphysics
+2014-11-24 20:40:02	--	Topic for #bulletphysics is "Bullet Physics 2.81 is released, see http://bulletphysics.org"
+2014-11-24 20:40:02	--	Topic set by erwin_bullet on Sun, 14 Oct 2012 17:16:02
+2014-11-24 20:40:02	--	Nicks #bulletphysics: [bobke_ dobson Gohla jezek2 kloplop321 Maketwo newguise1234 rosseaux Spark Sponji Tapani tzaeru xissburg]
+2014-11-24 20:40:02	--	Channel #bulletphysics: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2014-11-24 20:40:03	--	URL for #bulletphysics: http://bulletphysics.com
+2014-11-24 20:40:07	--	Mode #bulletphysics [+cnt]
+2014-11-24 20:40:08	--	Channel created on Tue, 27 Jan 2009 05:29:07
+2014-11-24 21:07:54	<--	rosseaux (~BeRo@2a00:1828:2000:859::2) has quit (Quit: Bye)
+2014-11-24 21:11:03	-->	rosseaux (~BeRo@2a00:1828:2000:859::2) has joined #bulletphysics
+2014-11-24 21:12:35	newguise1234	will bullet3 work without opencl?
+2014-11-24 21:13:35	<--	rosseaux (~BeRo@2a00:1828:2000:859::2) has quit (Remote host closed the connection)
+2014-11-24 21:16:51	-->	rosseaux (~BeRo@2a00:1828:2000:859::2) has joined #bulletphysics
+2014-11-24 21:37:25	newguise1234	does anyone know how long the bullet-2.79 source will be on code.google.com? it looks like thats the last version before opencl was added
+2014-11-24 22:41:58	<--	xissburg (~xissburg@177.18.222.27) has quit
+2014-11-25 04:45:14	-->	losh (~losh@staff-fr.corp.dailymotion.com) has joined #bulletphysics
+2014-11-25 06:18:22	-->	EdB (~edb@89-158-11-138.rev.numericable.fr) has joined #bulletphysics
+2014-11-25 07:12:30	-->	xissburg (~xissburg@177.99.151.170) has joined #bulletphysics
+2014-11-25 12:13:44	<--	losh (~losh@staff-fr.corp.dailymotion.com) has quit (Quit: Leaving)
+2014-11-25 12:23:52	<--	Gohla (~Gohla@a83-163-64-85.adsl.xs4all.nl) has quit (Ping timeout: 258 seconds)
+2014-11-25 12:45:40	-->	Gohla (~Gohla@a83-163-64-85.adsl.xs4all.nl) has joined #bulletphysics
+2014-11-25 12:56:37	<--	Gohla (~Gohla@a83-163-64-85.adsl.xs4all.nl) has quit (Ping timeout: 264 seconds)
+2014-11-25 13:14:19	<--	EdB (~edb@89-158-11-138.rev.numericable.fr) has quit (Quit: Konversation terminated!)
+2014-11-25 13:34:42	-->	Gohla (~Gohla@a83-163-64-85.adsl.xs4all.nl) has joined #bulletphysics
+2014-11-25 13:38:11	-->	Skwint (~Skwint@82-69-66-224.dsl.in-addr.zen.co.uk) has joined #bulletphysics
+2014-11-25 18:29:01	<--	Skwint (~Skwint@82-69-66-224.dsl.in-addr.zen.co.uk) has quit (Read error: Connection reset by peer)
+2014-11-25 21:51:00	<--	xissburg (~xissburg@177.99.151.170) has quit (Ping timeout: 258 seconds)
+2014-11-26 07:17:01	-->	EdB (~edb@89-158-11-138.rev.numericable.fr) has joined #bulletphysics
+2014-11-26 08:36:08	<--	rosseaux (~BeRo@2a00:1828:2000:859::2) has quit (Ping timeout: 258 seconds)
+2014-11-26 08:42:40	-->	rosseaux (~BeRo@2a00:1828:2000:859::2) has joined #bulletphysics
+2014-11-26 08:53:44	<--	rosseaux (~BeRo@2a00:1828:2000:859::2) has quit (Ping timeout: 258 seconds)
+2014-11-26 08:54:39	-->	rosseaux (~BeRo@2a00:1828:2000:859::2) has joined #bulletphysics
+2014-11-26 09:18:49	-->	xissburg (~xissburg@177.157.145.246) has joined #bulletphysics
+2014-11-26 10:25:37	<--	EdB (~edb@89-158-11-138.rev.numericable.fr) has quit (Quit: Konversation terminated!)
+2014-11-26 12:00:29	-->	BadApe (~BadApe@cpc24-cmbg15-2-0-cust120.5-4.cable.virginm.net) has joined #bulletphysics
+2014-11-26 12:01:21	BadApe	can i get version 2.8x from the git repository?
+2014-11-26 12:03:37	BadApe	i don't see a tag or a branch
+2014-11-26 13:09:35	<--	BadApe (~BadApe@cpc24-cmbg15-2-0-cust120.5-4.cable.virginm.net) has quit (Ping timeout: 244 seconds)
+2014-11-26 15:22:42	<--	xissburg (~xissburg@177.157.145.246) has quit (Ping timeout: 256 seconds)
+2014-11-26 17:33:20	-->	xissburg (~xissburg@177.97.230.39) has joined #bulletphysics
+2014-11-26 20:32:39	<--	bobke_ (~bobke@d54C6F5E8.access.telenet.be) has quit (Ping timeout: 272 seconds)
+2014-11-26 20:39:43	-->	bobke (~bobke@d54C6F5E8.access.telenet.be) has joined #bulletphysics
+2014-11-26 22:04:10	<--	xissburg (~xissburg@177.97.230.39) has quit
+2014-11-26 22:52:33	<--	Maketwo (makegho@kapsi.fi) has quit (Ping timeout: 264 seconds)
+2014-11-26 22:52:40	-->	Maketwo (makegho@kapsi.fi) has joined #bulletphysics
+2014-11-27 03:19:36	-->	CapsAdmin (~CapsAdmin@109.199.217.23) has joined #bulletphysics
+2014-11-27 03:58:05	-->	BadApe (~BadApe@85.255.232.47) has joined #bulletphysics
+2014-11-27 04:25:34	-->	losh (~losh@staff-fr.corp.dailymotion.com) has joined #bulletphysics
+2014-11-27 04:35:51	BadApe	how can i git clone version 2.82 ? it doesn't seem like this version is on the git repo
+2014-11-27 05:10:51	<--	BadApe (~BadApe@85.255.232.47) has quit (Ping timeout: 264 seconds)
+2014-11-27 05:17:37	-->	BadApe (~BadApe@cpc24-cmbg15-2-0-cust120.5-4.cable.virginm.net) has joined #bulletphysics
+2014-11-27 06:05:38	-->	EdB (~edb@89-158-11-138.rev.numericable.fr) has joined #bulletphysics
+2014-11-27 07:16:09	<--	BadApe (~BadApe@cpc24-cmbg15-2-0-cust120.5-4.cable.virginm.net) has quit (Quit: Leaving)
+2014-11-27 07:16:19	-->	BadApe (~BadApe@cpc24-cmbg15-2-0-cust120.5-4.cable.virginm.net) has joined #bulletphysics
+2014-11-27 07:19:08	-->	xissburg (~xissburg@177.97.230.39) has joined #bulletphysics
+2014-11-27 10:29:48	<--	losh (~losh@staff-fr.corp.dailymotion.com) has quit (Quit: Leaving)
+2014-11-27 10:56:35	<--	EdB (~edb@89-158-11-138.rev.numericable.fr) has quit (Quit: Konversation terminated!)
+2014-11-27 10:59:21	<--	BadApe (~BadApe@cpc24-cmbg15-2-0-cust120.5-4.cable.virginm.net) has quit (Ping timeout: 258 seconds)
+2014-11-27 12:59:13	-->	Skwint (~Skwint@82-69-66-224.dsl.in-addr.zen.co.uk) has joined #bulletphysics
+2014-11-27 17:30:20	<--	xissburg (~xissburg@177.97.230.39) has quit (Read error: No route to host)
+2014-11-27 17:30:48	-->	xissburg (~xissburg@177.97.230.39) has joined #bulletphysics
+2014-11-27 17:55:18	-->	lisacvuk (6d5c2dbc@gateway/web/freenode/ip.109.92.45.188) has joined #bulletphysics
+2014-11-27 17:55:44	lisacvuk	Hi, i have a problerm with bullet
+2014-11-27 17:55:55	lisacvuk	*problem
+2014-11-27 17:56:53	lisacvuk	i got these errors on compiling irrbullet colission detection example: btPolyhedralConvexShape.cpp|| undefined reference to `btGeometryUtil::getPlaneEquationsFromVertices(btAlignedObjectArray<btVector3>&, btAlignedObjectArray<btVector3>&)'|
+2014-11-27 17:57:18	lisacvuk	this is the full output: btPolyhedralConvexShape.cpp|| undefined reference to `btGeometryUtil::getPlaneEquationsFromVertices(btAlignedObjectArray<btVector3>&, btAlignedObjectArray<btVector3>&)'|
+2014-11-27 17:57:45	lisacvuk	here: btPolyhedralConvexShape.cpp|| undefined reference to `btGeometryUtil::getPlaneEquationsFromVertices(btAlignedObjectArray<btVector3>&, btAlignedObjectArray<btVector3>&)'|
+2014-11-27 17:57:53	<--	lisacvuk (6d5c2dbc@gateway/web/freenode/ip.109.92.45.188) has quit (Client Quit)
+2014-11-27 18:43:40	-->	MatLec (~MatLioLec@CPE788df7aeea51-CM788df7aeea50.cpe.net.cable.rogers.com) has joined #bulletphysics
+2014-11-27 18:43:46	MatLec	Hello.
+2014-11-27 18:44:05	<--	MatLec (~MatLioLec@CPE788df7aeea51-CM788df7aeea50.cpe.net.cable.rogers.com) has quit (Client Quit)
+2014-11-27 18:53:45	-->	MatLec (~MatLioLec@CPE788df7aeea51-CM788df7aeea50.cpe.net.cable.rogers.com) has joined #bulletphysics
+2014-11-27 18:53:53	MatLec	Hello.
+2014-11-27 18:54:35	MatLec	anyone around?
+2014-11-27 18:54:56	MatLec	um is this chat room just about balistics..?
+2014-11-27 18:58:29	Skwint	hi
+2014-11-27 18:58:55	Skwint	mostly this chat room is about people asking for help with obscure compiler errors getting bullet working
+2014-11-27 18:59:02	Skwint	occasionally it is also about the answer
+2014-11-27 18:59:44	Skwint	bulletphysics is a game physics engine, not a physics of rapidly rotating pointy projectiles :)
+2014-11-27 19:00:36	Skwint	infact, ironically, in a game involving lots of bullets, the bullets would be one of the few things bulletphysics would be very VERY bad at
+2014-11-27 19:08:38	<--	Skwint (~Skwint@82-69-66-224.dsl.in-addr.zen.co.uk) has quit (Read error: Connection reset by peer)
+2014-11-27 19:10:30	MatLec	"game physics engine"?
+2014-11-27 20:07:18	<--	MatLec (~MatLioLec@CPE788df7aeea51-CM788df7aeea50.cpe.net.cable.rogers.com) has quit (Ping timeout: 272 seconds)
+2014-11-27 20:07:37	-->	MatLec (~MatLioLec@CPE788df7aeea51-CM788df7aeea50.cpe.net.cable.rogers.com) has joined #bulletphysics
+2014-11-27 21:04:13	<--	Maketwo (makegho@kapsi.fi) has quit (Ping timeout: 265 seconds)
+2014-11-27 21:04:21	-->	Maketwo (makegho@kapsi.fi) has joined #bulletphysics
+2014-11-27 22:38:35	<--	xissburg (~xissburg@177.97.230.39) has quit
+2014-11-27 23:17:02	<--	MatLec (~MatLioLec@CPE788df7aeea51-CM788df7aeea50.cpe.net.cable.rogers.com) has quit
+2014-11-28 04:06:36	-->	BadApe (~BadApe@cpc24-cmbg15-2-0-cust120.5-4.cable.virginm.net) has joined #bulletphysics
+2014-11-28 04:13:33	<--	BadApe (~BadApe@cpc24-cmbg15-2-0-cust120.5-4.cable.virginm.net) has quit (Quit: Leaving)
+2014-11-28 04:15:37	-->	BadApe (~BadApe@cpc24-cmbg15-2-0-cust120.5-4.cable.virginm.net) has joined #bulletphysics
+2014-11-28 04:17:22	<--	BadApe (~BadApe@cpc24-cmbg15-2-0-cust120.5-4.cable.virginm.net) has quit (Client Quit)
+2014-11-28 04:22:40	-->	BadApe (~BadApe@cpc24-cmbg15-2-0-cust120.5-4.cable.virginm.net) has joined #bulletphysics
+2014-11-28 04:51:50	-->	jokoon (jokoon@2a01:e35:398b:5d60:35d8:b068:539c:8b8f) has joined #bulletphysics
+2014-11-28 06:19:29	<--	jokoon (jokoon@2a01:e35:398b:5d60:35d8:b068:539c:8b8f) has quit (Quit: Leaving)
+2014-11-28 08:22:01	-->	xissburg (~xissburg@177.97.230.39) has joined #bulletphysics
+2014-11-28 08:49:13	<--	BadApe (~BadApe@cpc24-cmbg15-2-0-cust120.5-4.cable.virginm.net) has quit (Quit: Leaving)
+2014-11-28 09:59:14	<--	xissburg (~xissburg@177.97.230.39) has quit (Ping timeout: 255 seconds)
+2014-11-28 12:00:58	-->	xissburg (~xissburg@191.251.138.211) has joined #bulletphysics
+2014-11-28 13:42:39	<--	xissburg (~xissburg@191.251.138.211) has quit
+2014-11-28 13:43:03	<--	tzaeru (tzaeru@xob.kapsi.fi) has quit (Ping timeout: 245 seconds)
+2014-11-28 13:49:11	-->	tzaeru (tzaeru@xob.kapsi.fi) has joined #bulletphysics
+2014-11-28 15:44:44	-->	Grimshaw (~Grimshaw@bl17-16-34.dsl.telepac.pt) has joined #bulletphysics
+2014-11-28 17:45:02	-->	Skwint (~Skwint@82-69-66-224.dsl.in-addr.zen.co.uk) has joined #bulletphysics
+2014-11-28 17:49:51	-->	xissburg (~xissburg@191.250.255.252) has joined #bulletphysics
+2014-11-28 20:27:54	<--	Grimshaw (~Grimshaw@bl17-16-34.dsl.telepac.pt) has quit (Quit: Leaving)
+2014-11-28 21:36:38	<--	Skwint (~Skwint@82-69-66-224.dsl.in-addr.zen.co.uk) has quit (Read error: Connection reset by peer)
+2014-11-29 00:06:44	<--	xissburg (~xissburg@191.250.255.252) has quit
+2014-11-29 01:08:51	-->	Gohla_ (~Gohla@a83-163-64-85.adsl.xs4all.nl) has joined #bulletphysics
+2014-11-29 01:11:41	<--	Gohla (~Gohla@a83-163-64-85.adsl.xs4all.nl) has quit (*.net *.split)
+2014-11-29 01:11:42	--	Gohla_ is now known as Gohla
+2014-11-29 04:49:48	<--	CapsAdmin (~CapsAdmin@109.199.217.23) has quit (Read error: Connection reset by peer)
+2014-11-29 06:41:55	-->	CapsAdmin (~CapsAdmin@109.199.217.23) has joined #bulletphysics
+2014-11-29 06:46:04	<--	CapsAdmin (~CapsAdmin@109.199.217.23) has quit (Read error: Connection reset by peer)
+2014-11-29 06:46:21	-->	CapsAdmin (~CapsAdmin@109.199.217.23) has joined #bulletphysics
+2014-11-29 07:27:47	-->	xissburg (~xissburg@191.250.255.252) has joined #bulletphysics
+2014-11-29 07:36:08	-->	serengeor (~serengeor@78-60-218-174.static.zebra.lt) has joined #bulletphysics
+2014-11-29 08:25:53	-->	EdB (~edb@89-158-11-138.rev.numericable.fr) has joined #bulletphysics
+2014-11-29 08:30:20	-->	ison (2eba4fb2@gateway/web/freenode/ip.46.186.79.178) has joined #bulletphysics
+2014-11-29 08:30:52	ison	Hello. How to stop movement of btKinematicCharacterController? I used setWalkDirection but now I can't stop it
+2014-11-29 09:16:28	-->	Skwint (~Skwint@82-69-66-224.dsl.in-addr.zen.co.uk) has joined #bulletphysics
+2014-11-29 11:01:26	serengeor	ison, how about giving it btVector(0,0,0)?
+2014-11-29 11:01:56	ison	serengeor I tried, but then bullet gives failed assertion, length() != btScalar(0)
+2014-11-29 11:02:06	serengeor	uhh, I see
+2014-11-29 11:02:18	ison	but I think it can be a bug https://code.google.com/p/bullet/issues/detail?id=785
+2014-11-29 11:02:20	serengeor	I haven't really used it, so I was just guessing
+2014-11-29 11:03:17	ison	that's the proper way to do it according to the documentation, but there's this assert which shouldn't be there
+2014-11-29 11:03:21	ison	I'm using bullet 2.82
+2014-11-29 11:03:45	serengeor	I see, it might be a bug then
+2014-11-29 11:04:18	serengeor	I've never used kinematic controller myself though
+2014-11-29 11:04:35	ison	what did you use to move player?
+2014-11-29 11:05:30	serengeor	at the time I was using bullet I didn't have much done, but afaik I just used dynamic rigid body
+2014-11-29 11:05:48	ison	btw. are there any obvious optimization tricks? because currently if I add 20 kinematic character controllers then I get like 5 fps
+2014-11-29 11:06:53	serengeor	did you measure if it's the physics side that takes most of the time?
+2014-11-29 11:07:00	Skwint	I move the player by having a sphere on his feet
+2014-11-29 11:07:10	Skwint	it has high friction and a high torque motor, but low top speed
+2014-11-29 11:07:39	Skwint	there are good points and bad points to this - one of the good points is I don't have any kinematic controllers :)
+2014-11-29 11:07:42	ison	I'm pretty sure, because the only thing that slowed app down was adding character controllers to the world, nothing more
+2014-11-29 11:08:35	ison	Skwint sphere is just a shape, then it can be attached either to rigidbody or character controller
+2014-11-29 11:08:53	Skwint	yeah, but I move by rotating it
+2014-11-29 11:09:04	ison	rotating?
+2014-11-29 11:09:07	ison	how?
+2014-11-29 11:09:08	Skwint	so the character is more like a monocycle
+2014-11-29 11:09:19	ison	hmm, clever
+2014-11-29 11:09:25	Skwint	it reacts well to ice on the floor
+2014-11-29 11:09:29	serengeor	Skwint, hehe, quite a solution :D
+2014-11-29 11:09:50	Skwint	if you try to run off a chair it tends to push the chair backwards, which is what would actually happen in real life
+2014-11-29 11:09:52	ison	does it produce good results?
+2014-11-29 11:09:54	Skwint	but not what most players expect :)
+2014-11-29 11:10:15	serengeor	currently I'm just doing my own aabb collisions, but can't get swept collisions working with my voxel level :[
+2014-11-29 11:10:26	ison	in my game, player will mostly be walking on a terrain, so this means I can't have any weirdness going on if someone tries to go up hill
+2014-11-29 11:10:26	Skwint	I like the results, but if you run really hard at a wall sometimes the "not-quite-rigid" joint makes the feet hit the wall and throw you up it
+2014-11-29 11:11:08	Skwint	I'd quite like to see a specialized "feet" object that had a fake velocity, so I could make the feet any shape and stationary, and just insert a friction force during the calculations
+2014-11-29 11:11:50	ison	ehh, I guess I'll also have to use plain rigid bodies instead of character controller, because performance is very poor
+2014-11-29 11:11:51	Skwint	not sure how well it climbs steps
+2014-11-29 11:12:12	Skwint	I always struggle with these systems that apply a force to the character, like it's some sort of jet plane
+2014-11-29 11:12:15	Skwint	I can never make it feel right
+2014-11-29 11:12:59	ison	with rigid bodies performance isn't that good either, for 50 balls, fps starts to decrease drastically. Should I use a custom broadphase and all other algorithms? Because I use custom ones
+2014-11-29 11:13:03	ison	I mean default ones*
+2014-11-29 11:13:13	serengeor	http://puu.sh/dadiu/413bd8f9b2.png
+2014-11-29 11:13:17	Skwint	bullet should handle 50 balls out of the box :/
+2014-11-29 11:13:44	Skwint	that's a lot of painfully textured voxels :p
+2014-11-29 11:13:56	serengeor	haha, it's not textures tho
+2014-11-29 11:13:57	serengeor	:)
+2014-11-29 11:14:24	Skwint	http://www.euclidsmouse.com/euclidsmouse/gallery2.png
+2014-11-29 11:14:34	Skwint	mine are textures, but not very good ones
+2014-11-29 11:14:34	serengeor	each voxel has blue color and shader does the lines, that's why there's that moire effect
+2014-11-29 11:15:11	serengeor	looks nice Skwint :)
+2014-11-29 11:15:24	Skwint	you could make the shader use a slightly different shade of blue for each voxel
+2014-11-29 11:15:31	Skwint	some sort of hash of its world coordinates
+2014-11-29 11:15:45	serengeor	Skwint, I bet you could tell what level my screenshot uses if it wasn't single collored :)
+2014-11-29 11:15:45	ison	this is how I init world, do I do something wrong that I get so poor performance? https://ideone.com/Lrfea5
+2014-11-29 11:16:37	Skwint	I'm not an expert on which broadphases are good - have you tried profiling it?
+2014-11-29 11:16:38	serengeor	I wrote blender plugin that exports voxel shell for triangle meshes, so that level is taken from some other game :)
+2014-11-29 11:16:49	Skwint	novel approach
+2014-11-29 11:16:56	Skwint	I wrote a voxel level editor and built it into my game
+2014-11-29 11:17:04	ison	profiling? I guess the only useful information I would get is that stepping simulation is slow
+2014-11-29 11:17:14	Skwint	it should tell you which bit is slow
+2014-11-29 11:17:24	Skwint	no point tweaking the broadphase if it's 1% of the time
+2014-11-29 11:17:35	serengeor	I wrote exporter only because I was too lazy to make my own levels :D
+2014-11-29 11:17:48	Skwint	mines a puzzle game - I kind of needed my own levels :)
+2014-11-29 11:17:56	serengeor	I see :)
+2014-11-29 11:18:38	Skwint	really must get it finished!
+2014-11-29 11:18:40	serengeor	Skwint, I'm thinking of remaking some game mod that I used to play, so I wanted to have something from that game
+2014-11-29 11:18:53	ison	hmm, ok then, I just hope that I won't go below 30 fps after I add many static objects to my world
+2014-11-29 11:19:56	serengeor	btw, that level in screenshot is de_nuke from counterstrike 1.6 :)
+2014-11-29 11:20:33	ison	is there no mipmapping?
+2014-11-29 11:20:55	serengeor	ison, huh?
+2014-11-29 11:21:07	ison	looks like if there was no mipmapping on the screenshot
+2014-11-29 11:21:36	serengeor	my screenshot? it's probably cause it's not using any textures :D
+2014-11-29 11:22:02	ison	no textures? I thought the black borders were from the texture
+2014-11-29 11:22:03	serengeor	can't mipmap if there's no texture on object, right?
+2014-11-29 11:22:12	serengeor	ison, nope :)
+2014-11-29 11:22:19	ison	ye
+2014-11-29 11:23:21	serengeor	ison, https://github.com/Murloc992/ZombieGameProject/blob/voxmesh_opt/res/engine/shaders/solid_cube.frag
+2014-11-29 11:23:34	ison	I see
+2014-11-29 11:24:19	serengeor	I won't be using textures unless after I add colors to voxels it will feel like the detail level is not enough
+2014-11-29 11:25:02	serengeor	I'm going to make voxels smaller in future, so I think it should be enough
+2014-11-29 12:17:22	Skwint	Any particular reason for doing it with voxels?
+2014-11-29 12:17:27	Skwint	you just like the idea?
+2014-11-29 12:17:48	Skwint	I've been considering trying to render an entire level as particles ... so long as they are really small they are basically cheap voxels ;)
+2014-11-29 12:18:09	serengeor	Skwint, well, I wasn't really into minecraft and all that, but voxels are indeed interesting concept
+2014-11-29 12:18:12	Skwint	but because there's no triangulation pass I should be able to make it really really dynamic
+2014-11-29 12:18:31	serengeor	and I feel that it's going to be used more widelly in future
+2014-11-29 12:18:34	Skwint	I worry that they would flicker near the edges as you moved
+2014-11-29 12:19:31	serengeor	Skwint, well I was considering making a software voxel renderer, but I realized I don't really have that much time and knowledge to do it :)
+2014-11-29 12:20:52	serengeor	you could probably render voxels with geometry shaders, but I've heard it's not that much better than just generating the meshes
+2014-11-29 12:22:19	serengeor	Skwint, have you seen cube2 engine?
+2014-11-29 12:23:29	serengeor	I liked that approach on levels, can have quite detailed levels while still using "cubes"
+2014-11-29 12:23:50	Skwint	I haven't
+2014-11-29 12:24:05	Skwint	but I don't see why mere cubes shouldn't become very detailed
+2014-11-29 12:24:33	Skwint	I can also see a way you could raytrace them really really fast which might be interesting
+2014-11-29 12:25:00	Skwint	you could fake the normal at the surface so it looked smooth very easily
+2014-11-29 12:26:10	serengeor	Skwint, yeah
+2014-11-29 12:26:31	serengeor	also this looks very nice: http://www.atomontage.com/
+2014-11-29 12:26:34	 *	Skwint wonders if overlapping spheres would be easier
+2014-11-29 12:27:41	Skwint	that's quite impressive
+2014-11-29 12:29:15	serengeor	yeah, it is, but the devs aren't updating the website with news and info about the engine
+2014-11-29 12:30:09	serengeor	I've known it for like 2 years and there was barelly any public updates on the progress, which is a bit dissapointing
+2014-11-29 12:38:35	serengeor	Skwint, looks like the twitter page has a bit more news :)
+2014-11-29 13:13:55	-->	Squint (~Skwint@82-69-66-224.dsl.in-addr.zen.co.uk) has joined #bulletphysics
+2014-11-29 13:15:45	<--	Skwint (~Skwint@82-69-66-224.dsl.in-addr.zen.co.uk) has quit (Ping timeout: 256 seconds)
+2014-11-29 13:50:02	serengeor	Squint, how much experience do you have with bullet?
+2014-11-29 14:20:57	Squint	serengeor, not enough to claim to be any kind of expert
+2014-11-29 14:20:59	Squint	I use it
+2014-11-29 14:21:37	Squint	I know more about how the internals of physics engines work in general than about the specifics of this one
+2014-11-29 14:29:59	serengeor	Squint, I see
+2014-11-29 15:01:31	<--	ison (2eba4fb2@gateway/web/freenode/ip.46.186.79.178) has quit (Ping timeout: 246 seconds)
+2014-11-29 15:41:55	<--	EdB (~edb@89-158-11-138.rev.numericable.fr) has quit (Quit: Konversation terminated!)
+2014-11-29 15:44:22	newguise1234	sorry for the noob question, anyone have experience setting a restitution for a btBvhTriangleMeshShape?
+2014-11-29 15:44:35	newguise1234	trying to create a bouncy surface rather than creating bouncy objects
+2014-11-29 15:47:54	-->	EdB (~edb@89-158-11-138.rev.numericable.fr) has joined #bulletphysics
+2014-11-29 15:50:30	serengeor	newguise1234, triangle mesh still has btRigidBody, doesn't it?
+2014-11-29 15:50:38	newguise1234	yes
+2014-11-29 15:50:48	newguise1234	I did try setRestitution, but the boxes are not bouncing off
+2014-11-29 15:51:12	serengeor	hmm, maybe it works only one way
+2014-11-29 15:51:14	newguise1234	I set it to 100.0f, thinking that would be enough to see some drastic changes
+2014-11-29 15:51:16	newguise1234	k
+2014-11-29 15:51:33	newguise1234	(given I was seeing drastic changes on setting boxes to 2.0f)
+2014-11-29 16:05:10	Squint	it might be the arbitrary mesh it doesn't like - does making a very big box instead of a mesh work?
+2014-11-29 16:05:31	Squint	After that I'd be tempted to poke around in the source code and make it work :p
+2014-11-29 16:05:55	newguise1234	I'll try that
+2014-11-29 16:05:56	Squint	I did that for the friction, because it was really silly :)
+2014-11-29 16:05:59	newguise1234	lol
+2014-11-29 16:13:44	newguise1234	it looks like setting the restitution of a btStaticPlaneShape isn't doing much of anything either, nor a btBoxShape
+2014-11-29 16:14:06	newguise1234	so I'm guessing the bounce velocity is based upon the bouncing object's restitution solely
+2014-11-29 16:15:56	newguise1234	nvm, if I set the restitution of the box and of the falling boxes, then they bounce
+2014-11-29 16:16:15	newguise1234	I guess both colliding objects must have a restitution set for it to affect their collision
+2014-11-29 16:17:38	newguise1234	thanks for the suggestion
+2014-11-29 16:25:20	Squint	well, for friction, it multiplies the two together
+2014-11-29 16:25:35	Squint	I bet it does something similar here - after all, a really bouncy ball hitting a sponge won't bounce
+2014-11-29 16:26:51	Squint	friction allows you to specify an override so that you can choose the friction yourself based on the two objects
+2014-11-29 16:27:02	Squint	it may already also have that for resti, or you could add it
+2014-11-29 16:29:16	newguise1234	that makes sense, I guess I assumed it would have a default restitution, but maybe the default behaviour is to not utilize something that isn't set
+2014-11-29 16:30:34	newguise1234	nvm, I'm gonna stop positing stuff, if the default values are 0, then a multiplication would send it to 0
+2014-11-29 19:23:57	<--	EdB (~edb@89-158-11-138.rev.numericable.fr) has quit (Quit: Konversation terminated!)
+2014-11-29 19:32:20	-->	Skwynt (~Skwint@82-69-66-224.dsl.in-addr.zen.co.uk) has joined #bulletphysics
+2014-11-29 19:36:22	<--	Squint (~Skwint@82-69-66-224.dsl.in-addr.zen.co.uk) has quit (Ping timeout: 258 seconds)
+2014-11-29 19:36:54	<--	Skwynt (~Skwint@82-69-66-224.dsl.in-addr.zen.co.uk) has quit (Read error: Connection reset by peer)
+2014-11-29 22:06:16	<--	xissburg (~xissburg@191.250.255.252) has quit
+2014-11-30 00:30:55	-->	EdB (~edb@89-158-11-138.rev.numericable.fr) has joined #bulletphysics
+2014-11-30 00:50:54	<--	EdB (~edb@89-158-11-138.rev.numericable.fr) has quit (Quit: Konversation terminated!)
+2014-11-30 04:02:30	<--	serengeor (~serengeor@78-60-218-174.static.zebra.lt) has quit (Ping timeout: 250 seconds)
+2014-11-30 04:04:08	-->	serengeor (~serengeor@78-60-218-174.static.zebra.lt) has joined #bulletphysics
+2014-11-30 04:09:58	<--	serengeor (~serengeor@78-60-218-174.static.zebra.lt) has quit (Ping timeout: 256 seconds)
+2014-11-30 07:27:07	-->	EdB (~edb@89-158-11-138.rev.numericable.fr) has joined #bulletphysics
+2014-11-30 08:42:26	-->	Skwint (~Skwint@82-69-66-224.dsl.in-addr.zen.co.uk) has joined #bulletphysics
+2014-11-30 10:26:44	<--	EdB (~edb@89-158-11-138.rev.numericable.fr) has quit (Quit: Konversation terminated!)
+2014-11-30 14:43:50	newguise1234	anyone around thats used raytest?
+2014-11-30 14:44:26	newguise1234	I'm very glad for the function, but getting the coordinates of the collision object is less useful for me than getting the index of it
+2014-11-30 14:46:25	newguise1234	I guess I'm lamenting my current object structure haha, I should just expect and look forward to refactoring everything so I can do what I need to
+2014-11-30 15:49:39	-->	EdB (~edb@89-158-11-138.rev.numericable.fr) has joined #bulletphysics
+2014-11-30 17:06:16	newguise1234	I'm not entirely sure what the difference between m_optionalMotionState and m_worldTransform are
+2014-11-30 17:07:16	newguise1234	so far I've just used btDefaultMotionState as the base class for my objects, but it seems I could just get the m_worldTransform of a rigidBody
+2014-11-30 17:07:28	newguise1234	instead of calling getWorldTransform on a motion state
+2014-11-30 17:09:44	newguise1234	I guess m_worldTransform doesn't have a rotation aspect
+2014-11-30 17:15:25	newguise1234	nevermind
+2014-11-30 17:16:34	newguise1234	I guess my main question is, what would m_optionalMotionState be used for in btRigidBody, if anyone has used it
+2014-11-30 17:54:29	<--	EdB (~edb@89-158-11-138.rev.numericable.fr) has quit (Quit: Konversation terminated!)
+2014-11-30 19:50:28	<--	Skwint (~Skwint@82-69-66-224.dsl.in-addr.zen.co.uk) has quit (Read error: Connection reset by peer)
+2014-11-30 20:59:19	-->	xissburg (~xissburg@191.250.254.96) has joined #bulletphysics
+2014-11-30 23:56:44	<--	xissburg (~xissburg@191.250.254.96) has quit
+2014-12-01 03:38:21	-->	BadApe (~BadApe@cpc24-cmbg15-2-0-cust120.5-4.cable.virginm.net) has joined #bulletphysics
+2014-12-01 07:12:19	-->	EdB (~edb@89-158-11-138.rev.numericable.fr) has joined #bulletphysics
+2014-12-01 08:51:06	-->	xissburg (~xissburg@191.250.254.96) has joined #bulletphysics
+2014-12-01 09:22:40	<--	EdB (~edb@89-158-11-138.rev.numericable.fr) has quit (Quit: Konversation terminated!)
+2014-12-01 09:56:18	-->	Jonas__ (~Jonas@unaffiliated/jonas/x-7723671) has joined #bulletphysics
+2014-12-01 09:57:17	-->	IoriX2k2 (~iorix2k2@191.17.212.4) has joined #bulletphysics
+2014-12-01 09:57:29	IoriX2k2	hi all
+2014-12-01 09:57:37	IoriX2k2	some in here can help me?
+2014-12-01 10:32:44	<--	IoriX2k2 (~iorix2k2@191.17.212.4) has quit (Quit: Ex-Chat)
+2014-12-01 10:34:39	-->	IoriX2k2_ (~iorix2k2@191.17.212.4) has joined #bulletphysics
+2014-12-01 10:47:42	IoriX2k2_	Someone here can give me a hand with a problem?
+2014-12-01 11:07:34	xissburg	maybe
+2014-12-01 11:11:35	IoriX2k2_	i have a problems, I created a moveable character with capsule as shape, and had a problem
+2014-12-01 11:11:44	IoriX2k2_	http://www.wikifortio.com/817893/libgdx_game.mp4
+2014-12-01 11:11:53	IoriX2k2_	this video shows the problem
+2014-12-01 11:14:51	IoriX2k2_	as you can see on the video, when the capsule collides in some edge of other objects, when I apply some force on axis X to the same direction of the edge of other object, it generates some impulse on Y
+2014-12-01 11:15:53	IoriX2k2_	I tried to solve with ray cast, but unsuccessful
+2014-12-01 11:16:17	IoriX2k2_	I would appreciate if someone here can help me to solve it
+2014-12-01 11:50:29	<--	BadApe (~BadApe@cpc24-cmbg15-2-0-cust120.5-4.cable.virginm.net) has quit (Ping timeout: 245 seconds)
+2014-12-01 16:00:31	<--	rosseaux (~BeRo@2a00:1828:2000:859::2) has quit (*.net *.split)
+2014-12-01 17:02:57	-->	rosseaux (~BeRo@2a00:1828:2000:859::2) has joined #bulletphysics
+2014-12-01 18:42:34	<--	xissburg (~xissburg@191.250.254.96) has quit
+2014-12-02 03:50:42	-->	BadApe (~BadApe@cpc24-cmbg15-2-0-cust120.5-4.cable.virginm.net) has joined #bulletphysics
+2014-12-02 03:52:55	<--	BadApe (~BadApe@cpc24-cmbg15-2-0-cust120.5-4.cable.virginm.net) has quit (Client Quit)
+2014-12-02 08:38:09	<--	IoriX2k2_ (~iorix2k2@191.17.212.4) has quit (Ping timeout: 244 seconds)
+2014-12-02 08:38:36	-->	IoriX2k2_ (~iorix2k2@191.17.212.4) has joined #bulletphysics
+2014-12-02 09:09:01	-->	xissburg (~xissburg@191.250.254.96) has joined #bulletphysics
+2014-12-02 09:46:06	<--	rosseaux (~BeRo@2a00:1828:2000:859::2) has quit (Ping timeout: 258 seconds)
+2014-12-02 09:46:23	-->	rosseaux (~BeRo@2a00:1828:2000:859::2) has joined #bulletphysics
+2014-12-02 10:12:52	<--	rosseaux (~BeRo@2a00:1828:2000:859::2) has quit (Ping timeout: 258 seconds)
+2014-12-02 10:15:51	-->	rosseaux (~BeRo@2a00:1828:2000:859::2) has joined #bulletphysics
+2014-12-02 10:51:52	<--	rosseaux (~BeRo@2a00:1828:2000:859::2) has quit (Ping timeout: 258 seconds)
+2014-12-02 10:57:51	-->	rosseaux (~BeRo@2a00:1828:2000:859::2) has joined #bulletphysics
+2014-12-02 10:59:32	<--	rosseaux (~BeRo@2a00:1828:2000:859::2) has quit (Excess Flood)
+2014-12-02 11:00:54	-->	rosseaux (~BeRo@2a00:1828:2000:859::2) has joined #bulletphysics
+2014-12-02 11:05:31	<--	rosseaux (~BeRo@2a00:1828:2000:859::2) has quit (Excess Flood)
+2014-12-02 11:10:22	-->	rosseaux (~BeRo@2a00:1828:2000:859::2) has joined #bulletphysics
+2014-12-02 11:15:12	<--	rosseaux (~BeRo@2a00:1828:2000:859::2) has quit (Ping timeout: 258 seconds)
+2014-12-02 11:15:22	-->	rosseaux (~BeRo@2a00:1828:2000:859::2) has joined #bulletphysics
+2014-12-02 11:24:22	<--	rosseaux (~BeRo@2a00:1828:2000:859::2) has quit (Ping timeout: 258 seconds)
+2014-12-02 11:28:44	-->	rosseaux (~BeRo@2a00:1828:2000:859::2) has joined #bulletphysics
+2014-12-02 11:45:18	<--	IoriX2k2_ (~iorix2k2@191.17.212.4) has quit (Quit: Ex-Chat)
+2014-12-02 13:55:41	-->	serengeor (~serengeor@78-60-218-174.static.zebra.lt) has joined #bulletphysics
+2014-12-02 13:56:02	serengeor	not really a bullet question, but please bare with me
+2014-12-02 13:56:14	serengeor	 I'm trying to think how to make collision response for AABB vs AABB collisions ("static" voxel world and dynamic player).
+2014-12-02 13:56:24	serengeor	currently I have swept collision checks, but I am not sure how to make response when there's more than one voxel colliding at a time
+2014-12-02 13:56:34	serengeor	for example if I player is falling along side of wall I get ~6 voxels and collision normals point away from wall, but for bottom wall voxels it also gives normal in y+ axis
+2014-12-02 13:56:53	serengeor	any ideas how should I approach this?
+2014-12-02 15:53:53	-->	nibiru (~fdgdfg@a80-101-236-149.adsl.xs4all.nl) has joined #bulletphysics
+2014-12-02 15:55:29	nibiru	hi
+2014-12-02 16:07:31	<--	xissburg (~xissburg@191.250.254.96) has quit (Ping timeout: 255 seconds)
+2014-12-02 16:08:49	-->	xissburg (~xissburg@177.99.148.245) has joined #bulletphysics
+2014-12-02 16:16:57	<--	nibiru (~fdgdfg@a80-101-236-149.adsl.xs4all.nl) has left #bulletphysics
+2014-12-02 16:54:38	-->	Skwint (~Skwint@82-69-66-224.dsl.in-addr.zen.co.uk) has joined #bulletphysics
+2014-12-02 19:03:04	<--	Skwint (~Skwint@82-69-66-224.dsl.in-addr.zen.co.uk) has quit (Read error: Connection reset by peer)
+2014-12-02 19:06:01	-->	Enhex_ (~quassel@37.142.176.161) has joined #bulletphysics
+2014-12-02 19:06:36	-->	IoriX2k2 (~iorix2k2@191.17.212.4) has joined #bulletphysics
+2014-12-02 19:10:00	-->	Enhex (~quassel@37.142.176.161) has joined #bulletphysics
+2014-12-02 19:13:08	<--	Enhex_ (~quassel@37.142.176.161) has quit (Ping timeout: 252 seconds)
+2014-12-02 21:40:16	<--	serengeor (~serengeor@78-60-218-174.static.zebra.lt) has quit (Remote host closed the connection)
+2014-12-02 22:49:45	<--	xissburg (~xissburg@177.99.148.245) has quit
+2014-12-03 02:42:38	-->	Bwild (~irc@static-72-67-52-110.lsanca.fios.verizon.net) has joined #bulletphysics
+2014-12-03 03:15:08	-->	losh (~losh@off-03.mal.dailymotion.com) has joined #bulletphysics
+2014-12-03 03:21:57	<--	losh (~losh@off-03.mal.dailymotion.com) has quit (Ping timeout: 258 seconds)
+2014-12-03 06:39:32	<--	Bwild (~irc@static-72-67-52-110.lsanca.fios.verizon.net) has quit (Quit: leaving)
+2014-12-03 07:21:12	-->	Enhex_ (~quassel@37.142.176.161) has joined #bulletphysics
+2014-12-03 07:23:46	<--	Enhex (~quassel@37.142.176.161) has quit (Ping timeout: 255 seconds)
+2014-12-03 08:00:52	<--	Enhex_ (~quassel@37.142.176.161) has quit (Ping timeout: 272 seconds)
+2014-12-03 08:37:55	-->	xissburg (~xissburg@177.99.148.245) has joined #bulletphysics
+2014-12-03 08:44:22	-->	losh (~losh@staff-fr.corp.dailymotion.com) has joined #bulletphysics
+2014-12-03 11:22:21	-->	EdB (~edb@89-158-11-138.rev.numericable.fr) has joined #bulletphysics
+2014-12-03 11:23:53	<--	IoriX2k2 (~iorix2k2@191.17.212.4) has quit (Ping timeout: 264 seconds)
+2014-12-03 11:34:55	-->	IoriX2k2 (~iorix2k2@187.34.101.171) has joined #bulletphysics
+2014-12-03 11:46:53	<--	EdB (~edb@89-158-11-138.rev.numericable.fr) has quit (Quit: Konversation terminated!)
+2014-12-03 11:53:28	<--	losh (~losh@staff-fr.corp.dailymotion.com) has quit (Quit: Leaving)
+2014-12-03 12:51:52	-->	Skwint (~Skwint@82-69-66-224.dsl.in-addr.zen.co.uk) has joined #bulletphysics
+2014-12-03 15:23:18	-->	EdB (~edb@89-158-11-138.rev.numericable.fr) has joined #bulletphysics
+2014-12-03 16:58:51	-->	Bwild (~irc@static-72-67-52-110.lsanca.fios.verizon.net) has joined #bulletphysics
+2014-12-03 17:07:56	<--	EdB (~edb@89-158-11-138.rev.numericable.fr) has quit (Quit: Konversation terminated!)
+2014-12-03 17:27:40	-->	Enhex (~quassel@37.142.176.161) has joined #bulletphysics
+2014-12-03 18:38:51	<--	Skwint (~Skwint@82-69-66-224.dsl.in-addr.zen.co.uk) has quit (Read error: Connection reset by peer)
+2014-12-03 19:26:12	newguise1234	is it possible to change the size of a btCollisionObject?
+2014-12-03 19:26:18	newguise1234	in particular a btBoxShape?
+2014-12-03 19:28:33	newguise1234	in particular I think btBoxShape::setMargin may be what I'm looking for, but I'm not sure what it does for certain.
+2014-12-03 19:37:09	newguise1234	I think I may just use setLocalScaling, that looks to handle my current situation
+2014-12-03 19:37:26	newguise1234	and I guess if I was changing more stuff I should probably just create a new shape and add that
+2014-12-03 20:00:13	IoriX2k2	literally use setLocalScaling
+2014-12-03 20:00:20	IoriX2k2	it works like a charm
+2014-12-03 20:09:04	<--	Bwild (~irc@static-72-67-52-110.lsanca.fios.verizon.net) has quit (Remote host closed the connection)
+2014-12-03 20:19:04	<--	IoriX2k2 (~iorix2k2@187.34.101.171) has quit (Ping timeout: 255 seconds)
+2014-12-03 20:34:48	-->	IoriX2k2 (~iorix2k2@187.34.101.171) has joined #bulletphysics
+2014-12-03 22:18:32	<--	xissburg (~xissburg@177.99.148.245) has quit
+2014-12-03 23:03:34	-->	Bwild (~irc@static-72-67-52-110.lsanca.fios.verizon.net) has joined #bulletphysics
+2014-12-03 23:08:40	<--	Bwild (~irc@static-72-67-52-110.lsanca.fios.verizon.net) has quit (Remote host closed the connection)
+2014-12-03 23:27:43	<--	Maketwo (makegho@kapsi.fi) has quit (Ping timeout: 258 seconds)
+2014-12-03 23:27:50	-->	Maketwo (makegho@kapsi.fi) has joined #bulletphysics
+2014-12-04 01:38:12	newguise1234	thanks IoriX2k2 I hadn't realized it was a vector scaling either, which is nice
+2014-12-04 01:54:45	-->	Bwild (~irc@static-72-67-52-110.lsanca.fios.verizon.net) has joined #bulletphysics
+2014-12-04 02:18:31	newguise1234	is m_indices in btFaces referencing m_uniqueEdges? or m_vertices
+2014-12-04 02:18:44	newguise1234	if anyone has exported 3d models from a btConvexPolyhedron
+2014-12-04 02:50:45	<--	Bwild (~irc@static-72-67-52-110.lsanca.fios.verizon.net) has quit (Quit: leaving)
+2014-12-04 03:34:39	-->	losh (~losh@staff-fr.corp.dailymotion.com) has joined #bulletphysics
+2014-12-04 06:14:25	-->	xissburg (~xissburg@177.99.148.245) has joined #bulletphysics
+2014-12-04 06:16:13	<--	losh (~losh@staff-fr.corp.dailymotion.com) has quit (Quit: Leaving)
+2014-12-04 08:11:52	-->	Enhex_ (~quassel@37.142.176.161) has joined #bulletphysics
+2014-12-04 08:14:17	<--	Enhex (~quassel@37.142.176.161) has quit (Ping timeout: 264 seconds)
+2014-12-04 10:47:26	--	Enhex_ is now known as Enhex
+2014-12-04 11:30:00	-->	ravenwing1234 (614f8cf2@gateway/web/freenode/ip.97.79.140.242) has joined #bulletphysics
+2014-12-04 12:24:08	<--	Enhex (~quassel@37.142.176.161) has quit (Remote host closed the connection)
+2014-12-04 12:52:12	-->	Skwint (~Skwint@82-69-66-224.dsl.in-addr.zen.co.uk) has joined #bulletphysics
+2014-12-04 14:33:37	-->	Bwild (~irc@static-72-67-52-110.lsanca.fios.verizon.net) has joined #bulletphysics
+2014-12-04 14:36:00	-->	EdB (~edb@89-158-11-138.rev.numericable.fr) has joined #bulletphysics
+2014-12-04 14:48:29	<--	Bwild (~irc@static-72-67-52-110.lsanca.fios.verizon.net) has quit (Ping timeout: 244 seconds)
+2014-12-04 14:49:31	-->	Bwild (~irc@static-72-67-52-110.lsanca.fios.verizon.net) has joined #bulletphysics
+2014-12-04 14:51:30	<--	Bwild (~irc@static-72-67-52-110.lsanca.fios.verizon.net) has quit (Client Quit)
+2014-12-04 15:58:01	-->	xissburg_ (~xissburg@177.97.229.115) has joined #bulletphysics
+2014-12-04 16:00:12	<--	xissburg (~xissburg@177.99.148.245) has quit (Ping timeout: 255 seconds)
+2014-12-04 17:11:47	<--	EdB (~edb@89-158-11-138.rev.numericable.fr) has quit (Quit: Konversation terminated!)
+2014-12-04 18:59:04	-->	Bwild (~irc@static-72-67-52-110.lsanca.fios.verizon.net) has joined #bulletphysics
+2014-12-04 19:18:04	<--	Skwint (~Skwint@82-69-66-224.dsl.in-addr.zen.co.uk) has quit (Read error: Connection reset by peer)
+2014-12-04 20:11:35	-->	Enhex (~quassel@37.142.176.161) has joined #bulletphysics
+2014-12-04 20:54:49	<--	Enhex (~quassel@37.142.176.161) has quit (Remote host closed the connection)
+2014-12-04 21:02:27	-->	Enhex (~quassel@37.142.176.161) has joined #bulletphysics
+2014-12-04 21:20:19	<--	xissburg_ (~xissburg@177.97.229.115) has quit
+2014-12-04 23:09:03	<--	Gohla (~Gohla@a83-163-64-85.adsl.xs4all.nl) has quit (Ping timeout: 256 seconds)
+2014-12-05 00:29:54	-->	ecosky (~ecosky@208.80.65.158) has joined #bulletphysics
+2014-12-05 00:32:11	<--	ecosky (~ecosky@208.80.65.158) has quit (Client Quit)
+2014-12-05 00:35:01	-->	ecosky (~ecosky@208.80.65.158) has joined #bulletphysics
+2014-12-05 00:56:21	Enhex	How do I fix the formal parameter with __declspec(align('16')) won't be aligned error?
+2014-12-05 00:57:10	Enhex	I have a struct with a btManifoldPoint
+2014-12-05 01:01:22	ecosky	sometimes alignment stuff can snowball up the callstack
+2014-12-05 01:02:41	ecosky	could possibly make an alternate method that accepts non-aligned input and copies the parameters to aligned data for passing through to the method you are wrapping.
+2014-12-05 01:22:55	Enhex	just trying to make a struct with btManifoldPoint in it
+2014-12-05 01:28:03	Enhex	oh never mind, fixed it by using a reference for the constructor's paramteter
+2014-12-05 01:42:10	Enhex	I think it was the constructor's copy that wasn't aligned
+2014-12-05 01:52:00	ecosky	alignment can be tricky
+2014-12-05 02:07:02	<--	ecosky (~ecosky@208.80.65.158) has quit (Ping timeout: 250 seconds)
+2014-12-05 02:30:30	-->	jokoon (jokoon@2a01:e35:398b:5d60:35d8:b068:539c:8b8f) has joined #bulletphysics
+2014-12-05 02:51:01	-->	CapsAdmine (~CapsAdmin@109.199.217.23) has joined #bulletphysics
+2014-12-05 02:54:17	<--	CapsAdmin (~CapsAdmin@109.199.217.23) has quit (Ping timeout: 255 seconds)
+2014-12-05 03:12:38	-->	ecosky (~ecosky@208.80.65.158) has joined #bulletphysics
+2014-12-05 03:22:06	-->	Gohla (~Gohla@a83-163-64-85.adsl.xs4all.nl) has joined #bulletphysics
+2014-12-05 03:34:25	<--	Bwild (~irc@static-72-67-52-110.lsanca.fios.verizon.net) has quit (Ping timeout: 244 seconds)
+2014-12-05 03:38:58	-->	Bwild (~irc@static-72-67-52-110.lsanca.fios.verizon.net) has joined #bulletphysics
+2014-12-05 04:52:29	<--	ecosky (~ecosky@208.80.65.158) has quit (Ping timeout: 252 seconds)
+2014-12-05 05:46:56	-->	xissburg (~xissburg@177.97.229.115) has joined #bulletphysics
+2014-12-05 06:03:50	<--	jokoon (jokoon@2a01:e35:398b:5d60:35d8:b068:539c:8b8f) has quit (Quit: Leaving)
+2014-12-05 06:10:25	<--	Bwild (~irc@static-72-67-52-110.lsanca.fios.verizon.net) has quit (Quit: leaving)
+2014-12-05 07:20:36	<--	IoriX2k2 (~iorix2k2@187.34.101.171) has quit (Read error: Connection reset by peer)
+2014-12-05 10:45:10	-->	ecosky (~ecosky@208.80.65.158) has joined #bulletphysics
+2014-12-05 11:35:09	-->	EdB (~edb@89-158-11-138.rev.numericable.fr) has joined #bulletphysics
+2014-12-05 11:58:08	<--	Enhex (~quassel@37.142.176.161) has quit (Remote host closed the connection)
+2014-12-05 12:07:00	<--	EdB (~edb@89-158-11-138.rev.numericable.fr) has quit (Quit: Konversation terminated!)
+2014-12-05 12:30:15	<--	xissburg (~xissburg@177.97.229.115) has quit
+2014-12-05 17:13:52	-->	Bwild (~irc@static-72-67-52-110.lsanca.fios.verizon.net) has joined #bulletphysics

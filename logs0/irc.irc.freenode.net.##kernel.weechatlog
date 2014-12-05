@@ -1,0 +1,26 @@
+2014-11-30 20:12:58	-->	newguise1234 (~tc@unaffiliated/newguise1234) has joined ##kernel
+2014-11-30 20:12:58	--	Topic for ##kernel is "Channel for linux,unix-like kernel discussion | BOOKS lwn.net/Kernel/LDD3 | BROWSER lxr.linux.no/source | PASTEBIN codepad.org | HOWTO http://goo.gl/wzsul http://goo.gl/zi5V"
+2014-11-30 20:12:58	--	Topic set by jnxa on Mon, 12 Mar 2012 11:09:58
+2014-11-30 20:12:58	--	Nicks ##kernel: [@ChanServ [|] _5kg _eko _Vi absh AceLan acf_ adnanali adx ag4ve akitada akong alamar alexises Alina-malina Amadiro anunnaki apo architekt arti auxiliation b0ne_ baccenfutter badbugz barometz bddn beneth` bennyDaBeard benwaffle Betal blahsphemer BlastHardcheese BlindMan BLZbubba Boohbah broonie brutal_lobster bwright__ carc catia caveat- cawaltrip ccaione Chaser cherimoya ChickeNES Chinorro CipherWizard clopez cnap_ colo-work compl_te Corey84- Cork cuqa Cydrobolt cyronin czr d248 Dad` damkerngt danieldg DaniGemini dariball dasjoe daurnimator dbtid deavidsedice deizhu_ demok derRichard Devastator diabel dilm dju DLange DrDaemonEye eagles0513875 edenist edk einonm em|biketron Enthralled esbe evilicey evilman_work falstaff fasheng fdd fr33domlover freanux fuzion24 gamingrobot gavinguo genpaku geudrik ggherdov gino gniourf goncalo groundnuty Guard1an gustav__1 hackeron HandheldPenguin harrow heinrich5991 hi117 howard hpt hurricane1026 i_ron Icedream ido ikonia impulse indigo indy infernix introom ivan\ iwishiwerearobot j0lly jaster jbenoist jbonjean jdiez jero_ jgeboski JohnDory joshc JPaul jupiterant jv jverce K1773R kafai kallisti5 kalz kantlivelong kasperd_ kbtr_ keytoaster kjed KMA Kobaz krnlyng lbt Levex LifeBlood luneff lupine luyu_ lyindArk majuscule malik_ Marex markelite markovh marvimias MatthiasM mehdi mikroskeem mingdao MissionCritical mjt modem mrueg multi_io MushroomKing muteki mva nadio neunon newguise1234 night-owl NightMonkey Nili NIN101 nitrix nljmo nopf novist NvrBst nyloc oelewapp1rke ogny ohsix Oksana oleo olspookishmagus oujh pepperoni Pessimist phobos_anomaly porchao PotatoGim ppr proditak` Ptishell PVince81 q5p4k0 quasisane R0ok_ RageD RaiNerTsuFal rawplayer renzhi rfreeman_w ribasushi robink robrighter romgo romgo_ rtur rylinaux sadbox saline sanderj_ sean sftp shal3r ShapeShifter499 sharky sharkz shath shiftplusone shuduo silviof Simon- skarn skurz0 Slackology sorressean sparetire sparetire_ specing speedevil Spr0cket standuply StFS swair SWAT SwenTjuln swn tdmackey tdr theborger TheJH Thermi thewisenerd tinoco tmh_ ToaNii topi` ulkesh underflow va valdis velladecin vireshk vitamin vmeson vu wapiflapi wbdecker wdouglas weiyang widmo wilder williamv wkennington xelxebar yokel yosafbridge zacts zaxari zedsdeadbaby Zougloub zv]
+2014-11-30 20:12:58	--	Channel ##kernel: 281 nicks (1 op, 0 halfops, 0 voices, 280 normals)
+2014-11-30 20:13:00	--	Mode ##kernel [+Ccnt]
+2014-11-30 20:13:01	--	Channel created on Sun, 26 Nov 2006 06:42:43
+2014-11-30 20:14:10	newguise1234	I've some issues using mprotect and running code I've copied into a buffer, any suggestions?
+2014-11-30 20:14:15	newguise1234	or pointers
+2014-11-30 20:15:15	newguise1234	http://ideone.com/dGmgOI
+2014-11-30 20:19:59	-->	unixpro1970 (~unixpro19@unaffiliated/unixpro1970) has joined ##kernel
+2014-11-30 20:21:21	<--	unixpro1970 (~unixpro19@unaffiliated/unixpro1970) has quit (Client Quit)
+2014-11-30 20:22:27	newguise1234	essentially I can use mprotect to let me write without segfaulting to a function pointer
+2014-11-30 20:22:34	<--	[|] (~phobos@unaffiliated/phobos-anomaly/x-6744724) has quit (Quit: Konversation terminated!)
+2014-11-30 20:22:43	<--	fasheng (~fasheng@59.173.241.82) has quit (Ping timeout: 264 seconds)
+2014-11-30 20:23:02	newguise1234	but I cannot run data I've copied into a unsigned char[1000]
+2014-11-30 20:23:11	-->	unixpro1970 (~unixpro19@unaffiliated/unixpro1970) has joined ##kernel
+2014-11-30 20:23:17	<--	unixpro1970 (~unixpro19@unaffiliated/unixpro1970) has quit (Client Quit)
+2014-11-30 20:23:24	-->	joeyli__ (joeyli@nat/novell/x-yeumtvpqkxkllymx) has joined ##kernel
+2014-11-30 20:27:55	-->	joeyli_ (joeyli@nat/novell/x-yolfjtjrtyfzwcwe) has joined ##kernel
+2014-11-30 20:34:36	-->	fasheng (~fasheng@59.173.241.82) has joined ##kernel
+2014-11-30 20:37:20	<--	luneff (~yury@84.51.207.166) has quit (Quit: This computer has gone to sleep)
+2014-11-30 20:38:51	-->	joeyli (joeyli@nat/novell/x-ixeycmlafxujqygw) has joined ##kernel
+2014-11-30 20:38:53	newguise1234	nvm, it turns out it wasn't running because I was using a constant string in it, which wouldn't then be accessible by the same offset in the copied function
+2014-11-30 20:41:06	-->	rsampaio_ (~rodrigo@67.164.42.204) has joined ##kernel
+2014-11-30 20:43:26	<--	newguise1234 (~tc@unaffiliated/newguise1234) has left ##kernel ("WeeChat 0.4.1")

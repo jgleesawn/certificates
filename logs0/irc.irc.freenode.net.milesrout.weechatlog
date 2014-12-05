@@ -1,0 +1,16 @@
+2014-11-21 17:54:26	milesrout	 http://coliru.stacked-crooked.com/a/1907bbf12bf05df1
+2014-11-21 17:54:35	milesrout	as I said in channel, this is what you actually want
+2014-11-21 17:54:54	newguise1234	aye, I read it and am kind of intimidated by the assignations of typenames
+2014-11-21 17:55:13	newguise1234	I'll have to get more comfortable with that usage before I actually put it in my code
+2014-11-21 17:55:14	milesrout	what?
+2014-11-21 17:55:33	milesrout	I don't assign any typenames
+2014-11-21 17:56:08	newguise1234	lines 12 and 13
+2014-11-21 17:56:32	milesrout	line 12 is '};', line 13 is empty.
+2014-11-21 17:56:48	newguise1234	oh, I was looking at the segfault one
+2014-11-21 17:57:01	newguise1234	right, the multiply example really helped me understand the end case of it
+2014-11-21 17:57:09	newguise1234	I guess I'll try to implement something using that method
+2014-11-21 17:57:35	milesrout	no no no no. read down the example. you want a multidimensional array type.
+2014-11-21 17:58:21	milesrout	your solution dynamically allocates memory (which is generally something to be avoided if possible, and here it is possible), and uses C-style arrays.
+2014-11-21 18:05:34	newguise1234	ohhhkay, I whats going on in it now thanks.
+2014-11-21 18:05:40	newguise1234	*I understand whats*
+2014-11-21 18:06:11	newguise1234	my mind kind of blanked on seeing so many templates, it just didn't want to process it.
